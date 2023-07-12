@@ -1,14 +1,21 @@
+#have error handling or a search functions for the search fnction
+
 - name: Executing commands in servers
   hosts: all
   serial: 1
   tasks:
 
-  - name: Creates directory
+  - name: Delete result directory
+    file:
+      path: "/tmp/ansible_result"
+      state: absent
+
+  - name: Creates result directory
     file:
       path: "/tmp/ansible_result"
       state: directory
 
-  - name: Creates final directory
+  - name: Creates output directory
     file:
       path: "/tmp/ansible_output"
       state: directory
@@ -32,7 +39,7 @@
       src: "/tmp/ansible_result"
       dest: "/tmp/ansible_output/{{inventory_hostname}}.txt"
   
-  #Destination path is also hardcoded. Adjsut accordingly
+  #Destination path is also hardcoded. Adjust accordingly
   - name: fetch final output file
     fetch: 
       src: "/tmp/ansible_output/{{inventory_hostname}}.txt"

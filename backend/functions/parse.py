@@ -8,16 +8,17 @@ def ini_parser():
     try:
         config.read("examples.ini")
     except Exception as e: 
+        # error_pass(e)
         return 0
     return config
 
 def add_host():
     
-    #bad bad
+    #Respond and handle the error accordingly
     main_file = ini_parser()
     if main_file == 0:
         return "Cant add hosts due to duplicate sections"    
-
+    
     #Error handling for the file search too
     with open('ansible/inventory/inventory.ini','w+') as f:
         content = f.read()
