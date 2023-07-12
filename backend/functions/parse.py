@@ -18,7 +18,8 @@ def add_host():
     if main_file == 0:
         return "Cant add hosts due to duplicate sections"    
 
-    with open('backend/ansible/inventory/inventory.ini','w+') as f:
+    #Error handling for the file search too
+    with open('ansible/inventory/inventory.ini','w+') as f:
         content = f.read()
         #edge cased when you have shit like server12 followed by server1
         for headings in main_file.sections():

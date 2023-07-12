@@ -13,7 +13,7 @@ def run_ansible_command(command):
 
 def ansible_playbook():
     #error handling in case it cant find the playbook
-    ansible_command = "ansible-playbook" +" backend/ansible/playbooks/execute.yaml"
+    ansible_command = "ansible-playbook" +" ansible/playbooks/execute.yaml"
     output = run_ansible_command(ansible_command)
     return output
 

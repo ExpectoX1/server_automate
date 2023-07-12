@@ -17,14 +17,14 @@
   - name: execute the command 
     command: '{{item}}'
     register: result
-    loop: "{{ q('ini', '.*', section=command_section, file='../../../examples.ini', re=True) }}"
+    loop: "{{ q('ini', '.*', section=command_section, file='../../examples.ini', re=True) }}"
     vars:
       command_section: '{{inventory_hostname}}-command'
   
   - name: copying the output
     copy:
       dest: "/tmp/ansible_result/{{item.item}}.txt"
-      content: "{{ item.item }}_loc: {{ item.stdout }}"
+      content: "{{ item.item }}_loc: {{ item.stdout }} \n"
     loop: "{{ result.results }}"
   
   - name: assemble output into single files
@@ -36,5 +36,5 @@
   - name: fetch final output file
     fetch: 
       src: "/tmp/ansible_output/{{inventory_hostname}}.txt"
-      dest: /home/rithvik_ravilla/server_automate/server_backend/backend/ansible/server_result/{{inventory_hostname}}.txt
+      dest: /home/rithvik_ravilla/server_automate/MASTER/{{inventory_hostname}}.txt
       flat: yes

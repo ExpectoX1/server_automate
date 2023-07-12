@@ -24,7 +24,12 @@ def parse_servers(config_file):
             "cummi_status": config[section].get("cummi_status")
         }
         server_address = server["server_ip"]
-        server["status"] = "Ready" if ping(server_address) else "Not Ready"
+        if ping(server_address):
+            server["status"] = "Ready"
+        else:
+            server["status"] = "Not Ready"
+            #Functions to not ping()
+
         servers.append(server)
     return servers
 
@@ -82,7 +87,7 @@ def main():
             """,
             unsafe_allow_html=True
         )
-        with st.expander(f"Check Status"):
+        with st.expander(f"opn"):
             st.write(f"hi")
             
 

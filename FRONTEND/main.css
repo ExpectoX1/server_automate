@@ -75,13 +75,24 @@ div[data-testid="stExpander"] div[role="button"] {
 
 }
 div[data-testid="stExpander"] div[role="button"] p{
-    
-    color:black;
-    padding-left: 15px;
-    font-weight: bold;
+    background-color: red;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: -4px;
+    color:transparent;
+    border-radius: 10px;
+    font-size: xx-small;
+    margin-left: 10px;
+    margin-right: 3px;
+    scale: 0.5;
+
 
     
 }
+.click-through {
+    pointer-events: none;
+  }
+  
 .streamlit-expanderContent {
     background-color: #f0f0f0;
     color: black;

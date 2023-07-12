@@ -1,0 +1,12 @@
+date_loc: Wed Jul 12 08:07:49 AM UTC 2023 
+df -H_loc: Filesystem                         Size  Used Avail Use% Mounted on
+tmpfs                              206M  1.4M  205M   1% /run
+/dev/mapper/ubuntu--vg-ubuntu--lv   18G  7.9G  8.5G  49% /
+tmpfs                              1.1G     0  1.1G   0% /dev/shm
+tmpfs                              5.3M     0  5.3M   0% /run/lock
+/dev/sda2                          2.1G  265M  1.7G  14% /boot
+tmpfs                              206M  4.1k  206M   1% /run/user/1000
+shm                                 68M     0   68M   0% /var/snap/microk8s/common/run/containerd/io.containerd.grpc.v1.cri/sandboxes/bc1f1f00592b771b072d5426e1e2a5a5aa22cef8e0829e7669eb8324c49a13d9/shm
+shm                                 68M     0   68M   0% /var/snap/microk8s/common/run/containerd/io.containerd.grpc.v1.cri/sandboxes/8c9032c0916e954c04efd7bc1a75d3a55ee7aef521f84071713ef023ce8ff5fa/shm
+shm                                 68M     0   68M   0% /var/snap/microk8s/common/run/containerd/io.containerd.grpc.v1.cri/sandboxes/a3744834e19781cfa1247826c28f9fd97331a790bbac90e3a0ff662bbfaabcb9/shm
+uptime_loc:  08:07:48 up  4:01,  2 users,  load average: 1.54, 1.41, 1.67 
