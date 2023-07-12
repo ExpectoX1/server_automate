@@ -1,0 +1,40 @@
+- name: Executing commands in servers
+  hosts: all
+  serial: 1
+  tasks:
+
+  - name: Creates directory
+    file:
+      path: "/tmp/ansible_result"
+      state: directory
+
+  - name: Creates final directory
+    file:
+      path: "/tmp/ansible_output"
+      state: directory
+
+   # The ini file path is hardcoded in loops and queries [Asjust accordingly]
+  - name: execute the command 
+    command: '{{item}}'
+    register: result
+    loop: "{{ q('ini', '.*', section=command_section, file='../../../examples.ini', re=True) }}"
+    vars:
+      command_section: '{{inventory_hostname}}-command'
+  
+  - name: copying the output
+    copy:
+      dest: "/tmp/ansible_result/{{item.item}}.txt"
+      content: "{{ item.item }}_loc: {{ item.stdout }}"
+    loop: "{{ result.results }}"
+  
+  - name: assemble output into single files
+    assemble:
+      src: "/tmp/ansible_result"
+      dest: "/tmp/ansible_output/{{inventory_hostname}}.txt"
+  
+  #Destination path is also hardcoded. Adjsut accordingly
+  - name: fetch final output file
+    fetch: 
+      src: "/tmp/ansible_output/{{inventory_hostname}}.txt"
+      dest: /home/rithvik_ravilla/server_automate/server_backend/backend/ansible/server_result/{{inventory_hostname}}.txt
+      flat: yes

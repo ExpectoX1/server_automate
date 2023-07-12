@@ -1,0 +1,7 @@
+- name: Executing commands in servers
+  hosts: localhost
+  tasks:
+  - name: assemble output into single files
+    assemble:
+      src: "/home/rithvik_ravilla/server_automate/server_backend/backend/ansible/server_result/final_result/
+      dest: "/home/rithvik_ravilla/server_automate/server_backend/logs/final.txt"
