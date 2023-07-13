@@ -5,29 +5,29 @@
   serial: 1
   tasks:
 
-  - name: Delete result directory
-    file:
-      path: "/tmp/ansible_result"
-      state: absent
+  # - name: Delete result directory
+  #   file:
+  #     path: "/tmp/ansible_result"
+  #     state: absent
 
-  - name: Creates result directory
-    file:
-      path: "/tmp/ansible_result"
-      state: directory
+  # - name: Creates result directory
+  #   file:
+  #     path: "/tmp/ansible_result"
+  #     state: directory
 
-  - name: Creates output directory
-    file:
-      path: "/tmp/ansible_output"
-      state: directory
+  # - name: Creates output directory
+  #   file:
+  #     path: "/tmp/ansible_output"
+  #     state: directory
 
-   # The ini file path is hardcoded in loops and queries [Asjust accordingly]
+   # The ini file path is hardcoded in loops and queries [Adjust accordingly]
   - name: execute the command 
     command: '{{item}}'
     register: result
-    loop: "{{ q('ini', '.*', section=command_section, file='../../examples.ini', re=True) }}"
+    loop: "{{ q('ini', '.*', section=command_section, file='../../../MASTER/examples.ini', re=True) }}"
     vars:
       command_section: '{{inventory_hostname}}-command'
-  
+
   - name: copying the output
     copy:
       dest: "/tmp/ansible_result/{{item.item}}.txt"
@@ -43,5 +43,5 @@
   - name: fetch final output file
     fetch: 
       src: "/tmp/ansible_output/{{inventory_hostname}}.txt"
-      dest: /home/rithvik_ravilla/server_automate/MASTER/{{inventory_hostname}}.txt
+      dest: /home/rithvik_ravilla/server_automate/MASTER/server_folder/{{inventory_hostname}}.txt
       flat: yes

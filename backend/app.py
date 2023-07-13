@@ -1,4 +1,7 @@
+import functions.parse as parse
 import functions.ansible as ansible
 
-read = ansible.ansible_playbook()
-print(read)
+output1 = parse.add_host()
+output2 = ansible.ansible_playbook()
+print(output1)
+print(output2)

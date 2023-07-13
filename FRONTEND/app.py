@@ -1,6 +1,3 @@
-import configparser
-import platform
-from subprocess import call
 import streamlit as st
 from streamlit.components.v1 import html
 
@@ -13,45 +10,38 @@ from MASTER.config_parser import parse_servers
 def Streamlit():
     # Call the parse_servers function with the config file path
     try:
-        servers = parse_servers("examples.ini")
-    except Exception as e:
-        return Exception(e)
-    
-    html('''
-                    <script></script>
-                    ''' , height=0 ,width=0)
+        html('''
+                        <script></script>
+                        ''' , height=0 ,width=0)
 
-    st.title("Server Performance Monitoring v1.0")
-    st.write("Server Health Status: ")
+        st.title("Server Performance Monitoring v1.0")
+        st.write("Server Health Status: ")
 
-    def error_pass(e):
-        if(e == True):
-            st.warning('This is a warning', icon="⚠️")
+        servers = parse_servers("../MASTER/examples.ini")
 
-    def local_css(file_name):
-        with open(file_name) as f:
-            st.markdown(f"<style>{f.read()}</style>", unsafe_allow_html=True)
+        def local_css(file_name):
+            with open(file_name) as f:
+                st.markdown(f"<style>{f.read()}</style>", unsafe_allow_html=True)
 
-    local_css("./main.css")
+        local_css("./main.css")
 
-    # Display server status
+        # Display server status
 
-    st.write(
-        f"""
-        <div class="server-card1 font-bold">
-            <p class='font-bold'>Host Name</p>
-            <p class='font-bold'>Location</p>
-            <p class='font-bold'>OS Version</p>
-            <p class='font-bold'>Ping Status</p>
-            <p class='font-bold'>Uptime</p>
-            <div class="status-indicator ready"></div>
-        </div>
-        """,
-        unsafe_allow_html=True
-    )
+        st.write(
+            f"""
+            <div class="server-card1 font-bold">
+                <p class='font-bold'>Host Name</p>
+                <p class='font-bold'>Location</p>
+                <p class='font-bold'>OS Version</p>
+                <p class='font-bold'>Ping Status</p>
+                <p class='font-bold'>Uptime</p>
+                <div class="status-indicator ready"></div>
+            </div>
+            """,
+            unsafe_allow_html=True
+        )
 
-    # Display server status
-    try:
+        # Display server status
         for idx, server in enumerate(servers):
             status_color = "ready" if server["status"] == "Ready" else "not-ready"
             ready_not_ready = "green" if server["status"] == "Ready" else "red"
@@ -72,7 +62,7 @@ def Streamlit():
                 """,
                 unsafe_allow_html=True
             )
-            with st.expander(f"opn"):
+            with st.expander(f"'"):
                 st.write(f"hi")
     except Exception as e:
         st.warning(e, icon="⚠️")
