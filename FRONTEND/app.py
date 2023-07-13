@@ -1,13 +1,18 @@
 import streamlit as st
 from streamlit.components.v1 import html
 
-import sys 
+import sys
+
 sys.path.append('../')
 from MASTER.config_parser import parse_servers
 # from backend.StringParsers.output_file_parser import generate_array
 sys.path.append("../backend/StringParsers/")
 
 from backend.StringParsers.output_file_parser import generate_array
+from backend.functions.ansible import ansible_ping, ansible_playbook
+from backend.functions.parse import add_host
+
+
 
 
 
@@ -18,6 +23,7 @@ def Streamlit():
         html('''
                         <script></script>
                         ''' , height=0 ,width=0)
+        
 
         st.title("Server Performance Monitoring v1.0")
         st.write("Server Health Status: ")
@@ -70,16 +76,27 @@ def Streamlit():
             with st.expander(f"'"):
                 # data = generate_array()
                 # print(data[0])
-                st.write("hi")
                 # sys.path.append("/backend/String_parsers/")
                 data = generate_array()
-                st.write(data[0])
+                st.write("Uptime - "+data[idx]["uptime"])
+                st.write("Memory Usage - "+data[idx]["memory"])
+    
                     
     except Exception as e:
         st.warning(e, icon="⚠️")
 
-            
-
 
 if __name__ == "__main__":
-    Streamlit()
+    try:
+        
+        Streamlit()
+    except Exception as e:
+        st.warning(e,icon="⚠️")
+
+add_host()
+print(1)
+ansible_ping()
+print(2)
+ansible_playbook()
+print(3)
+print("done with backend")

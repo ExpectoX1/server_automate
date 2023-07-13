@@ -1,13 +1,12 @@
 import sys
 sys.path.append('../')
 from MASTER.config_parser import ini_parser
-from functions.ansible import ansible_ping
 
 def add_host():
     try:
         main_file = ini_parser("../MASTER/examples.ini")
         #Error handling for the file search too
-        with open('ansible/inventory/inventory.ini','w+') as f:
+        with open('../backend/ansible/inventory/inventory.ini','w+') as f:
             content = f.read()
             #edge cases when you have shit like server12 followed by server1
             for headings in main_file.sections():

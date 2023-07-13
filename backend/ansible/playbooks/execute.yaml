@@ -30,6 +30,7 @@
 
   - name: copying the output
     copy:
+    #check if using '{{item.item will solve the directory issue}}'
       dest: "/tmp/ansible_result/{{item.item}}.txt"
       content: "{{ item.item }}_loc: {{ item.stdout }} \n"
     loop: "{{ result.results }}"
