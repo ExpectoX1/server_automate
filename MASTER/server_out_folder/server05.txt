@@ -1,0 +1,13 @@
+df -H_loc: Filesystem                         Size  Used Avail Use% Mounted on
+tmpfs                              206M  1.4M  205M   1% /run
+/dev/mapper/ubuntu--vg-ubuntu--lv   18G  8.1G  8.4G  50% /
+tmpfs                              1.1G     0  1.1G   0% /dev/shm
+tmpfs                              5.3M     0  5.3M   0% /run/lock
+/dev/sda2                          2.1G  265M  1.7G  14% /boot
+tmpfs                              206M  4.1k  206M   1% /run/user/1000
+shm                                 68M     0   68M   0% /var/snap/microk8s/common/run/containerd/io.containerd.grpc.v1.cri/sandboxes/a632a5ac9dbdf40431a0cc702e5b53a64593b4d4cda63492f5b942b1a1085ff3/shm
+shm                                 68M     0   68M   0% /var/snap/microk8s/common/run/containerd/io.containerd.grpc.v1.cri/sandboxes/6bc4e6bd2826b2558bf78c23f08915edb37658de6a115873f9c10d405d5f2852/shm
+shm                                 68M     0   68M   0% /var/snap/microk8s/common/run/containerd/io.containerd.grpc.v1.cri/sandboxes/bef66d0fd9c9d0cfe98bdceda475bcc4d5e652b5683a40f433124fccb6d259ff/shm 
+df -H /home_loc: Filesystem                         Size  Used Avail Use% Mounted on
+/dev/mapper/ubuntu--vg-ubuntu--lv   18G  8.1G  8.4G  50% / 
+uptime -p_loc: up 2 hours, 12 minutes 

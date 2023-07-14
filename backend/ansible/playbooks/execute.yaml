@@ -2,7 +2,7 @@
 
 - name: Executing commands in servers
   hosts: all
-  serial: 1
+  strategy: free
   tasks:
 
   - name: Delete result directory
@@ -30,8 +30,7 @@
 
   - name: copying the output
     copy:
-    #check if using '{{item.item will solve the directory issue}}'
-      dest: "/tmp/ansible_result/{{item.item}}.txt"
+      dest: "/tmp/ansible_result/'{{item.item | basename}}'.txt"
       content: "{{ item.item }}_loc: {{ item.stdout }} \n"
     loop: "{{ result.results }}"
   
@@ -40,7 +39,7 @@
       src: "/tmp/ansible_result"
       dest: "/tmp/ansible_output/{{inventory_hostname}}.txt"
   
-  #Destination path is also hardcoded. Adjust accordingly
+  #Destination path is also hardcoded. Withmy system => use relative
   - name: fetch final output file
     fetch: 
       src: "/tmp/ansible_output/{{inventory_hostname}}.txt"
