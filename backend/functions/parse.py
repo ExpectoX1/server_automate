@@ -1,10 +1,10 @@
 import sys
 sys.path.append('../')
-from MASTER.config_parser import ini_parser
+from master.config_parser import ini_parser
 
 def add_host():
     try:
-        main_file = ini_parser("../MASTER/examples.ini")
+        main_file = ini_parser("../master/examples.ini")
         #Error handling for the file search too
         with open('../backend/ansible/inventory/inventory.ini','w+') as f:
             content = f.read()

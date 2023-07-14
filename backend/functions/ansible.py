@@ -1,7 +1,7 @@
 import subprocess
 import sys
 sys.path.append('../')
-from MASTER.config_parser import ini_parser
+from master.config_parser import ini_parser
 
 def run_ansible_command(command):
     try:
@@ -29,7 +29,7 @@ def ansible_ping():
         output = run_ansible_command(ansible_command)        
     except Exception as output:
         dead_servers = []
-        main_file = ini_parser("../MASTER/examples.ini")
+        main_file = ini_parser("../master/examples.ini")
         output = str(output).split()
         for i, string in enumerate(output):
             if "UNREACHABLE!" in string:

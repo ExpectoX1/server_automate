@@ -11,7 +11,7 @@ def log_write(data):
 
     try:
         log_file_name = datetime.datetime.now().strftime("%Y-%m-%d") + "_log_file.txt"
-        with open("../MASTER/Logs/"+log_file_name, "a+") as log_file:
+        with open("../master/Logs/"+log_file_name, "a+") as log_file:
             log_file.write(log_entry + "\n")
            
     except Exception as e:

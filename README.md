@@ -13,3 +13,4 @@
 - If ansible all -m ping says only localhost is found => the config file is probably wrong => exception
 - Move all functions from MASTER to BACKEND => only logs
 - Ansible playbooks have that file paths are hard coded => change accordingly
+- deleting old files in server_result whenever 

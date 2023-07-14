@@ -1,5 +1,5 @@
 import sys
-sys.path.append("../StringParsers/")
+sys.path.append("../string_parsers/")
 from uptime_parser import extract_uptime_value
 from mem_parser import extract_percentage_value
 import os
@@ -25,7 +25,7 @@ def generate_array():
             mem_percentage = extract_percentage_value(text)
             return uptime, mem_percentage
 
-    folder_path = "../MASTER/server_out_folder"
+    folder_path = "../master/server_out_folder"
     text_files = extract_text_files(folder_path)
     all_servers = []
 
