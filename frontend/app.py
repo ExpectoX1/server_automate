@@ -6,19 +6,15 @@ import time
 import sys
 
 sys.path.append('../')
-from master.config_parser import parse_servers
-from master.log import log_write
+from backend.functions.config_parser import parse_servers
+
 # from backend.StringParsers.output_file_parser import generate_array
 sys.path.append("../backend/string_parsers/")
 
 from backend.string_parsers.output_file_parser import generate_array
 from backend.functions.ansible import ansible_ping, ansible_playbook
 from backend.functions.parse import add_host
-
-
-
-
-
+from backend.functions.log import log_write
 
 # Create Streamlit application
 @st.cache_data
@@ -36,11 +32,12 @@ def Streamlit():
 
         #Take out the pingless servers and insert that data to add_host
         def backend_func():
-            print("Start of backend")
+            log_write("----------Process Started----------")
+            print("Process Started")
             add_host()
 
-            print("adding host..")
-            log_write("adding host success")
+            print("Adding host")
+            log_write("Adding host success")
 
             ansible_ping()
 
@@ -52,7 +49,7 @@ def Streamlit():
 
             print("Writing Files")
             log_write("Writing Files")
-            log_write("Backend Success")
+            
             print("Backend Success")
         
         start_time = time.time()
@@ -60,8 +57,9 @@ def Streamlit():
         end_time = time.time()
 
         execution_time = end_time - start_time
-        log_write("Execution time: " + str(execution_time) + " seconds")
+        log_write("Execution time: " + str(int(execution_time)) + " seconds")
         print("Execution time:", execution_time, "seconds")
+        log_write("----------Backend Success----------")
 
         
     
@@ -113,8 +111,8 @@ def Streamlit():
                 # print(data[0])
                 # sys.path.append("/backend/String_parsers/")
                 data = generate_array()
-                st.write("Uptime - "+data[idx]["uptime"])
-                st.write("Memory Usage - "+data[idx]["memory"])
+                st.write("Uptime - "+str(data[idx]["uptime"]))
+                st.write("Memory Usage - "+str(data[idx]["memory"]))
     
                     
     except Exception as e:

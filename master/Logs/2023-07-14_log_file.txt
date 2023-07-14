@@ -1,10 +1,75 @@
-2023-07-14 12:29:53: adding host success
-2023-07-14 12:30:02: Ping Success
-2023-07-14 12:30:55: Writing Files
-2023-07-14 12:30:55: Backend Success
-2023-07-14 12:30:55: Execution time: 62.79455876350403 seconds
-2023-07-14 12:47:58: adding host success
-2023-07-14 12:48:08: Ping Success
-2023-07-14 12:48:54: Writing Files
-2023-07-14 12:48:54: Backend Success
-2023-07-14 12:48:54: Execution time: 56.33535623550415 seconds
+2023-07-14 13:35:54: ----------Backend Success----------
+2023-07-14 13:48:24: adding host success
+2023-07-14 13:48:34: Ping Success
+2023-07-14 13:49:23: ----------Process Started----------
+2023-07-14 13:49:23: adding host success
+2023-07-14 13:49:29: Ping Success
+2023-07-14 13:50:13: Writing Files
+2023-07-14 13:50:13: Execution time: 49 seconds
+2023-07-14 13:50:13: ----------Backend Success----------
+2023-07-14 14:00:45: ----------Process Started----------
+2023-07-14 14:00:45: Adding host success
+2023-07-14 14:00:55: Ping Success
+2023-07-14 14:02:08: Writing Files
+2023-07-14 14:02:08: Execution time: 82 seconds
+2023-07-14 14:02:08: ----------Backend Success----------
+2023-07-14 14:02:41: ----------Process Started----------
+2023-07-14 14:02:41: Adding host success
+2023-07-14 14:02:50: Ping Success
+2023-07-14 14:03:58: Writing Files
+2023-07-14 14:03:58: Execution time: 77 seconds
+2023-07-14 14:03:58: ----------Backend Success----------
+2023-07-14 14:05:00: ----------Process Started----------
+2023-07-14 14:05:00: Adding host success
+2023-07-14 14:05:19: Ping Success
+2023-07-14 14:08:10: Writing Files
+2023-07-14 14:08:10: Execution time: 190 seconds
+2023-07-14 14:08:10: ----------Backend Success----------
+2023-07-14 14:10:22: ----------Process Started----------
+2023-07-14 14:10:22: Adding host success
+2023-07-14 14:10:49: Ping Success
+2023-07-14 14:14:05: Writing Files
+2023-07-14 14:14:05: Execution time: 222 seconds
+2023-07-14 14:14:05: ----------Backend Success----------
+2023-07-14 14:19:14: ----------Process Started----------
+2023-07-14 14:19:14: Adding host success
+2023-07-14 14:19:15:  can not be accessed via ansible. Please check username / key path
+2023-07-14 14:19:52: ----------Process Started----------
+2023-07-14 14:19:52: Adding host success
+2023-07-14 14:20:13: Ping Success
+2023-07-14 14:23:06: Writing Files
+2023-07-14 14:23:06: Execution time: 193 seconds
+2023-07-14 14:23:06: ----------Backend Success----------
+2023-07-14 14:23:06: list index out of range
+2023-07-14 14:35:34: ----------Process Started----------
+2023-07-14 14:35:34: Adding host success
+2023-07-14 14:35:37:  can not be accessed via ansible. Please check username / key path
+2023-07-14 14:35:58: ----------Process Started----------
+2023-07-14 14:35:58: Adding host success
+2023-07-14 14:36:01: Ping Success
+2023-07-14 14:36:34: Writing Files
+2023-07-14 14:36:34: Execution time: 35 seconds
+2023-07-14 14:36:34: ----------Backend Success----------
+2023-07-14 14:36:34: can only concatenate str (not "NoneType") to str
+2023-07-14 14:38:06: ----------Process Started----------
+2023-07-14 14:38:06: Adding host success
+2023-07-14 14:38:14: Ping Success
+2023-07-14 14:38:42: Writing Files
+2023-07-14 14:38:42: Execution time: 35 seconds
+2023-07-14 14:38:42: ----------Backend Success----------
+2023-07-14 14:38:42: bad operand type for unary +: 'str'
+2023-07-14 14:39:30: ----------Process Started----------
+2023-07-14 14:39:30: Adding host success
+2023-07-14 14:40:01: ----------Process Started----------
+2023-07-14 14:40:01: Adding host success
+2023-07-14 14:40:07: Ping Success
+2023-07-14 14:40:39: Writing Files
+2023-07-14 14:40:39: Execution time: 37 seconds
+2023-07-14 14:40:39: ----------Backend Success----------
+2023-07-14 14:44:46: ----------Process Started----------
+2023-07-14 14:44:46: Adding host success
+2023-07-14 14:44:54: Ping Success
+2023-07-14 14:45:42: Writing Files
+2023-07-14 14:45:42: Execution time: 55 seconds
+2023-07-14 14:45:42: ----------Backend Success----------
+2023-07-14 14:45:42: list assignment index out of range

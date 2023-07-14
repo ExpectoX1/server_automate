@@ -1,7 +1,8 @@
 import subprocess
 import sys
-sys.path.append('../')
-from master.config_parser import ini_parser
+sys.path.append("../")
+from backend.functions.config_parser import ini_parser
+# from config_parser import ini_parser
 
 def run_ansible_command(command):
     try:

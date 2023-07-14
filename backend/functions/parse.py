@@ -1,6 +1,6 @@
 import sys
-sys.path.append('../')
-from master.config_parser import ini_parser
+sys.path.append("../")
+from backend.functions.config_parser import ini_parser
 
 def add_host():
     try:
@@ -8,7 +8,6 @@ def add_host():
         #Error handling for the file search too
         with open('../backend/ansible/inventory/inventory.ini','w+') as f:
             content = f.read()
-            #edge cases when you have shit like server12 followed by server1
             for headings in main_file.sections():
                 if ("-command" in headings):
                     continue
