@@ -110,4 +110,8 @@ div[data-testid="stExpander"] div[role="button"] p{
     margin-top: -5px;
 
 }
+.streamlit-expanderContent p{
+    margin-left: 20px;
+
+}
 

@@ -1,19 +1,22 @@
 # server_automate
 
 <br />Work to do - Backend + Ansible
-- Have a function that searches for the ini file and use that name everywhere
-- name of ini file is hardcoded => use a search function to check for files ending with ini
-- have a function that searches for the path and if it cant find it it throws an error
-- After initial ping we can send a list of servers that are down and send this data to ansible commands so that double pinging isnt there [Send array of servers] => decrease time it takes to ping in dead case
+
+- have a function that searches for the path and if it cant find it it throws an error => to be used by all functions with file paths
+
+3. After initial ping we can send a list of servers that are down and send this data to ansible commands so that double dead pinging isn't there [Send array of servers]
+
+1. Deleting server_out files and creating a backup
+
+2. Creating empty files for servers that are not running anything either
+
 - any uncaught ansible errors should be display properly check this part => important cause no way to now if the thing failed or not [Parse through the result such that only msg: gets displayed]
+
 - Update + Auto-update
 - Check what gets displayed if no result file is present => error gets displayed with no results
 => have frontend handle this case
-- If ansible all -m ping says only localhost is found => the config file is probably wrong => exception
-- Ansible playbooks have that file paths are hard coded => change accordingly
-- deleting old files in server_result whenever frontend is done
-- Implementing os version
-
+5.  If ansible all -m ping says only localhost is found => the config file is probably wrong => exception
+4. Implementing os version
 
 Case of file not found
 [WARNING]: Unable to parse /home/rithvik_ravilla/server_automate/backend/ansible/inventory/invenory.ini as an

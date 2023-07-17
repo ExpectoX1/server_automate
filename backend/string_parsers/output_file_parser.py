@@ -26,7 +26,7 @@ def generate_array():
             mem_percentage = extract_percentage_value(text)
             return uptime, mem_percentage
 
-    folder_path = "../../master/server_out_folder/"
+    folder_path = "../master/server_out_folder/"
     text_files = extract_text_files(folder_path)
     all_servers = []
 
@@ -41,7 +41,7 @@ def generate_array():
         match = re.search(pattern, file_path, re.IGNORECASE)
         if match:
             server_index = int(match.group(1))
-            server['index'] = server_index
+            server['index'] = server_index-1
 
             # Extract values from the text file
             uptime, mem_percentage = extract_values_from_text(file_path)
@@ -54,8 +54,8 @@ def generate_array():
 
     return all_servers
 
-# Test the function
-servers = generate_array()
-for server in servers:
-    print(f"Server{server['index']:02}: Uptime={server['uptime']}, Memory={server['memory']}")
+# #Test the function
+# servers = generate_array()
+# for server in servers:
+#     print(f"Server{server['index']:02}: Uptime={server['uptime']}, Memory={server['memory']}")
  

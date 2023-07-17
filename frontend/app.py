@@ -110,9 +110,23 @@ def Streamlit():
                 # data = generate_array()
                 # print(data[0])
                 # sys.path.append("/backend/String_parsers/")
+                
                 data = generate_array()
-                st.write("Uptime - "+str(data[idx]["uptime"]))
-                st.write("Memory Usage - "+str(data[idx]["memory"]))
+                found_data = False
+                for tp in range(0, len(data)):
+                    if data[tp]["index"] == idx:
+                        st.markdown(
+                            f'<span style="font-weight: bold;">Uptime - </span><span>{data[idx-1]["uptime"]}</span>', unsafe_allow_html=True
+                        )
+                        st.markdown(
+                            f'<p style="font-weight: bold;">Memory Usage - {data[idx-1]["memory"]}</p>', unsafe_allow_html=True
+                        )
+                        found_data = True
+
+                    if not found_data:
+                        st.write("")
+
+                        
     
                     
     except Exception as e:

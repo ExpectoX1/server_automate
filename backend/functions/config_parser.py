@@ -16,10 +16,11 @@ def parse_servers(config_file):
         i = 0
         # print(config.sections())
         for section in config.sections():
-            i = i+1
+            
             if section.startswith("server") and "-command" not in section:
                 # st.write(section=="server0"+str(i)+"-command")
                 server = {
+                    "server_name":section,
                     "host_name": config[section].get("host_name"),
                     "server_loc": config[section].get("location"),
                     "os_version": config[section].get("os_version"),
@@ -27,6 +28,7 @@ def parse_servers(config_file):
                     "server_ip": config[section].get("server_ip"),
                     "cummi_status": config[section].get("cummi_status")
                 }
+                # print(server["server_name"])
                 server_address = server["server_ip"]
                 if ping(server_address):
                     server["status"] = "Ready"

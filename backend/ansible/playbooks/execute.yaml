@@ -20,7 +20,6 @@
       path: "/tmp/ansible_output"
       state: directory
 
-   # The ini file path is hardcoded in loops and queries [Adjust accordingly]
   - name: execute the command 
     command: '{{item}}'
     register: result
@@ -39,9 +38,8 @@
       src: "/tmp/ansible_result"
       dest: "/tmp/ansible_output/{{inventory_hostname}}.txt"
   
-  #Destination path is also hardcoded. Withmy system => use relative
   - name: fetch final output file
     fetch: 
       src: "/tmp/ansible_output/{{inventory_hostname}}.txt"
-      dest: /home/rithvik_ravilla/server_automate/master/server_out_folder/{{inventory_hostname}}.txt
+      dest: ../../../master/server_out_folder/{{inventory_hostname}}.txt
       flat: yes
