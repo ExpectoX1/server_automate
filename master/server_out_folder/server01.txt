@@ -10,4 +10,4 @@ shm                                 68M     0   68M   0% /var/snap/microk8s/comm
 shm                                 68M     0   68M   0% /var/snap/microk8s/common/run/containerd/io.containerd.grpc.v1.cri/sandboxes/8d72877e01dc490d4618325e098e39660aa42fb1c3cd942579fa65997ea5c00b/shm 
 df -H /home_loc: Filesystem                         Size  Used Avail Use% Mounted on
 /dev/mapper/ubuntu--vg-ubuntu--lv   18G  8.2G  8.3G  50% / 
-uptime -p_loc: up 4 hours, 32 minutes 
+uptime -p_loc: up 5 hours, 17 minutes 

@@ -13,7 +13,7 @@ def create_dead_files(config_file):
 def ansible_backup():
     read_files = glob.glob("../master/server_out_folder/server*")
     backup_name = datetime.datetime.now().strftime("%Y-%m-%d-%H:%M:%S") + ".txt"
-    with open("../master/Logs/ansible_backup/" + backup_name, "wb+") as outfile:
+    with open("../master/logs/ansible_backup/" + backup_name, "wb+") as outfile:
         for f in read_files:
             pattern = r'server\d+'
             match = re.search(pattern,f)
