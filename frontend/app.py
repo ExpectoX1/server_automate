@@ -127,7 +127,7 @@ def Streamlit():
                         st.write("")
 
                         
-    
+    #putting delete here
                     
     except Exception as e:
         log_write(str(e))
@@ -140,5 +140,4 @@ if __name__ == "__main__":
         Streamlit()
     except Exception as e:
         log_write(str(e))
-        st.warning(e,icon="⚠️")
-
+        st.warning(e,icon="⚠️") 

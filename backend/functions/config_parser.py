@@ -1,7 +1,6 @@
 import configparser
 import platform
 from subprocess import call
-import streamlit as st
 
 # Ping the host and return the status
 def ping(host):
@@ -13,12 +12,9 @@ def parse_servers(config_file):
     try:
         config = ini_parser(config_file)
         servers = []
-        i = 0
-        # print(config.sections())
         for section in config.sections():
             
             if section.startswith("server") and "-command" not in section:
-                # st.write(section=="server0"+str(i)+"-command")
                 server = {
                     "server_name":section,
                     "host_name": config[section].get("host_name"),

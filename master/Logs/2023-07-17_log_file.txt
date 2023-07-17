@@ -1,0 +1,377 @@
+2023-07-17 10:30:06: ----------Process Started----------
+2023-07-17 10:30:06: Adding host success
+2023-07-17 10:30:16: Ping Success
+2023-07-17 10:30:46: Writing Files
+2023-07-17 10:30:46: Execution time: 39 seconds
+2023-07-17 10:30:46: ----------Backend Success----------
+2023-07-17 10:30:46: ----------Process Started----------
+2023-07-17 10:30:46: Adding host success
+2023-07-17 10:30:50: Ping Success
+2023-07-17 10:31:21: Writing Files
+2023-07-17 10:31:21: Execution time: 34 seconds
+2023-07-17 10:31:21: ----------Backend Success----------
+2023-07-17 10:32:59: ----------Process Started----------
+2023-07-17 10:32:59: Adding host success
+2023-07-17 10:33:11: Ping Success
+2023-07-17 10:34:08: Writing Files
+2023-07-17 10:34:08: Execution time: 69 seconds
+2023-07-17 10:34:08: ----------Backend Success----------
+2023-07-17 10:38:36: ----------Process Started----------
+2023-07-17 10:38:36: Adding host success
+2023-07-17 10:38:42: Ping Success
+2023-07-17 10:39:13: Writing Files
+2023-07-17 10:39:13: Execution time: 36 seconds
+2023-07-17 10:39:13: ----------Backend Success----------
+2023-07-17 10:39:13: list indices must be integers or slices, not str
+2023-07-17 10:41:11: ----------Process Started----------
+2023-07-17 10:41:11: Adding host success
+2023-07-17 10:41:18: Ping Success
+2023-07-17 10:41:57: Writing Files
+2023-07-17 10:41:57: Execution time: 45 seconds
+2023-07-17 10:41:57: ----------Backend Success----------
+2023-07-17 10:41:57: list indices must be integers or slices, not str
+2023-07-17 10:42:24: ----------Process Started----------
+2023-07-17 10:42:24: Adding host success
+2023-07-17 10:42:30: Ping Success
+2023-07-17 10:43:05: Writing Files
+2023-07-17 10:43:05: Execution time: 40 seconds
+2023-07-17 10:43:05: ----------Backend Success----------
+2023-07-17 10:43:05: list index out of range
+2023-07-17 10:43:45: ----------Process Started----------
+2023-07-17 10:43:45: Adding host success
+2023-07-17 10:43:51: Ping Success
+2023-07-17 10:44:25: Writing Files
+2023-07-17 10:44:25: Execution time: 39 seconds
+2023-07-17 10:44:25: ----------Backend Success----------
+2023-07-17 10:44:25: list index out of range
+2023-07-17 10:45:44: ----------Process Started----------
+2023-07-17 10:45:44: Adding host success
+2023-07-17 10:45:48: Ping Success
+2023-07-17 10:46:13: Writing Files
+2023-07-17 10:46:13: Execution time: 29 seconds
+2023-07-17 10:46:13: ----------Backend Success----------
+2023-07-17 10:46:13: list index out of range
+2023-07-17 10:46:48: ----------Process Started----------
+2023-07-17 10:46:48: Adding host success
+2023-07-17 10:46:52: Ping Success
+2023-07-17 10:46:55: ----------Process Started----------
+2023-07-17 10:46:55: Adding host success
+2023-07-17 10:47:03: Ping Success
+2023-07-17 10:47:42: Writing Files
+2023-07-17 10:47:42: Execution time: 53 seconds
+2023-07-17 10:47:42: ----------Backend Success----------
+2023-07-17 10:47:53: Writing Files
+2023-07-17 10:47:53: Execution time: 58 seconds
+2023-07-17 10:47:53: ----------Backend Success----------
+2023-07-17 10:47:57: ----------Process Started----------
+2023-07-17 10:47:57: Adding host success
+2023-07-17 10:48:01: Ping Success
+2023-07-17 10:48:09: ----------Process Started----------
+2023-07-17 10:48:09: Adding host success
+2023-07-17 10:48:14: ----------Process Started----------
+2023-07-17 10:48:14: Adding host success
+2023-07-17 10:48:17: ----------Process Started----------
+2023-07-17 10:48:17: Adding host success
+2023-07-17 10:48:22: Ping Success
+2023-07-17 10:48:30: Ping Success
+2023-07-17 10:48:34: Ping Success
+2023-07-17 10:49:43: Writing Files
+2023-07-17 10:49:43: Execution time: 106 seconds
+2023-07-17 10:49:43: ----------Backend Success----------
+2023-07-17 10:50:10: Writing Files
+2023-07-17 10:50:10: Execution time: 120 seconds
+2023-07-17 10:50:10: ----------Backend Success----------
+2023-07-17 10:50:12: ----------Process Started----------
+2023-07-17 10:50:12: Adding host success
+2023-07-17 10:50:17: Writing Files
+2023-07-17 10:50:17: Execution time: 123 seconds
+2023-07-17 10:50:17: ----------Backend Success----------
+2023-07-17 10:50:22: Writing Files
+2023-07-17 10:50:22: Execution time: 125 seconds
+2023-07-17 10:50:22: ----------Backend Success----------
+2023-07-17 10:50:23: Ping Success
+2023-07-17 10:52:10: ----------Process Started----------
+2023-07-17 10:52:10: Adding host success
+2023-07-17 10:52:21: Ping Success
+2023-07-17 10:52:51: Writing Files
+2023-07-17 10:52:51: Execution time: 40 seconds
+2023-07-17 10:52:51: ----------Backend Success----------
+2023-07-17 10:53:46: ----------Process Started----------
+2023-07-17 10:53:46: Adding host success
+2023-07-17 10:53:52: Ping Success
+2023-07-17 10:54:22: Writing Files
+2023-07-17 10:54:22: Execution time: 35 seconds
+2023-07-17 10:54:22: ----------Backend Success----------
+2023-07-17 10:54:56: ----------Process Started----------
+2023-07-17 10:54:56: Adding host success
+2023-07-17 10:54:59: Ping Success
+2023-07-17 10:55:26: Writing Files
+2023-07-17 10:55:26: Execution time: 30 seconds
+2023-07-17 10:55:26: ----------Backend Success----------
+2023-07-17 10:55:26: list index out of range
+2023-07-17 10:55:43: ----------Process Started----------
+2023-07-17 10:55:43: Adding host success
+2023-07-17 10:55:50: Ping Success
+2023-07-17 10:55:59: ----------Process Started----------
+2023-07-17 10:55:59: Adding host success
+2023-07-17 10:56:07: Ping Success
+2023-07-17 10:56:19: ----------Process Started----------
+2023-07-17 10:56:19: Adding host success
+2023-07-17 10:56:32: Ping Success
+2023-07-17 10:56:49: 
+PLAY [Executing commands in servers] *******************************************
+
+TASK [Gathering Facts] *********************************************************
+ok: [server02]
+
+TASK [Delete result directory] *************************************************
+changed: [server02]
+
+TASK [Creates result directory] ************************************************
+changed: [server02]
+
+TASK [Creates output directory] ************************************************
+ok: [server02]
+
+TASK [execute the command] *****************************************************
+changed: [server02] => (item=df -H /home)
+changed: [server02] => (item=uptime -p)
+
+TASK [copying the output] ******************************************************
+failed: [server02] (item={'changed': True, 'stdout': 'Filesystem                         Size  Used Avail Use% Mounted on\n/dev/mapper/ubuntu--vg-ubuntu--lv   18G  8.1G  8.3G  50% /', 'stderr': '', 'rc': 0, 'cmd': ['df', '-H', '/home'], 'start': '2023-07-17 05:26:16.443060', 'end': '2023-07-17 05:26:16.524931', 'delta': '0:00:00.081871', 'msg': '', 'invocation': {'module_args': {'_raw_params': 'df -H /home', '_uses_shell': False, 'stdin_add_newline': True, 'strip_empty_ends': True, 'argv': None, 'chdir': None, 'executable': None, 'creates': None, 'removes': None, 'stdin': None}}, 'stdout_lines': ['Filesystem                         Size  Used Avail Use% Mounted on', '/dev/mapper/ubuntu--vg-ubuntu--lv   18G  8.1G  8.3G  50% /'], 'stderr_lines': [], 'failed': False, 'item': 'df -H /home', 'ansible_loop_var': 'item'}) => {"ansible_loop_var": "item", "changed": false, "checksum": "f9270d80f08b0c47896ea68b6251917115c17fd4", "item": {"ansible_loop_var": "item", "changed": true, "cmd": ["df", "-H", "/home"], "delta": "0:00:00.081871", "end": "2023-07-17 05:26:16.524931", "failed": false, "invocation": {"module_args": {"_raw_params": "df -H /home", "_uses_shell": false, "argv": null, "chdir": null, "creates": null, "executable": null, "removes": null, "stdin": null, "stdin_add_newline": true, "strip_empty_ends": true}}, "item": "df -H /home", "msg": "", "rc": 0, "start": "2023-07-17 05:26:16.443060", "stderr": "", "stderr_lines": [], "stdout": "Filesystem                         Size  Used Avail Use% Mounted on\n/dev/mapper/ubuntu--vg-ubuntu--lv   18G  8.1G  8.3G  50% /", "stdout_lines": ["Filesystem                         Size  Used Avail Use% Mounted on", "/dev/mapper/ubuntu--vg-ubuntu--lv   18G  8.1G  8.3G  50% /"]}, "msg": "Destination directory /tmp/ansible_result does not exist"}
+changed: [server02] => (item={'changed': True, 'stdout': 'up 1 hour, 28 minutes', 'stderr': '', 'rc': 0, 'cmd': ['uptime', '-p'], 'start': '2023-07-17 05:26:21.419098', 'end': '2023-07-17 05:26:21.492251', 'delta': '0:00:00.073153', 'msg': '', 'invocation': {'module_args': {'_raw_params': 'uptime -p', '_uses_shell': False, 'stdin_add_newline': True, 'strip_empty_ends': True, 'argv': None, 'chdir': None, 'executable': None, 'creates': None, 'removes': None, 'stdin': None}}, 'stdout_lines': ['up 1 hour, 28 minutes'], 'stderr_lines': [], 'failed': False, 'item': 'uptime -p', 'ansible_loop_var': 'item'})
+
+PLAY RECAP *********************************************************************
+server02                   : ok=5    changed=3    unreachable=0    failed=1    skipped=0    rescued=0    ignored=0   
+
+
+2023-07-17 10:57:18: Writing Files
+2023-07-17 10:57:18: Execution time: 79 seconds
+2023-07-17 10:57:18: ----------Backend Success----------
+2023-07-17 10:57:28: Writing Files
+2023-07-17 10:57:28: Execution time: 69 seconds
+2023-07-17 10:57:28: ----------Backend Success----------
+2023-07-17 10:57:28: list index out of range
+2023-07-17 10:57:43: ----------Process Started----------
+2023-07-17 10:57:43: Adding host success
+2023-07-17 10:57:52: Ping Success
+2023-07-17 10:58:35: Writing Files
+2023-07-17 10:58:35: Execution time: 51 seconds
+2023-07-17 10:58:35: ----------Backend Success----------
+2023-07-17 10:59:19: ----------Process Started----------
+2023-07-17 10:59:19: Adding host success
+2023-07-17 10:59:23: Ping Success
+2023-07-17 10:59:55: Writing Files
+2023-07-17 10:59:55: Execution time: 35 seconds
+2023-07-17 10:59:55: ----------Backend Success----------
+2023-07-17 10:59:55: list index out of range
+2023-07-17 11:02:04: ----------Process Started----------
+2023-07-17 11:02:04: Adding host success
+2023-07-17 11:02:11: Ping Success
+2023-07-17 11:02:42: Writing Files
+2023-07-17 11:02:42: Execution time: 37 seconds
+2023-07-17 11:02:42: ----------Backend Success----------
+2023-07-17 11:04:30: ----------Process Started----------
+2023-07-17 11:04:30: Adding host success
+2023-07-17 11:04:39: Ping Success
+2023-07-17 11:05:28: Writing Files
+2023-07-17 11:05:28: Execution time: 58 seconds
+2023-07-17 11:05:28: ----------Backend Success----------
+2023-07-17 11:06:04: ----------Process Started----------
+2023-07-17 11:06:04: Adding host success
+2023-07-17 11:06:13: Ping Success
+2023-07-17 11:07:12: Writing Files
+2023-07-17 11:07:12: Execution time: 67 seconds
+2023-07-17 11:07:12: ----------Backend Success----------
+2023-07-17 11:07:41: ----------Process Started----------
+2023-07-17 11:07:41: Adding host success
+2023-07-17 11:07:49: Ping Success
+2023-07-17 11:08:36: Writing Files
+2023-07-17 11:08:36: Execution time: 54 seconds
+2023-07-17 11:08:36: ----------Backend Success----------
+2023-07-17 11:09:08: ----------Process Started----------
+2023-07-17 11:09:08: Adding host success
+2023-07-17 11:09:14: Ping Success
+2023-07-17 11:09:54: Writing Files
+2023-07-17 11:09:54: Execution time: 45 seconds
+2023-07-17 11:09:54: ----------Backend Success----------
+2023-07-17 11:14:41: too many values to unpack (expected 2)
+2023-07-17 11:17:16: too many values to unpack (expected 2)
+2023-07-17 11:17:51: too many values to unpack (expected 2)
+2023-07-17 11:18:01: too many values to unpack (expected 2)
+2023-07-17 11:18:41: 'server_name'
+2023-07-17 11:18:58: ----------Process Started----------
+2023-07-17 11:18:58: Adding host success
+2023-07-17 11:19:36: ----------Process Started----------
+2023-07-17 11:19:36: Adding host success
+2023-07-17 11:19:42: Ping Success
+2023-07-17 11:20:34: Writing Files
+2023-07-17 11:20:34: Execution time: 58 seconds
+2023-07-17 11:20:34: ----------Backend Success----------
+2023-07-17 11:27:53: ----------Process Started----------
+2023-07-17 11:27:53: Adding host success
+2023-07-17 11:28:02: Ping Success
+2023-07-17 11:28:53: Writing Files
+2023-07-17 11:28:53: Execution time: 59 seconds
+2023-07-17 11:28:53: ----------Backend Success----------
+2023-07-17 11:29:57: ----------Process Started----------
+2023-07-17 11:29:57: Adding host success
+2023-07-17 11:30:07: Ping Success
+2023-07-17 11:31:01: Writing Files
+2023-07-17 11:31:01: Execution time: 64 seconds
+2023-07-17 11:31:01: ----------Backend Success----------
+2023-07-17 11:34:07: ----------Process Started----------
+2023-07-17 11:34:07: Adding host success
+2023-07-17 11:34:15: Ping Success
+2023-07-17 11:35:08: Writing Files
+2023-07-17 11:35:08: Execution time: 60 seconds
+2023-07-17 11:35:08: ----------Backend Success----------
+2023-07-17 11:35:56: ----------Process Started----------
+2023-07-17 11:35:56: Adding host success
+2023-07-17 11:36:02: Ping Success
+2023-07-17 11:36:53: Writing Files
+2023-07-17 11:36:53: Execution time: 56 seconds
+2023-07-17 11:36:53: ----------Backend Success----------
+2023-07-17 11:39:24: ----------Process Started----------
+2023-07-17 11:39:24: Adding host success
+2023-07-17 11:39:34: Ping Success
+2023-07-17 11:40:20: Writing Files
+2023-07-17 11:40:20: Execution time: 55 seconds
+2023-07-17 11:40:20: ----------Backend Success----------
+2023-07-17 11:45:35: ----------Process Started----------
+2023-07-17 11:45:35: Adding host success
+2023-07-17 11:45:44: Ping Success
+2023-07-17 11:46:34: Writing Files
+2023-07-17 11:46:34: Execution time: 59 seconds
+2023-07-17 11:46:34: ----------Backend Success----------
+2023-07-17 11:47:06: ----------Process Started----------
+2023-07-17 11:47:06: Adding host success
+2023-07-17 11:47:15: Ping Success
+2023-07-17 11:47:57: Writing Files
+2023-07-17 11:47:57: Execution time: 51 seconds
+2023-07-17 11:47:57: ----------Backend Success----------
+2023-07-17 11:48:08: ----------Process Started----------
+2023-07-17 11:48:08: Adding host success
+2023-07-17 11:48:15: Ping Success
+2023-07-17 11:48:57: Writing Files
+2023-07-17 11:48:57: Execution time: 49 seconds
+2023-07-17 11:48:57: ----------Backend Success----------
+2023-07-17 11:50:11: ----------Process Started----------
+2023-07-17 11:50:11: Adding host success
+2023-07-17 11:50:20: Ping Success
+2023-07-17 11:51:09: Writing Files
+2023-07-17 11:51:09: Execution time: 58 seconds
+2023-07-17 11:51:09: ----------Backend Success----------
+2023-07-17 12:01:42: ----------Process Started----------
+2023-07-17 12:01:42: Adding host success
+2023-07-17 12:01:56: Ping Success
+2023-07-17 12:02:55: Writing Files
+2023-07-17 12:02:55: Execution time: 72 seconds
+2023-07-17 12:02:55: ----------Backend Success----------
+2023-07-17 12:03:54: ----------Process Started----------
+2023-07-17 12:03:54: Adding host success
+2023-07-17 12:04:05: Ping Success
+2023-07-17 12:04:54: Writing Files
+2023-07-17 12:04:54: Execution time: 60 seconds
+2023-07-17 12:04:54: ----------Backend Success----------
+2023-07-17 12:04:54: [Errno 2] No such file or directory: '../master/Logs/ansible_backup/2023-07-17-12:04:54.txt'
+2023-07-17 12:06:23: ----------Process Started----------
+2023-07-17 12:06:23: Adding host success
+2023-07-17 12:06:35: Ping Success
+2023-07-17 12:07:32: Writing Files
+2023-07-17 12:07:32: Execution time: 69 seconds
+2023-07-17 12:07:32: ----------Backend Success----------
+2023-07-17 12:07:32: [Errno 2] No such file or directory: '../master/Logs/ansible_backup/2023-07-17-12:07:32.txt'
+2023-07-17 12:10:06: ----------Process Started----------
+2023-07-17 12:10:06: Adding host success
+2023-07-17 12:10:18: Ping Success
+2023-07-17 12:11:19: Writing Files
+2023-07-17 12:11:19: Execution time: 73 seconds
+2023-07-17 12:11:19: ----------Backend Success----------
+2023-07-17 12:30:07: ----------Process Started----------
+2023-07-17 12:30:07: Adding host success
+2023-07-17 12:30:24: Ping Success
+2023-07-17 12:31:39: Writing Files
+2023-07-17 12:31:39: Execution time: 92 seconds
+2023-07-17 12:31:39: ----------Backend Success----------
+2023-07-17 12:35:48: ----------Process Started----------
+2023-07-17 12:35:48: Adding host success
+2023-07-17 12:36:00: Ping Success
+2023-07-17 12:36:52: 
+PLAY [Executing commands in servers] *******************************************
+
+TASK [Gathering Facts] *********************************************************
+ok: [server01]
+ok: [server03]
+ok: [server02]
+
+TASK [Delete result directory] *************************************************
+changed: [server01]
+ok: [server02]
+ok: [server03]
+
+TASK [Creates result directory] ************************************************
+changed: [server01]
+ok: [server02]
+ok: [server03]
+
+TASK [Creates output directory] ************************************************
+ok: [server01]
+ok: [server02]
+ok: [server03]
+
+TASK [execute the command] *****************************************************
+changed: [server01] => (item=df -H /home)
+changed: [server02] => (item=df -H /home)
+changed: [server03] => (item=df -H)
+changed: [server01] => (item=uptime -p)
+changed: [server02] => (item=uptime -p)
+changed: [server03] => (item=uptime -p)
+
+TASK [copying the output] ******************************************************
+changed: [server01] => (item={'changed': True, 'stdout': 'Filesystem                         Size  Used Avail Use% Mounted on\n/dev/mapper/ubuntu--vg-ubuntu--lv   18G  8.2G  8.3G  50% /', 'stderr': '', 'rc': 0, 'cmd': ['df', '-H', '/home'], 'start': '2023-07-17 07:06:30.603618', 'end': '2023-07-17 07:06:30.697253', 'delta': '0:00:00.093635', 'msg': '', 'invocation': {'module_args': {'_raw_params': 'df -H /home', '_uses_shell': False, 'stdin_add_newline': True, 'strip_empty_ends': True, 'argv': None, 'chdir': None, 'executable': None, 'creates': None, 'removes': None, 'stdin': None}}, 'stdout_lines': ['Filesystem                         Size  Used Avail Use% Mounted on', '/dev/mapper/ubuntu--vg-ubuntu--lv   18G  8.2G  8.3G  50% /'], 'stderr_lines': [], 'failed': False, 'item': 'df -H /home', 'ansible_loop_var': 'item'})
+ok: [server02] => (item={'changed': True, 'stdout': 'Filesystem                         Size  Used Avail Use% Mounted on\n/dev/mapper/ubuntu--vg-ubuntu--lv   18G  8.2G  8.3G  50% /', 'stderr': '', 'rc': 0, 'cmd': ['df', '-H', '/home'], 'start': '2023-07-17 07:06:32.288225', 'end': '2023-07-17 07:06:32.415483', 'delta': '0:00:00.127258', 'msg': '', 'invocation': {'module_args': {'_raw_params': 'df -H /home', '_uses_shell': False, 'stdin_add_newline': True, 'strip_empty_ends': True, 'argv': None, 'chdir': None, 'executable': None, 'creates': None, 'removes': None, 'stdin': None}}, 'stdout_lines': ['Filesystem                         Size  Used Avail Use% Mounted on', '/dev/mapper/ubuntu--vg-ubuntu--lv   18G  8.2G  8.3G  50% /'], 'stderr_lines': [], 'failed': False, 'item': 'df -H /home', 'ansible_loop_var': 'item'})
+changed: [server03] => (item={'changed': True, 'stdout': 'Filesystem                         Size  Used Avail Use% Mounted on\ntmpfs                              206M  1.4M  205M   1% /run\n/dev/mapper/ubuntu--vg-ubuntu--lv   18G  8.2G  8.3G  50% /\ntmpfs                              1.1G     0  1.1G   0% /dev/shm\ntmpfs                              5.3M     0  5.3M   0% /run/lock\n/dev/sda2                          2.1G  265M  1.7G  14% /boot\ntmpfs                              206M  4.1k  206M   1% /run/user/1000\nshm                                 68M     0   68M   0% /var/snap/microk8s/common/run/containerd/io.containerd.grpc.v1.cri/sandboxes/4165542a95665f967f08a1127fc356e724e586a383c416c75bf31bc3f176391e/shm\nshm                                 68M     0   68M   0% /var/snap/microk8s/common/run/containerd/io.containerd.grpc.v1.cri/sandboxes/6ea575c2effe118c143d99bae047bbbfc3ae94f174d1b13dcad2df3059f6cf33/shm\nshm                                 68M     0   68M   0% /var/snap/microk8s/common/run/containerd/io.containerd.grpc.v1.cri/sandboxes/8d72877e01dc490d4618325e098e39660aa42fb1c3cd942579fa65997ea5c00b/shm', 'stderr': '', 'rc': 0, 'cmd': ['df', '-H'], 'start': '2023-07-17 07:06:32.495302', 'end': '2023-07-17 07:06:32.553316', 'delta': '0:00:00.058014', 'msg': '', 'invocation': {'module_args': {'_raw_params': 'df -H', '_uses_shell': False, 'stdin_add_newline': True, 'strip_empty_ends': True, 'argv': None, 'chdir': None, 'executable': None, 'creates': None, 'removes': None, 'stdin': None}}, 'stdout_lines': ['Filesystem                         Size  Used Avail Use% Mounted on', 'tmpfs                              206M  1.4M  205M   1% /run', '/dev/mapper/ubuntu--vg-ubuntu--lv   18G  8.2G  8.3G  50% /', 'tmpfs                              1.1G     0  1.1G   0% /dev/shm', 'tmpfs                              5.3M     0  5.3M   0% /run/lock', '/dev/sda2                          2.1G  265M  1.7G  14% /boot', 'tmpfs                              206M  4.1k  206M   1% /run/user/1000', 'shm                                 68M     0   68M   0% /var/snap/microk8s/common/run/containerd/io.containerd.grpc.v1.cri/sandboxes/4165542a95665f967f08a1127fc356e724e586a383c416c75bf31bc3f176391e/shm', 'shm                                 68M     0   68M   0% /var/snap/microk8s/common/run/containerd/io.containerd.grpc.v1.cri/sandboxes/6ea575c2effe118c143d99bae047bbbfc3ae94f174d1b13dcad2df3059f6cf33/shm', 'shm                                 68M     0   68M   0% /var/snap/microk8s/common/run/containerd/io.containerd.grpc.v1.cri/sandboxes/8d72877e01dc490d4618325e098e39660aa42fb1c3cd942579fa65997ea5c00b/shm'], 'stderr_lines': [], 'failed': False, 'item': 'df -H', 'ansible_loop_var': 'item'})
+changed: [server01] => (item={'changed': True, 'stdout': 'up 3 hours, 8 minutes', 'stderr': '', 'rc': 0, 'cmd': ['uptime', '-p'], 'start': '2023-07-17 07:06:33.367848', 'end': '2023-07-17 07:06:33.419164', 'delta': '0:00:00.051316', 'msg': '', 'invocation': {'module_args': {'_raw_params': 'uptime -p', '_uses_shell': False, 'stdin_add_newline': True, 'strip_empty_ends': True, 'argv': None, 'chdir': None, 'executable': None, 'creates': None, 'removes': None, 'stdin': None}}, 'stdout_lines': ['up 3 hours, 8 minutes'], 'stderr_lines': [], 'failed': False, 'item': 'uptime -p', 'ansible_loop_var': 'item'})
+
+2023-07-17 12:40:32: ----------Process Started----------
+2023-07-17 12:40:32: Adding host success
+2023-07-17 12:40:44: Ping Success
+2023-07-17 13:50:02: Execution time: 0 seconds
+2023-07-17 13:50:02: ----------Backend Success----------
+2023-07-17 13:50:44: ----------Process Started----------
+2023-07-17 13:50:44: Adding host success
+2023-07-17 13:50:55: Ping Success
+2023-07-17 13:51:58: Writing Files
+2023-07-17 13:51:58: Execution time: 74 seconds
+2023-07-17 13:51:59: ----------Backend Success----------
+2023-07-17 13:52:24: ----------Process Started----------
+2023-07-17 13:52:24: Adding host success
+2023-07-17 13:52:32: Ping Success
+2023-07-17 13:53:21: Writing Files
+2023-07-17 13:53:21: Execution time: 56 seconds
+2023-07-17 13:53:21: ----------Backend Success----------
+2023-07-17 13:55:41: ----------Process Started----------
+2023-07-17 13:55:41: Adding host success
+2023-07-17 13:55:50: Ping Success
+2023-07-17 13:56:46: Writing Files
+2023-07-17 13:56:46: Execution time: 64 seconds
+2023-07-17 13:56:46: ----------Backend Success----------
+2023-07-17 13:56:47: ----------Process Started----------
+2023-07-17 13:56:47: Adding host success
+2023-07-17 13:56:56: Ping Success
+2023-07-17 13:58:08: ----------Process Started----------
+2023-07-17 13:58:08: Adding host success
+2023-07-17 13:58:17: Ping Success
+2023-07-17 13:59:12: Writing Files
+2023-07-17 13:59:12: Execution time: 63 seconds
+2023-07-17 13:59:12: ----------Backend Success----------
+2023-07-17 13:59:12: ----------Process Started----------
+2023-07-17 13:59:12: Adding host success
+2023-07-17 13:59:22: Ping Success
+2023-07-17 14:00:14: Writing Files
+2023-07-17 14:00:14: Execution time: 62 seconds
+2023-07-17 14:00:14: ----------Backend Success----------
+2023-07-17 14:00:32: ----------Process Started----------
+2023-07-17 14:00:32: Adding host success
+2023-07-17 14:00:34:  can not be accessed via ansible. Please check username / key path
