@@ -12,9 +12,9 @@ from backend.functions.config_parser import parse_servers
 sys.path.append("../backend/string_parsers/")
 
 from backend.string_parsers.output_file_parser import generate_array
-from backend.functions.ansible import ansible_ping, ansible_playbook
-from backend.functions.parse import add_host
+from backend.functions.ansible import ansible_ping, ansible_playbook,ansible_host,ansible_backup
 from backend.functions.log import log_write
+from backend.functions.file_checking import create_dead_files
 
 # Create Streamlit application
 @st.cache_data
@@ -34,7 +34,7 @@ def Streamlit():
         def backend_func():
             log_write("----------Process Started----------")
             print("Process Started")
-            add_host()
+            ansible_host()
 
             print("Adding host")
             log_write("Adding host success")
@@ -61,6 +61,7 @@ def Streamlit():
         print("Execution time:", execution_time, "seconds")
         log_write("----------Backend Success----------")
 
+        create_dead_files("../master/examples.ini")
         
     
         def local_css(file_name):
@@ -125,19 +126,26 @@ def Streamlit():
 
                     if not found_data:
                         st.write("")
-
-                        
-    #putting delete here
+        # time.sleep(60)
+        # st.experimental_rerun()
+        # ansible_backup()
                     
     except Exception as e:
         log_write(str(e))
         st.warning(e, icon="⚠️")
+        # time.sleep(60)
+        # st.experimental_rerun()
 
 
 if __name__ == "__main__":
     try:
-        
+        # while(True):
         Streamlit()
+            # time.sleep(30)
+            # inp =input("Type Exit to Exit")
+            # if(inp.lower() == exit):
+            #     break
+
     except Exception as e:
         log_write(str(e))
         st.warning(e,icon="⚠️") 

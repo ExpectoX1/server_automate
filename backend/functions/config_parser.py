@@ -8,6 +8,7 @@ def ping(host):
     command = ['ping', param, '1', host]
     return call(command) == 0
 
+#getting server details from ini file
 def parse_servers(config_file):
     try:
         config = ini_parser(config_file)
@@ -35,6 +36,7 @@ def parse_servers(config_file):
     except Exception as e:
         raise Exception(e)
 
+#parsing through the master ini file
 def ini_parser(file):
     config = configparser.ConfigParser()
     try:

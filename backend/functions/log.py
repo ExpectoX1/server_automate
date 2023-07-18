@@ -1,7 +1,7 @@
 import datetime
 
 import sys
-sys.path.append("../../master/Logs/")
+sys.path.append("../../master/logs/")
 
 import datetime
 
