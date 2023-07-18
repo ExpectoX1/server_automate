@@ -9,8 +9,10 @@ def create_dead_files(ini_file):
     print("Going to print dead files")
     server_names = ini_parser(ini_file)
     read_files = glob.glob("../master/server_out_folder/server*")
+    print(read_files)
     for names in server_names.sections():
-        if "-command" not in names and (names + ".txt") not in read_files:
+        if "-command" not in names and ("../master/server_out_folder/" + names + ".txt") not in read_files:
+            print(names)
             with open('../master/server_out_folder/' + names + ".txt", 'w') as fp:
                 pass
 

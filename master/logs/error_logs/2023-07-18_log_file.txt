@@ -2,3 +2,56 @@
 2023-07-18 13:50:15: Writing Files
 2023-07-18 13:50:15: Execution time: 45 seconds
 2023-07-18 13:50:15: ----------Backend Success----------
+2023-07-18 13:58:40: ----------Process Started----------
+2023-07-18 13:58:40: Adding host success
+2023-07-18 13:58:50: Ping Success
+2023-07-18 13:59:28: Writing Files
+2023-07-18 13:59:28: Execution time: 48 seconds
+2023-07-18 13:59:28: ----------Backend Success----------
+2023-07-18 13:59:50: ----------Process Started----------
+2023-07-18 13:59:50: Adding host success
+2023-07-18 14:00:05: Ping Success
+2023-07-18 14:00:43: Writing Files
+2023-07-18 14:00:43: Execution time: 52 seconds
+2023-07-18 14:00:43: ----------Backend Success----------
+2023-07-18 14:02:00: ----------Process Started----------
+2023-07-18 14:02:00: Adding host success
+2023-07-18 14:02:01:  can not be accessed via ansible. Please check username / key path
+2023-07-18 14:02:15: ----------Process Started----------
+2023-07-18 14:02:15: Adding host success
+2023-07-18 14:02:23: Ping Success
+2023-07-18 14:03:00: Writing Files
+2023-07-18 14:03:00: Execution time: 44 seconds
+2023-07-18 14:03:00: ----------Backend Success----------
+2023-07-18 14:04:02: ----------Process Started----------
+2023-07-18 14:04:02: Adding host success
+2023-07-18 14:04:09: Ping Success
+2023-07-18 14:04:52: Writing Files
+2023-07-18 14:04:52: Execution time: 49 seconds
+2023-07-18 14:04:52: ----------Backend Success----------
+2023-07-18 14:21:00: ----------Process Started----------
+2023-07-18 14:21:00: Adding host success
+2023-07-18 14:21:05: Ping Success
+2023-07-18 14:21:49: Writing Files
+2023-07-18 14:21:49: Execution time: 49 seconds
+2023-07-18 14:21:49: ----------Backend Success----------
+2023-07-18 14:24:58: ----------Process Started----------
+2023-07-18 14:24:58: Adding host success
+2023-07-18 14:25:06: Ping Success
+2023-07-18 14:25:47: Writing Files
+2023-07-18 14:25:47: Execution time: 48 seconds
+2023-07-18 14:25:47: ----------Backend Success----------
+2023-07-18 14:28:59: ----------Process Started----------
+2023-07-18 14:28:59: Adding host success
+2023-07-18 14:29:14: ----------Process Started----------
+2023-07-18 14:29:14: Adding host success
+2023-07-18 14:29:20: Ping Success
+2023-07-18 14:29:59: Writing Files
+2023-07-18 14:29:59: Execution time: 45 seconds
+2023-07-18 14:29:59: ----------Backend Success----------
+2023-07-18 14:32:33: ----------Process Started----------
+2023-07-18 14:32:33: Adding host success
+2023-07-18 14:32:40: Ping Success
+2023-07-18 14:33:22: Writing Files
+2023-07-18 14:33:22: Execution time: 49 seconds
+2023-07-18 14:33:22: ----------Backend Success----------
