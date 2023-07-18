@@ -72,29 +72,31 @@ div[data-testid="stExpander"] div[role="button"] {
     margin-top: -22px;
     border-bottom-left-radius: 5px;
     border-bottom-right-radius: 5px;
-    margin-left: -0.5px
+    margin-left: -0.5px;
+    padding-top: 5px;
+    
 
 }
 div[data-testid="stExpander"] div[role="button"] p{
-    /* background-color: red;
-    padding-left: 20px;
-    padding-right: 20px;
-    padding-top: -4px;
-    color:transparent;
-    border-radius: 10px;
-    font-size: xx-small;
-    margin-left: 10px;
-    margin-right: 3px;
-    scale: 0.5; */
     width: 0;
     height: 0;
-    border-left: 10px solid transparent;
-    border-right: 10px solid transparent;
-    border-top: 10px solid black;
-    scale: 0.5;
-
-
+    border-left: 10px solid black;
+    border-right: 7px solid transparent;
+    border-top: 7px solid transparent;
+    border-bottom: 7px solid transparent;
+    scale:0.8;
+    /* margin-left: 20rem; */
+    transition: transform 0.3s ease;
+    color:transparent;
     
+   
+}
+div[data-testid="stExpander"] div[role="button"] p:hover 
+{
+    transform: rotate(90deg); /* Rotating 90 degrees to the right on hover */
+    margin-top: 2px;
+    fill:transparent;
+    color: transparent;
 }
 .click-through {
     pointer-events: none;
@@ -110,8 +112,15 @@ div[data-testid="stExpander"] div[role="button"] p{
     margin-top: -5px;
 
 }
-.streamlit-expanderContent p{
+/* .streamlit-expanderContent p{
     margin-left: 20px;
 
+} */
+.expander-card{
+    text-align: center; 
+    font-weight:600;
+    font-size: 1.2rem; 
+    color: #007BFF;
+    background-color: transparent; 
 }
 
