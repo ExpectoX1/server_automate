@@ -1,0 +1,10 @@
+#ansible doesn't work with windows(does work , but has a complex installation), 
+#use alternatives like WSL
+ansible 
+#frontend
+streamlit
+#scheduler for timed functions 
+schedule
+configparser
+
+

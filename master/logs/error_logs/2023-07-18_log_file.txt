@@ -344,3 +344,356 @@ server11                   : ok=8    changed=5    unreachable=0    failed=0    s
 2023-07-18 14:57:29: Writing Files
 2023-07-18 14:57:29: Execution time: 9 seconds
 2023-07-18 14:57:29: ----------Backend Success----------
+2023-07-18 21:16:41: ----------Process Started----------
+2023-07-18 21:16:41: Adding host success
+2023-07-18 21:16:42: Ping Success
+2023-07-18 21:17:17: 
+PLAY [Executing commands in servers] *******************************************
+
+TASK [Gathering Facts] *********************************************************
+ok: [server01]
+
+TASK [Delete result directory] *************************************************
+ok: [server01]
+
+TASK [Creates result directory] ************************************************
+changed: [server01]
+
+TASK [Creates output directory] ************************************************
+changed: [server01]
+
+TASK [execute the command] *****************************************************
+changed: [server01] => (item=df -H /home)
+changed: [server01] => (item=uptime -p)
+
+2023-07-18 21:17:44: ----------Process Started----------
+2023-07-18 21:17:44: Adding host success
+2023-07-18 21:17:45: Ping Success
+2023-07-18 21:17:49: Writing Files
+2023-07-18 21:17:49: Execution time: 5 seconds
+2023-07-18 21:17:49: ----------Backend Success----------
+2023-07-18 21:17:49: ----------Process Started----------
+2023-07-18 21:17:49: Adding host success
+2023-07-18 21:17:50: Ping Success
+2023-07-18 21:17:54: Writing Files
+2023-07-18 21:17:54: Execution time: 4 seconds
+2023-07-18 21:17:54: ----------Backend Success----------
+2023-07-18 21:17:54: 'server_uptime'
+2023-07-18 21:20:22: ----------Process Started----------
+2023-07-18 21:20:22: Adding host success
+2023-07-18 21:20:23: Ping Success
+2023-07-18 21:20:27: Writing Files
+2023-07-18 21:20:27: Execution time: 5 seconds
+2023-07-18 21:20:27: ----------Backend Success----------
+2023-07-18 21:24:05: ----------Process Started----------
+2023-07-18 21:24:05: Adding host success
+2023-07-18 21:24:06: Ping Success
+2023-07-18 21:24:10: Writing Files
+2023-07-18 21:24:10: Execution time: 5 seconds
+2023-07-18 21:24:10: ----------Backend Success----------
+2023-07-18 21:24:45: ----------Process Started----------
+2023-07-18 21:24:45: Adding host success
+2023-07-18 21:24:46: Ping Success
+2023-07-18 21:24:50: Writing Files
+2023-07-18 21:24:50: Execution time: 4 seconds
+2023-07-18 21:24:50: ----------Backend Success----------
+2023-07-18 21:32:27: ----------Process Started----------
+2023-07-18 21:32:27: Adding host success
+2023-07-18 21:32:28: Ping Success
+2023-07-18 21:32:33: Writing Files
+2023-07-18 21:32:33: Execution time: 5 seconds
+2023-07-18 21:32:33: ----------Backend Success----------
+2023-07-18 21:33:34: ----------Process Started----------
+2023-07-18 21:33:34: Adding host success
+2023-07-18 21:33:36: Ping Success
+2023-07-18 21:33:40: Writing Files
+2023-07-18 21:33:40: Execution time: 5 seconds
+2023-07-18 21:33:40: ----------Backend Success----------
+2023-07-18 21:35:19: ----------Process Started----------
+2023-07-18 21:35:19: Adding host success
+2023-07-18 21:35:20: Ping Success
+2023-07-18 21:35:24: Writing Files
+2023-07-18 21:35:24: Execution time: 5 seconds
+2023-07-18 21:35:24: ----------Backend Success----------
+2023-07-18 21:36:09: ----------Process Started----------
+2023-07-18 21:36:09: Adding host success
+2023-07-18 21:36:10: Ping Success
+2023-07-18 21:36:14: Writing Files
+2023-07-18 21:36:14: Execution time: 4 seconds
+2023-07-18 21:36:14: ----------Backend Success----------
+2023-07-18 21:37:38: ----------Process Started----------
+2023-07-18 21:37:38: Adding host success
+2023-07-18 21:37:39: Ping Success
+2023-07-18 21:37:43: Writing Files
+2023-07-18 21:37:43: Execution time: 5 seconds
+2023-07-18 21:37:43: ----------Backend Success----------
+2023-07-18 21:38:20: ----------Process Started----------
+2023-07-18 21:38:20: Adding host success
+2023-07-18 21:38:21: Ping Success
+2023-07-18 21:38:25: Writing Files
+2023-07-18 21:38:25: Execution time: 4 seconds
+2023-07-18 21:38:25: ----------Backend Success----------
+2023-07-18 21:38:44: ----------Process Started----------
+2023-07-18 21:38:44: Adding host success
+2023-07-18 21:38:45: Ping Success
+2023-07-18 21:38:49: Writing Files
+2023-07-18 21:38:49: Execution time: 4 seconds
+2023-07-18 21:38:49: ----------Backend Success----------
+2023-07-18 21:40:19: ----------Process Started----------
+2023-07-18 21:40:19: Adding host success
+2023-07-18 21:40:20: Ping Success
+2023-07-18 21:40:24: Writing Files
+2023-07-18 21:40:24: Execution time: 5 seconds
+2023-07-18 21:40:24: ----------Backend Success----------
+2023-07-18 21:40:40: ----------Process Started----------
+2023-07-18 21:40:40: Adding host success
+2023-07-18 21:40:41: Ping Success
+2023-07-18 21:40:45: Writing Files
+2023-07-18 21:40:45: Execution time: 4 seconds
+2023-07-18 21:40:45: ----------Backend Success----------
+2023-07-18 21:41:52: ----------Process Started----------
+2023-07-18 21:41:52: Adding host success
+2023-07-18 21:41:53: Ping Success
+2023-07-18 21:41:57: Writing Files
+2023-07-18 21:41:57: Execution time: 5 seconds
+2023-07-18 21:41:57: ----------Backend Success----------
+2023-07-18 21:42:13: ----------Process Started----------
+2023-07-18 21:42:13: Adding host success
+2023-07-18 21:42:14: Ping Success
+2023-07-18 21:42:18: Writing Files
+2023-07-18 21:42:18: Execution time: 4 seconds
+2023-07-18 21:42:18: ----------Backend Success----------
+2023-07-18 21:43:56: ----------Process Started----------
+2023-07-18 21:43:56: Adding host success
+2023-07-18 21:43:57: Ping Success
+2023-07-18 21:44:02: Writing Files
+2023-07-18 21:44:02: Execution time: 5 seconds
+2023-07-18 21:44:02: ----------Backend Success----------
+2023-07-18 21:44:21: ----------Process Started----------
+2023-07-18 21:44:21: Adding host success
+2023-07-18 21:44:22: Ping Success
+2023-07-18 21:44:26: Writing Files
+2023-07-18 21:44:26: Execution time: 5 seconds
+2023-07-18 21:44:26: ----------Backend Success----------
+2023-07-18 21:46:26: ----------Process Started----------
+2023-07-18 21:46:26: Adding host success
+2023-07-18 21:46:27: Ping Success
+2023-07-18 21:46:31: Writing Files
+2023-07-18 21:46:31: Execution time: 5 seconds
+2023-07-18 21:46:31: ----------Backend Success----------
+2023-07-18 21:46:46: ----------Process Started----------
+2023-07-18 21:46:46: Adding host success
+2023-07-18 21:46:47: Ping Success
+2023-07-18 21:46:51: Writing Files
+2023-07-18 21:46:51: Execution time: 4 seconds
+2023-07-18 21:46:51: ----------Backend Success----------
+2023-07-18 21:47:01: ----------Process Started----------
+2023-07-18 21:47:01: Adding host success
+2023-07-18 21:47:02: Ping Success
+2023-07-18 21:47:06: Writing Files
+2023-07-18 21:47:06: Execution time: 4 seconds
+2023-07-18 21:47:06: ----------Backend Success----------
+2023-07-18 21:47:16: ----------Process Started----------
+2023-07-18 21:47:16: Adding host success
+2023-07-18 21:47:17: Ping Success
+2023-07-18 21:47:21: Writing Files
+2023-07-18 21:47:21: Execution time: 5 seconds
+2023-07-18 21:47:21: ----------Backend Success----------
+2023-07-18 21:47:36: ----------Process Started----------
+2023-07-18 21:47:36: Adding host success
+2023-07-18 21:47:36: Ping Success
+2023-07-18 21:47:41: Writing Files
+2023-07-18 21:47:41: Execution time: 5 seconds
+2023-07-18 21:47:41: ----------Backend Success----------
+2023-07-18 21:48:20: ----------Process Started----------
+2023-07-18 21:48:20: Adding host success
+2023-07-18 21:48:21: Ping Success
+2023-07-18 21:48:26: Writing Files
+2023-07-18 21:48:26: Execution time: 5 seconds
+2023-07-18 21:48:26: ----------Backend Success----------
+2023-07-18 21:48:47: ----------Process Started----------
+2023-07-18 21:48:47: Adding host success
+2023-07-18 21:48:47: Ping Success
+2023-07-18 21:48:52: Writing Files
+2023-07-18 21:48:52: Execution time: 5 seconds
+2023-07-18 21:48:52: ----------Backend Success----------
+2023-07-18 21:49:47: ----------Process Started----------
+2023-07-18 21:49:47: Adding host success
+2023-07-18 21:49:47: Ping Success
+2023-07-18 21:49:52: Writing Files
+2023-07-18 21:49:52: Execution time: 5 seconds
+2023-07-18 21:49:52: ----------Backend Success----------
+2023-07-18 21:51:04: ----------Process Started----------
+2023-07-18 21:51:04: Adding host success
+2023-07-18 21:51:05: Ping Success
+2023-07-18 21:51:10: Writing Files
+2023-07-18 21:51:10: Execution time: 5 seconds
+2023-07-18 21:51:10: ----------Backend Success----------
+2023-07-18 21:52:15: ----------Process Started----------
+2023-07-18 21:52:15: Adding host success
+2023-07-18 21:52:16: Ping Success
+2023-07-18 21:52:21: Writing Files
+2023-07-18 21:52:21: Execution time: 5 seconds
+2023-07-18 21:52:21: ----------Backend Success----------
+2023-07-18 21:54:23: ----------Process Started----------
+2023-07-18 21:54:23: Adding host success
+2023-07-18 21:54:24: Ping Success
+2023-07-18 21:54:28: Writing Files
+2023-07-18 21:54:28: Execution time: 5 seconds
+2023-07-18 21:54:28: ----------Backend Success----------
+2023-07-18 21:55:09: ----------Process Started----------
+2023-07-18 21:55:09: Adding host success
+2023-07-18 21:55:10: Ping Success
+2023-07-18 21:55:14: Writing Files
+2023-07-18 21:55:14: Execution time: 5 seconds
+2023-07-18 21:55:14: ----------Backend Success----------
+2023-07-18 21:55:33: ----------Process Started----------
+2023-07-18 21:55:33: Adding host success
+2023-07-18 21:55:34: Ping Success
+2023-07-18 21:55:38: Writing Files
+2023-07-18 21:55:38: Execution time: 4 seconds
+2023-07-18 21:55:38: ----------Backend Success----------
+2023-07-18 21:56:22: ----------Process Started----------
+2023-07-18 21:56:22: Adding host success
+2023-07-18 21:56:23: Ping Success
+2023-07-18 21:56:27: Writing Files
+2023-07-18 21:56:27: Execution time: 5 seconds
+2023-07-18 21:56:27: ----------Backend Success----------
+2023-07-18 21:56:51: ----------Process Started----------
+2023-07-18 21:56:51: Adding host success
+2023-07-18 21:56:52: Ping Success
+2023-07-18 21:56:56: Writing Files
+2023-07-18 21:56:56: Execution time: 5 seconds
+2023-07-18 21:56:56: ----------Backend Success----------
+2023-07-18 21:57:17: ----------Process Started----------
+2023-07-18 21:57:17: Adding host success
+2023-07-18 21:57:18: Ping Success
+2023-07-18 21:57:22: Writing Files
+2023-07-18 21:57:22: Execution time: 5 seconds
+2023-07-18 21:57:22: ----------Backend Success----------
+2023-07-18 21:58:00: ----------Process Started----------
+2023-07-18 21:58:00: Adding host success
+2023-07-18 21:58:00: Ping Success
+2023-07-18 21:58:05: Writing Files
+2023-07-18 21:58:05: Execution time: 5 seconds
+2023-07-18 21:58:05: ----------Backend Success----------
+2023-07-18 21:58:18: ----------Process Started----------
+2023-07-18 21:58:18: Adding host success
+2023-07-18 21:58:19: Ping Success
+2023-07-18 21:58:24: Writing Files
+2023-07-18 21:58:24: Execution time: 5 seconds
+2023-07-18 21:58:24: ----------Backend Success----------
+2023-07-18 21:58:50: ----------Process Started----------
+2023-07-18 21:58:50: Adding host success
+2023-07-18 21:58:51: Ping Success
+2023-07-18 21:58:55: Writing Files
+2023-07-18 21:58:55: Execution time: 5 seconds
+2023-07-18 21:58:55: ----------Backend Success----------
+2023-07-18 21:59:14: ----------Process Started----------
+2023-07-18 21:59:14: Adding host success
+2023-07-18 21:59:15: Ping Success
+2023-07-18 21:59:19: Writing Files
+2023-07-18 21:59:19: Execution time: 5 seconds
+2023-07-18 21:59:19: ----------Backend Success----------
+2023-07-18 21:59:36: ----------Process Started----------
+2023-07-18 21:59:36: Adding host success
+2023-07-18 21:59:37: Ping Success
+2023-07-18 21:59:41: Writing Files
+2023-07-18 21:59:41: Execution time: 5 seconds
+2023-07-18 21:59:41: ----------Backend Success----------
+2023-07-18 21:59:56: ----------Process Started----------
+2023-07-18 21:59:56: Adding host success
+2023-07-18 21:59:57: Ping Success
+2023-07-18 22:00:01: Writing Files
+2023-07-18 22:00:01: Execution time: 5 seconds
+2023-07-18 22:00:01: ----------Backend Success----------
+2023-07-18 22:00:41: ----------Process Started----------
+2023-07-18 22:00:41: Adding host success
+2023-07-18 22:00:42: Ping Success
+2023-07-18 22:00:46: Writing Files
+2023-07-18 22:00:46: Execution time: 5 seconds
+2023-07-18 22:00:46: ----------Backend Success----------
+2023-07-18 22:01:00: ----------Process Started----------
+2023-07-18 22:01:00: Adding host success
+2023-07-18 22:01:01: Ping Success
+2023-07-18 22:01:05: Writing Files
+2023-07-18 22:01:05: Execution time: 5 seconds
+2023-07-18 22:01:05: ----------Backend Success----------
+2023-07-18 22:01:22: ----------Process Started----------
+2023-07-18 22:01:22: Adding host success
+2023-07-18 22:01:23: Ping Success
+2023-07-18 22:01:27: Writing Files
+2023-07-18 22:01:27: Execution time: 5 seconds
+2023-07-18 22:01:27: ----------Backend Success----------
+2023-07-18 22:01:38: ----------Process Started----------
+2023-07-18 22:01:38: Adding host success
+2023-07-18 22:01:39: Ping Success
+2023-07-18 22:01:43: Writing Files
+2023-07-18 22:01:43: Execution time: 5 seconds
+2023-07-18 22:01:43: ----------Backend Success----------
+2023-07-18 22:01:51: ----------Process Started----------
+2023-07-18 22:01:51: Adding host success
+2023-07-18 22:01:52: Ping Success
+2023-07-18 22:01:56: Writing Files
+2023-07-18 22:01:56: Execution time: 5 seconds
+2023-07-18 22:01:56: ----------Backend Success----------
+2023-07-18 22:04:16: ----------Process Started----------
+2023-07-18 22:04:16: Adding host success
+2023-07-18 22:04:18: Ping Success
+2023-07-18 22:04:22: Writing Files
+2023-07-18 22:04:22: Execution time: 6 seconds
+2023-07-18 22:04:22: ----------Backend Success----------
+2023-07-18 22:05:27: ----------Process Started----------
+2023-07-18 22:05:27: Adding host success
+2023-07-18 22:05:28: Ping Success
+2023-07-18 22:05:33: Writing Files
+2023-07-18 22:05:33: Execution time: 5 seconds
+2023-07-18 22:05:33: ----------Backend Success----------
+2023-07-18 22:06:15: ----------Process Started----------
+2023-07-18 22:06:15: Adding host success
+2023-07-18 22:06:15: Ping Success
+2023-07-18 22:06:20: Writing Files
+2023-07-18 22:06:20: Execution time: 5 seconds
+2023-07-18 22:06:20: ----------Backend Success----------
+2023-07-18 22:08:09: ----------Process Started----------
+2023-07-18 22:08:09: Adding host success
+2023-07-18 22:08:10: Ping Success
+2023-07-18 22:08:15: Writing Files
+2023-07-18 22:08:15: Execution time: 6 seconds
+2023-07-18 22:08:15: ----------Backend Success----------
+2023-07-18 22:08:54: ----------Process Started----------
+2023-07-18 22:08:54: Adding host success
+2023-07-18 22:08:55: Ping Success
+2023-07-18 22:09:00: Writing Files
+2023-07-18 22:09:00: Execution time: 5 seconds
+2023-07-18 22:09:00: ----------Backend Success----------
+2023-07-18 22:09:20: ----------Process Started----------
+2023-07-18 22:09:20: Adding host success
+2023-07-18 22:09:21: Ping Success
+2023-07-18 22:09:26: Writing Files
+2023-07-18 22:09:26: Execution time: 5 seconds
+2023-07-18 22:09:26: ----------Backend Success----------
+2023-07-18 22:10:13: ----------Process Started----------
+2023-07-18 22:10:13: Adding host success
+2023-07-18 22:10:14: Ping Success
+2023-07-18 22:10:19: Writing Files
+2023-07-18 22:10:19: Execution time: 5 seconds
+2023-07-18 22:10:19: ----------Backend Success----------
+2023-07-18 22:10:32: ----------Process Started----------
+2023-07-18 22:10:32: Adding host success
+2023-07-18 22:10:33: Ping Success
+2023-07-18 22:10:38: Writing Files
+2023-07-18 22:10:38: Execution time: 5 seconds
+2023-07-18 22:10:38: ----------Backend Success----------
+2023-07-18 22:11:32: ----------Process Started----------
+2023-07-18 22:11:32: Adding host success
+2023-07-18 22:11:32: Ping Success
+2023-07-18 22:11:38: Writing Files
+2023-07-18 22:11:38: Execution time: 5 seconds
+2023-07-18 22:11:38: ----------Backend Success----------
+2023-07-18 22:12:04: ----------Process Started----------
+2023-07-18 22:12:04: Adding host success
+2023-07-18 22:12:05: Ping Success
+2023-07-18 22:12:10: Writing Files
+2023-07-18 22:12:10: Execution time: 5 seconds
+2023-07-18 22:12:10: ----------Backend Success----------
