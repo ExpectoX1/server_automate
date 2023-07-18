@@ -60,7 +60,10 @@ def ansible_host():
                         server_host = " ansible_host="+ main_file[headings]["server_ip"]
                         server_var = "\n\n[group_"+ headings+ ":vars]\n"
                         server_user = "ansible_user=" +  main_file[headings]["user_name"]
-                        server_key = "\nansible_ssh_private_key_file=" + main_file[headings]["key_path"] + "\n"
+                        if "ssh_password" in main_file[headings]:
+                            server_key = "\nansible_password=" + main_file[headings]["ssh_password"] + "\n"
+                        else:
+                            server_key = "\nansible_ssh_private_key_file=" + main_file[headings]["key_path"] + "\n"
                         f.write(server_init + server_host + server_var + server_user + server_key)
     except Exception as e:
         raise Exception(e)

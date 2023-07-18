@@ -5,11 +5,15 @@
 
 - any uncaught ansible errors should be display properly check this part => important cause no way to now if the thing failed or not [Parse through the result such that only msg: gets displayed]
 
+-create dead files is removing data
+
 - Update + Auto-update
 3.  If ansible all -m ping says only localhost is found => the config file is probably wrong
 => exception (Does the same thing happen if we have empty inventory)
 2. Implementing os version
 - Make a search function that looks for an ini file in master
+
+-During ini_parser check for all the important configs => throw error if not found
 
 
 Case of file not found
@@ -28,3 +32,4 @@ Ansible
 configparser
 schedule
 streamlit
+sshpass for password case
