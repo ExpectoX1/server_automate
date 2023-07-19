@@ -5,10 +5,12 @@ from subprocess import call
 
 # Ping the host and return the status
 def ping(host):
-    param = "-n" if platform.system().lower() == "windows" else "-c"
-    command = ["ping", param, "1", host]
-    return call(command) == 0
-
+    try:
+        param = "-n" if platform.system().lower() == "windows" else "-c"
+        command = ["ping", param, "1", host]
+        return call(command) == 0
+    except Exception as e:
+        raise Exception(e)
 
 # getting server details from ini file
 def parse_servers(config_file):
@@ -26,7 +28,7 @@ def parse_servers(config_file):
                     "server_uptime": config[section].get("server_uptime"),
                     "cummi_status": config[section].get("cummi_status"),
                 }
-                # print(server["server_name"])
+                #Checking for server connection with ping
                 server_address = server["server_ip"]
                 if ping(server_address):
                     server["status"] = "Ready"
@@ -40,8 +42,8 @@ def parse_servers(config_file):
 
 # parsing through the master ini file
 def ini_parser(file):
-    config = configparser.ConfigParser()
     try:
+        config = configparser.ConfigParser()
         result = config.read(file)
         if not result:
             raise Exception(file + " not found")

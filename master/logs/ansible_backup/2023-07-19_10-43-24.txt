@@ -1,12 +1,12 @@
 server01
 df -H /home_loc: Filesystem                         Size  Used Avail Use% Mounted on
 /dev/mapper/ubuntu--vg-ubuntu--lv   18G  8.3G  8.1G  51% / 
-uptime -p_loc: up 47 minutes 
+uptime -p_loc: up 1 hour, 16 minutes 
 
 server02
 
 server03
 df -H /home_loc: Filesystem                         Size  Used Avail Use% Mounted on
 /dev/mapper/ubuntu--vg-ubuntu--lv   18G  8.3G  8.1G  51% / 
-uptime -p_loc: up 47 minutes 
+uptime -p_loc: up 1 hour, 16 minutes 
 

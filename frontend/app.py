@@ -62,6 +62,9 @@ def Streamlit():
             log_write("Writing Files")
 
             print("Backend Success")
+            
+            print("Creating dead files")
+            create_dead_files("../master/examples.ini")
 
         start_time = time.time()
         backend_func()
@@ -72,7 +75,6 @@ def Streamlit():
         print("Execution time:", execution_time, "seconds")
         log_write("----------Backend Success----------")
 
-        create_dead_files("../master/examples.ini")
 
         def local_css(file_name):
             with open(file_name) as f:

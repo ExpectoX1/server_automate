@@ -6,7 +6,8 @@ sys.path.append("../")
 from backend.functions.config_parser import ini_parser
 from backend.functions.file_checking import valid_path
 
-#getting ansible output after runnng playbook
+#getting ansible output after runnng playbook\
+#Can be modified to run other commands too
 def run_ansible_command(command):
     try:
         result = subprocess.run(command, capture_output=True, text=True ,shell=True)
@@ -19,8 +20,8 @@ def run_ansible_command(command):
 
 #actually running playbook
 def ansible_playbook():
-    ansible_command = "ansible-playbook " + valid_path("../backend/ansible/playbooks/execute.yaml")
     try:
+        ansible_command = "ansible-playbook " + valid_path("../backend/ansible/playbooks/execute.yaml")
         output = run_ansible_command(ansible_command)
         return output
     except Exception as e:
@@ -32,6 +33,7 @@ def ansible_ping():
         ansible_command = "ansible all -m ping"
         output = run_ansible_command(ansible_command)        
     except Exception as output:
+        #Finding the servers that ansible cant connect too
         dead_servers = []
         main_file = ini_parser(valid_path("../master/examples.ini"))
         output = str(output).split()
@@ -40,21 +42,22 @@ def ansible_ping():
                 if (output[i-2] + "-command") in main_file.sections(): 
                     dead_servers.append(output[i-2])
         dead_servers_str = ' '.join(map(str, dead_servers))
-        raise Exception(dead_servers_str + " can not be accessed via ansible. Please check username / key path")
+        raise Exception(dead_servers_str + " can not be accessed via ansible. Please check ini credentials")
 
 #setting up ansible inventory file for further use
 def ansible_host():
     try:
-        main_file = ini_parser("../master/examples.ini")
-        #Error handling for the file search too
-        with open('../backend/ansible/inventory/inventory.ini','w+') as f:
+        main_file = ini_parser(valid_path("../master/examples.ini"))
+        with open(valid_path('../backend/ansible/inventory/inventory.ini'),'w+') as f:
             content = f.read()
             for headings in main_file.sections():
+                #Exception cases for inventory file
                 if ("-command" in headings):
                     continue
                 if ("group_" + headings) in content:
                     continue
                 else:
+                    #Valid server that ansible can connect too
                     if (headings + "-command") in main_file.sections():
                         server_init = "\n[group_"+ headings+ "]\n" + headings
                         server_host = " ansible_host="+ main_file[headings]["server_ip"]
@@ -69,6 +72,7 @@ def ansible_host():
         raise Exception(e)
 
 #deleting old result files and creating ansible backup file
+#dont use valid path on glob as * will cause not found error
 def ansible_backup():
     read_files = glob.glob("../master/server_out_folder/server*")
     backup_name = datetime.datetime.now().strftime("%Y-%m-%d_%H-%M-%S") + ".txt"

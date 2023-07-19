@@ -3,7 +3,6 @@
 
 2. After initial ping we can send a list of servers that are down and send this data to ansible commands so that double dead pinging isn't there [Send array of servers]
 6. any uncaught ansible errors should be display properly check this part => important cause no way to now if the thing failed or not [Parse through the result such that only msg: gets displayed]
-1. bug: create dead files is removing data
 -  Implementing os version
 7. append the ansible-backup if already found => keep the time at the beginning of each section
 5. Make a search function that looks for an ini file in master
