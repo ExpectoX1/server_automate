@@ -42,32 +42,33 @@ def Streamlit():
         servers = parse_servers("../master/examples.ini")
 
         # Take out the pingless servers and insert that data to add_host
-        def backend_func():
-            log_write("----------Process Started----------")
-            print("Process Started")
-            ansible_host()
+        #after that modulize everything into single function to be called
+        # def backend_func(servers):
+        log_write("----------Process Started----------")
+        print("Process Started")
+        ansible_host(servers)
 
-            print("Adding host")
-            log_write("Adding host success")
+        print("Adding host")
+        log_write("Adding host success")
 
-            ansible_ping()
+        ansible_ping()
 
-            print("Pinging Servers")
-            log_write("Ping Success")
-            print("Running SSH Commands")
+        print("Pinging Servers")
+        log_write("Ping Success")
+        print("Running SSH Commands")
 
-            ansible_playbook()
+        ansible_playbook()
 
-            print("Writing Files")
-            log_write("Writing Files")
+        print("Writing Files")
+        log_write("Writing Files")
 
-            print("Backend Success")
-            
-            print("Creating dead files")
-            create_dead_files("../master/examples.ini")
+        print("Backend Success")
+        
+        print("Creating dead files")
+        create_dead_files("../master/examples.ini")
 
         start_time = time.time()
-        backend_func()
+        # backend_func()
         end_time = time.time()
 
         execution_time = end_time - start_time
@@ -103,7 +104,7 @@ def Streamlit():
             status_color = "ready" if server["status"] == "Ready" else "not-ready"
             ready_not_ready = "green" if server["status"] == "Ready" else "red"
             data = generate_array()
-            expander_state = st.empty()
+            # expander_state = st.empty()
             # expander_opened = expander_state.button(f"Open Expander {idx}", key=f"expander_{idx}")
 
             st.write(

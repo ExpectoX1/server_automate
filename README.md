@@ -1,7 +1,6 @@
 # server_automate
 <br />Work to do - Backend + Ansible
 
-2. After initial ping we can send a list of servers that are down and send this data to ansible commands so that double dead pinging isn't there [Send array of servers]
 6. any uncaught ansible errors should be display properly check this part => important cause no way to now if the thing failed or not [Parse through the result such that only msg: gets displayed]
 -  Implementing os version
 7. append the ansible-backup if already found => keep the time at the beginning of each section
@@ -23,16 +22,3 @@ not match 'all'
 Case of empty inventory file
 [WARNING]: provided hosts list is empty, only localhost is available. Note that the implicit localhost does
 not match 'all'
-
-Installation:
-
-Pip:
-Ansible
-configparser
-schedule
-streamlit
-
-Linux Installation
-sshpass for password case => apt-get install
-
-note: to use ansible with password you must once ssh into server and add fingerprint

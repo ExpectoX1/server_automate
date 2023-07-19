@@ -45,8 +45,15 @@ def ansible_ping():
         raise Exception(dead_servers_str + " can not be accessed via ansible. Please check ini credentials")
 
 #setting up ansible inventory file for further use
-def ansible_host():
+def ansible_host(servers):
     try:
+
+        #ping failed server list
+        dead_server=[]
+        for server in  servers:
+            if server["status"] == "Not Ready":
+                dead_server.append(server["server_name"])
+
         main_file = ini_parser(valid_path("../master/examples.ini"))
         with open(valid_path('../backend/ansible/inventory/inventory.ini'),'w+') as f:
             content = f.read()
@@ -55,6 +62,8 @@ def ansible_host():
                 if ("-command" in headings):
                     continue
                 if ("group_" + headings) in content:
+                    continue
+                if headings in dead_server:
                     continue
                 else:
                     #Valid server that ansible can connect too
