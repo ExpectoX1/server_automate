@@ -2,7 +2,6 @@ import configparser
 import platform
 from subprocess import call
 
-
 # Ping the host and return the status
 def ping(host):
     try:

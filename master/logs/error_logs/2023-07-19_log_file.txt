@@ -23,3 +23,220 @@
 2023-07-19 10:43:24: Writing Files
 2023-07-19 10:43:24: Execution time: 61 seconds
 2023-07-19 10:43:24: ----------Backend Success----------
+2023-07-19 11:12:45: Streamlit.<locals>.backend_func() missing 1 required positional argument: 'servers'
+2023-07-19 11:13:22: Streamlit.<locals>.backend_func() missing 1 required positional argument: 'servers'
+2023-07-19 11:14:38: ----------Process Started----------
+2023-07-19 11:14:38: 'type' object is not iterable
+2023-07-19 11:16:54: ----------Process Started----------
+2023-07-19 11:16:54: list indices must be integers or slices, not str
+2023-07-19 11:18:07: ----------Process Started----------
+2023-07-19 11:18:07: tuple indices must be integers or slices, not str
+2023-07-19 11:19:29: ----------Process Started----------
+2023-07-19 11:19:29: Adding host success
+2023-07-19 11:20:01: ----------Process Started----------
+2023-07-19 11:20:01: Adding host success
+2023-07-19 11:20:13: Ping Success
+2023-07-19 11:21:09: Writing Files
+2023-07-19 11:21:09: Execution time: 0 seconds
+2023-07-19 11:21:09: ----------Backend Success----------
+2023-07-19 11:45:05: ----------Process Started----------
+2023-07-19 11:45:05: 'key_path'
+2023-07-19 11:45:21: ----------Process Started----------
+2023-07-19 11:45:21: 'key_path'
+2023-07-19 11:48:30: ----------Process Started----------
+2023-07-19 11:48:30: Please provide either ssh_password or key_path
+2023-07-19 11:48:57: ----------Process Started----------
+2023-07-19 11:48:57: Adding host success
+2023-07-19 11:49:08: Ping Success
+2023-07-19 11:49:41: Writing Files
+2023-07-19 11:49:41: Execution time: 0 seconds
+2023-07-19 11:49:41: ----------Backend Success----------
+2023-07-19 12:08:17: ----------Process Started----------
+2023-07-19 12:08:17: Adding host success
+2023-07-19 12:08:21: Ping Success
+2023-07-19 12:08:23: Writing Files
+2023-07-19 12:08:23: Execution time: 0 seconds
+2023-07-19 12:08:23: ----------Backend Success----------
+2023-07-19 12:15:15: ----------Process Started----------
+2023-07-19 12:15:15: Adding host success
+2023-07-19 12:15:23: Ping Success
+2023-07-19 12:15:51: Writing Files
+2023-07-19 12:15:52: ----------Backend Success----------
+2023-07-19 12:15:52: ----------Process Started----------
+2023-07-19 12:15:52: Adding host success
+2023-07-19 12:15:57: Ping Success
+2023-07-19 12:16:27: Writing Files
+2023-07-19 12:16:27: ----------Backend Success----------
+2023-07-19 12:16:51: ----------Process Started----------
+2023-07-19 12:16:51: Adding host success
+2023-07-19 12:16:53: Ping Success
+2023-07-19 12:16:55: Writing Files
+2023-07-19 12:16:55: ----------Backend Success----------
+2023-07-19 12:17:54: ----------Process Started----------
+2023-07-19 12:17:54: Please provide either ssh_password or key_path
+2023-07-19 12:18:12: ----------Process Started----------
+2023-07-19 12:18:12: Please provide either ssh_password or key_path
+2023-07-19 12:19:13: ----------Process Started----------
+2023-07-19 12:19:13: Adding host success
+2023-07-19 12:19:16: Ping Success
+2023-07-19 12:19:20: Writing Files
+2023-07-19 12:19:20: ----------Backend Success----------
+2023-07-19 12:19:43: ----------Process Started----------
+2023-07-19 12:19:43: Adding host success
+2023-07-19 12:19:46: Ping Success
+2023-07-19 12:19:46: 
+2023-07-19 14:04:34: ----------Process Started----------
+2023-07-19 14:04:34: Adding host success
+2023-07-19 14:04:38: Ping Success
+2023-07-19 14:04:42: Writing Files
+2023-07-19 14:04:43: ----------Backend Success----------
+2023-07-19 14:05:37: ----------Process Started----------
+2023-07-19 14:05:37: Adding host success
+2023-07-19 14:05:40: Ping Success
+2023-07-19 14:05:43: Writing Files
+2023-07-19 14:05:43: ----------Backend Success----------
+2023-07-19 14:07:09: ----------Process Started----------
+2023-07-19 14:07:09: Adding host success
+2023-07-19 14:07:11: Ping Success
+2023-07-19 14:07:13: Writing Files
+2023-07-19 14:07:13: ----------Backend Success----------
+2023-07-19 14:07:43: ----------Process Started----------
+2023-07-19 14:07:43: Adding host success
+2023-07-19 14:07:45: Ping Success
+2023-07-19 14:07:47: Writing Files
+2023-07-19 14:07:47: ----------Backend Success----------
+2023-07-19 14:08:41: ----------Process Started----------
+2023-07-19 14:08:41: Adding host success
+2023-07-19 14:08:43: Ping Success
+2023-07-19 14:08:45: Writing Files
+2023-07-19 14:08:45: ----------Backend Success----------
+2023-07-19 14:09:09: ----------Process Started----------
+2023-07-19 14:09:09: Adding host success
+2023-07-19 14:09:12:  can not be accessed via ansible. Please check ini credentials
+2023-07-19 14:11:27: ----------Process Started----------
+2023-07-19 14:11:27: Adding host success
+2023-07-19 14:11:37: Ping Success
+2023-07-19 14:12:26: Writing Files
+2023-07-19 14:12:26: ----------Backend Success----------
+2023-07-19 14:13:09: ----------Process Started----------
+2023-07-19 14:13:09: Adding host success
+2023-07-19 14:13:15: Ping Success
+2023-07-19 14:13:18: 
+PLAY [Executing commands in servers] *******************************************
+
+2023-07-19 14:14:49: ----------Process Started----------
+2023-07-19 14:14:49: Adding host success
+2023-07-19 14:14:57: Ping Success
+2023-07-19 14:15:51: Writing Files
+2023-07-19 14:15:51: ----------Backend Success----------
+2023-07-19 14:16:26: ----------Process Started----------
+2023-07-19 14:16:26: Adding host success
+2023-07-19 14:16:33: Ping Success
+2023-07-19 14:16:33: 
+2023-07-19 14:18:44: ----------Process Started----------
+2023-07-19 14:18:44: Adding host success
+2023-07-19 14:18:47: Ping Success
+2023-07-19 14:18:49: Writing Files
+2023-07-19 14:18:49: ----------Backend Success----------
+2023-07-19 14:19:47: ----------Process Started----------
+2023-07-19 14:19:47: Adding host success
+2023-07-19 14:19:49: Ping Success
+2023-07-19 14:19:50: 
+2023-07-19 14:22:18: ----------Process Started----------
+2023-07-19 14:22:18: Adding host success
+2023-07-19 14:22:20:  can not be accessed via ansible. Please check ini credentials
+2023-07-19 14:25:06: ----------Process Started----------
+2023-07-19 14:25:06: Adding host success
+2023-07-19 14:25:10: 'str' object has no attribute 'readline'
+2023-07-19 14:25:40: ----------Process Started----------
+2023-07-19 14:25:40: Adding host success
+2023-07-19 14:25:42: Ping Success
+2023-07-19 14:25:44: Writing Files
+2023-07-19 14:25:44: ----------Backend Success----------
+2023-07-19 14:27:41: ----------Process Started----------
+2023-07-19 14:27:41: Adding host success
+2023-07-19 14:27:44: ini file path in ansible.cfg is incorrect
+2023-07-19 14:28:56: ----------Process Started----------
+2023-07-19 14:28:56: Adding host success
+2023-07-19 14:29:03: Ping Success
+2023-07-19 14:29:54: Writing Files
+2023-07-19 14:29:54: ----------Backend Success----------
+2023-07-19 14:32:23: ----------Process Started----------
+2023-07-19 14:32:23: Adding host success
+2023-07-19 14:32:25:  can not be accessed via ansible. Please check ini credentials
+2023-07-19 14:34:27: ----------Process Started----------
+2023-07-19 14:34:27: Adding host success
+2023-07-19 14:34:40: Ping Success
+2023-07-19 14:35:29: ----------Process Started----------
+2023-07-19 14:35:29: Adding host success
+2023-07-19 14:35:31: ini file path in ansible.cfg is incorrect
+2023-07-19 14:35:53: ----------Process Started----------
+2023-07-19 14:35:53: Adding host success
+2023-07-19 14:35:55: ini file path in ansible.cfg is very incorrect
+2023-07-19 14:36:09: ----------Process Started----------
+2023-07-19 14:36:09: Adding host success
+2023-07-19 14:36:11: ini file path in ansible.cfg is incorrect
+2023-07-19 14:36:22: ----------Process Started----------
+2023-07-19 14:36:22: Adding host success
+2023-07-19 14:36:24:  can not be accessed via ansible. Please check ini credentials
+2023-07-19 14:37:12: ----------Process Started----------
+2023-07-19 14:37:12: Adding host success
+2023-07-19 14:37:15: ['ini', 'file', 'path', 'in', 'ansible.cfg', 'is', 'incorrect']
+2023-07-19 14:41:28: ----------Process Started----------
+2023-07-19 14:41:28: Adding host success
+2023-07-19 14:41:29:  can not be accessed via ansible. Please check ini credentials
+2023-07-19 14:41:42: ----------Process Started----------
+2023-07-19 14:41:42: Adding host success
+2023-07-19 14:41:43: INI config file is not found
+2023-07-19 14:46:59: ----------Process Started----------
+2023-07-19 14:46:59: Adding host success
+2023-07-19 14:47:02:  can not be accessed via ansible. Please check ini credentials
+2023-07-19 14:47:39: ----------Process Started----------
+2023-07-19 14:47:39: Adding host success
+2023-07-19 14:47:42: argument of type 'builtin_function_or_method' is not iterable
+2023-07-19 14:47:42: ----------Process Started----------
+2023-07-19 14:47:42: Adding host success
+2023-07-19 14:47:45: argument of type 'builtin_function_or_method' is not iterable
+2023-07-19 14:48:32: ----------Process Started----------
+2023-07-19 14:48:32: Adding host success
+2023-07-19 14:48:34: INI config file is not found
+2023-07-19 14:48:54: ----------Process Started----------
+2023-07-19 14:48:54: Adding host success
+2023-07-19 14:48:56: INI config file is not found
+2023-07-19 14:49:35: ----------Process Started----------
+2023-07-19 14:49:35: Adding host success
+2023-07-19 14:49:38: Ping Success
+2023-07-19 14:49:38: ansible_playbook() missing 1 required positional argument: 'check'
+2023-07-19 14:50:47: ----------Process Started----------
+2023-07-19 14:50:47: Adding host success
+2023-07-19 14:50:47: Ping Success
+2023-07-19 14:50:49: Writing Files
+2023-07-19 14:50:49: ----------Backend Success----------
+2023-07-19 14:51:12: ----------Process Started----------
+2023-07-19 14:51:12: Adding host success
+2023-07-19 14:51:12: Ping Success
+2023-07-19 14:51:40: Writing Files
+2023-07-19 14:51:40: ----------Backend Success----------
+2023-07-19 14:52:59: ----------Process Started----------
+2023-07-19 14:52:59: Adding host success
+2023-07-19 14:52:59: Ping Success
+2023-07-19 14:53:37: Writing Files
+2023-07-19 14:53:37: ----------Backend Success----------
+2023-07-19 15:07:11: ----------Process Started----------
+2023-07-19 15:07:11: Adding host success
+2023-07-19 15:07:11: Ping Success
+2023-07-19 15:07:34: ----------Process Started----------
+2023-07-19 15:07:34: Adding host success
+2023-07-19 15:07:34: Ping Success
+2023-07-19 15:07:42: Writing Files
+2023-07-19 15:07:42: ----------Backend Success----------
+2023-07-19 15:08:44: ----------Process Started----------
+2023-07-19 15:08:44: Adding host success
+2023-07-19 15:08:44: Ping Success
+2023-07-19 15:08:51: Writing Files
+2023-07-19 15:08:51: ----------Backend Success----------
+2023-07-19 15:10:44: ----------Process Started----------
+2023-07-19 15:10:44: Adding host success
+2023-07-19 15:10:44: Ping Success
+2023-07-19 15:11:29: Writing Files
+2023-07-19 15:11:29: ----------Backend Success----------

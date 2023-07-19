@@ -51,13 +51,12 @@ def Streamlit():
         print("Adding host")
         log_write("Adding host success")
 
-        ansible_ping()
 
         print("Pinging Servers")
         log_write("Ping Success")
         print("Running SSH Commands")
 
-        ansible_playbook()
+        ansible_playbook(ansible_ping())
 
         print("Writing Files")
         log_write("Writing Files")
@@ -67,13 +66,13 @@ def Streamlit():
         print("Creating dead files")
         create_dead_files("../master/examples.ini")
 
-        start_time = time.time()
-        # backend_func()
-        end_time = time.time()
+        # start_time = time.time()
+        # # backend_func()
+        # end_time = time.time()
 
-        execution_time = end_time - start_time
-        log_write("Execution time: " + str(int(execution_time)) + " seconds")
-        print("Execution time:", execution_time, "seconds")
+        # execution_time = end_time - start_time
+        # log_write("Execution time: " + str(int(execution_time)) + " seconds")
+        # print("Execution time:", execution_time, "seconds")
         log_write("----------Backend Success----------")
 
 

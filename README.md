@@ -1,24 +1,9 @@
 # server_automate
 <br />Work to do - Backend + Ansible
 
-6. any uncaught ansible errors should be display properly check this part => important cause no way to now if the thing failed or not [Parse through the result such that only msg: gets displayed]
--  Implementing os version
-7. append the ansible-backup if already found => keep the time at the beginning of each section
-5. Make a search function that looks for an ini file in master
-3. During ini_parser check for all the important configs => throw error if not found
-[Cant have both password and key => keep that
-=> try to implement ansible vault if possible]
+1. any uncaught ansible errors should be display properly check this part => important cause no way to know if the thing failed or not [Parse through the result such that only msg: gets displayed]
+2. Make a search function that looks for a single ini file in master
+3. append the ansible-backup if already found => keep the time at the beginning of each section
 
-4.  If ansible all -m ping says only localhost is found => the config file is probably wrong
-=> exception (Does the same thing happen if we have empty inventory => check if commands is there and if not then we can throw an error => ansible_playbook should not run in that case)
-
-Case of file not found
-[WARNING]: Unable to parse /home/rithvik_ravilla/server_automate/backend/ansible/inventory/invenory.ini as an
-inventory source
-[WARNING]: No inventory was parsed, only implicit localhost is available
-[WARNING]: provided hosts list is empty, only localhost is available. Note that the implicit localhost does
-not match 'all'
-
-Case of empty inventory file
-[WARNING]: provided hosts list is empty, only localhost is available. Note that the implicit localhost does
-not match 'all'
+- implement ansible vault if possible
+- Implementing os version => ansible_facts["distribution"] ?? Kinda difficult to test
