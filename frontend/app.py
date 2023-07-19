@@ -72,7 +72,7 @@ def Streamlit():
         print("Execution time:", execution_time, "seconds")
         log_write("----------Backend Success----------")
 
-        # create_dead_files("../master/examples.ini")
+        create_dead_files("../master/examples.ini")
 
         def local_css(file_name):
             with open(file_name) as f:
@@ -140,7 +140,7 @@ def Streamlit():
         # time.sleep(60)
         # st.experimental_rerun()
         ansible_backup()
-
+                    
     except Exception as e:
         log_write(str(e))
         st.warning(e, icon="⚠️")

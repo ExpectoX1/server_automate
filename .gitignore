@@ -1,4 +1,4 @@
 # Ignore Python bytecode and cache files
 __pycache__/
-
+# master/
 # Add other patterns to ignore additional files or directories
