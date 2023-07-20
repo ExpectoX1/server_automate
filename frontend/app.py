@@ -27,6 +27,7 @@ def Streamlit():
 
         ini_file = master_ini_file()  # check for ini files in the master dir.
         servers, refresh_time = parse_servers(ini_file)  # parse the ini file.
+        refresh_time = int(refresh_time)
 
         start_time = time.time()
         ansible_backend(servers)
@@ -87,7 +88,15 @@ def Streamlit():
         # time.sleep(60)
         # st.experimental_rerun()
         ansible_backup()
-        time.sleep(int(refresh_time))
+        min_mul = 1  ## change this to 60 for mins
+        if refresh_time == None or refresh_time <= 0:
+            log_write(
+                "Invalid refresh variable value, reverting the refresh value to 10s"
+            )
+            refresh_time = 10
+            min_mul = 1
+
+        time.sleep(refresh_time)
         log_write("Re-running the script")
         st.experimental_rerun()
 
