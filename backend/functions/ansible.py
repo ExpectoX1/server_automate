@@ -33,8 +33,15 @@ def ansible_playbook(empty_inventory):
             )
             run_ansible_command(ansible_command)
     except Exception as e:
-        raise Exception(e)
-
+        error = str(e).split()
+        error_message = ''
+        for indx, string in enumerate(error):
+            if '\"msg\":' in string:
+                while "}" not in error[indx]:
+                    error_message += error[indx] + " "
+                    indx += 1
+            error_message += "\n"
+        raise Exception(error_message)
 
 # doing ansible ping to check if username is right
 def ansible_ping():
