@@ -35,7 +35,7 @@ def Streamlit():
         execution_time = end_time - start_time
 
         log_write("Execution time: " + str(int(execution_time)) + " seconds")
-        
+
         create_dead_files(ini_file)
 
         def local_css(file_name):
@@ -72,7 +72,7 @@ def Streamlit():
                 <div class="server-card">
                     <p>{server['host_name']}</p>
                     <p>{server['server_loc']}</p>
-                    <p>{server['os_version']}</p>
+                    <p>{data[idx]['os']}</p>
                     <p style="color:{ready_not_ready}">{server['status']}</p>
                     <p>{data[idx]["uptime"]}</p>
                     <button id="button" class="status-indicator {status_color}" key=f"button_{idx}"></button>
@@ -98,6 +98,7 @@ def Streamlit():
 
         time.sleep(refresh_time)
         log_write("Re-running the script")
+        print("Please Wait...Refreshing App")
         st.experimental_rerun()
 
     except Exception as e:
@@ -109,6 +110,7 @@ def Streamlit():
 if __name__ == "__main__":
     try:
         # while(True):
+        print(f"Application Running , open browser and go to http://localhost:8501")
         Streamlit()
 
         # time.sleep(30)

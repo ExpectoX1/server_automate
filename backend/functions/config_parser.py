@@ -1,6 +1,6 @@
 import configparser
 import platform
-from subprocess import call
+from subprocess import call, DEVNULL
 
 
 # Ping the host and return the status
@@ -8,7 +8,7 @@ def ping(host):
     try:
         param = "-n" if platform.system().lower() == "windows" else "-c"
         command = ["ping", param, "1", host]
-        return call(command) == 0
+        return call(command, stdout=DEVNULL, stderr=DEVNULL) == 0
     except Exception as e:
         raise Exception(e)
 
@@ -38,9 +38,9 @@ def parse_servers(config_file):
                     server["status"] = "Not Ready"
                 servers.append(server)
             if section.startswith("DEFAULT_VAL"):
-                refresh =(config[section].get("refresh_time"))
+                refresh = config[section].get("refresh_time")
 
-        return servers ,refresh
+        return servers, refresh
     except Exception as e:
         raise Exception(e)
 

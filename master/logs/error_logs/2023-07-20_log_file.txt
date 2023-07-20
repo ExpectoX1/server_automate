@@ -171,3 +171,187 @@ ok: [server02]
 2023-07-20 12:13:59: Execution time: 5 seconds
 2023-07-20 12:14:09: Re-running the script
 2023-07-20 12:14:14: Execution time: 5 seconds
+2023-07-20 12:17:55: ----------Process starts----------
+2023-07-20 12:17:55: Adding Ansible Hosts
+2023-07-20 12:17:55: Pinging The Servers
+2023-07-20 12:17:55: Running Ansible Playbooks
+2023-07-20 12:17:55: All Commands Successfully Executed
+2023-07-20 12:17:55: ----------Backend Success----------
+2023-07-20 12:17:55: Execution time: 0 seconds
+2023-07-20 12:18:05: ----------Process starts----------
+2023-07-20 12:18:05: Adding Ansible Hosts
+2023-07-20 12:18:05: Pinging The Servers
+2023-07-20 12:18:05: Running Ansible Playbooks
+2023-07-20 12:18:05: All Commands Successfully Executed
+2023-07-20 12:18:05: ----------Backend Success----------
+2023-07-20 12:18:05: Execution time: 0 seconds
+2023-07-20 12:18:15: Re-running the script
+2023-07-20 12:18:17: ----------Process starts----------
+2023-07-20 12:18:17: Adding Ansible Hosts
+2023-07-20 12:18:17: Pinging The Servers
+2023-07-20 12:19:04: ----------Process starts----------
+2023-07-20 12:19:04: Adding Ansible Hosts
+2023-07-20 12:19:04: Pinging The Servers
+2023-07-20 12:19:05: Running Ansible Playbooks
+2023-07-20 12:19:10: All Commands Successfully Executed
+2023-07-20 12:19:10: ----------Backend Success----------
+2023-07-20 12:19:10: Execution time: 5 seconds
+2023-07-20 12:19:20: Re-running the script
+2023-07-20 12:19:20: ----------Process starts----------
+2023-07-20 12:19:20: Adding Ansible Hosts
+2023-07-20 12:19:20: Pinging The Servers
+2023-07-20 12:19:21: Running Ansible Playbooks
+2023-07-20 12:19:25: All Commands Successfully Executed
+2023-07-20 12:19:25: ----------Backend Success----------
+2023-07-20 12:19:25: Execution time: 5 seconds
+2023-07-20 12:26:06: ----------Process starts----------
+2023-07-20 12:26:06: Adding Ansible Hosts
+2023-07-20 12:26:06: Pinging The Servers
+2023-07-20 12:26:07: Running Ansible Playbooks
+2023-07-20 12:26:12: All Commands Successfully Executed
+2023-07-20 12:26:12: ----------Backend Success----------
+2023-07-20 12:26:12: Execution time: 5 seconds
+2023-07-20 12:40:18: ----------Process starts----------
+2023-07-20 12:40:18: Adding Ansible Hosts
+2023-07-20 12:40:18: Pinging The Servers
+2023-07-20 12:40:20: Running Ansible Playbooks
+2023-07-20 12:40:29: All Commands Successfully Executed
+2023-07-20 12:40:29: ----------Backend Success----------
+2023-07-20 12:40:29: Execution time: 11 seconds
+2023-07-20 12:40:39: Re-running the script
+2023-07-20 12:40:40: ----------Process starts----------
+2023-07-20 12:40:40: Adding Ansible Hosts
+2023-07-20 12:40:40: Pinging The Servers
+2023-07-20 12:40:41: Running Ansible Playbooks
+2023-07-20 12:40:50: All Commands Successfully Executed
+2023-07-20 12:40:50: ----------Backend Success----------
+2023-07-20 12:40:50: Execution time: 10 seconds
+2023-07-20 12:41:01: Re-running the script
+2023-07-20 12:41:01: ----------Process starts----------
+2023-07-20 12:41:01: Adding Ansible Hosts
+2023-07-20 12:41:01: Pinging The Servers
+2023-07-20 12:41:02: Running Ansible Playbooks
+2023-07-20 12:41:11: All Commands Successfully Executed
+2023-07-20 12:41:11: ----------Backend Success----------
+2023-07-20 12:41:11: Execution time: 10 seconds
+2023-07-20 12:41:21: Re-running the script
+2023-07-20 12:41:21: ----------Process starts----------
+2023-07-20 12:41:21: Adding Ansible Hosts
+2023-07-20 12:41:21: Pinging The Servers
+2023-07-20 12:41:23: Running Ansible Playbooks
+2023-07-20 12:41:33: All Commands Successfully Executed
+2023-07-20 12:41:33: ----------Backend Success----------
+2023-07-20 12:41:33: Execution time: 11 seconds
+2023-07-20 12:41:37: ----------Process starts----------
+2023-07-20 12:41:37: Adding Ansible Hosts
+2023-07-20 12:41:37: Pinging The Servers
+2023-07-20 12:41:38: Running Ansible Playbooks
+2023-07-20 12:41:47: All Commands Successfully Executed
+2023-07-20 12:41:47: ----------Backend Success----------
+2023-07-20 12:41:47: Execution time: 10 seconds
+2023-07-20 12:41:57: Re-running the script
+2023-07-20 12:43:22: ----------Process starts----------
+2023-07-20 12:43:22: Adding Ansible Hosts
+2023-07-20 12:43:22: Pinging The Servers
+2023-07-20 12:43:24: Running Ansible Playbooks
+2023-07-20 12:43:32: 
+PLAY [Executing commands in servers] *******************************************
+
+TASK [Gathering Facts] *********************************************************
+ok: [server01]
+
+TASK [Delete result directory] *************************************************
+changed: [server01]
+
+TASK [Creates result directory] ************************************************
+changed: [server01]
+
+TASK [Creates output directory] ************************************************
+ok: [server01]
+
+TASK [Checking distribution] ***************************************************
+changed: [server01]
+
+TASK [execute the command] *****************************************************
+changed: [server01] => (item=df -H /home)
+changed: [server01] => (item=uptime -p)
+
+TASK [copying the output] ******************************************************
+changed: [server01] => (item={'changed': True, 'stdout': 'Filesystem                         Size  Used Avail Use% Mounted on\n/dev/mapper/ubuntu--vg-ubuntu--lv   11G  3.6G  6.4G  36% /', 'stderr': '', 'rc': 0, 'cmd': ['df', '-H', '/home'], 'start': '2023-07-20 07:42:55.607512', 'end': '2023-07-20 07:42:55.617719', 'delta': '0:00:00.010207', 'msg': '', 'invocation': {'module_args': {'_raw_params': 'df -H /home', '_uses_shell': False, 'warn': False, 'stdin_add_newline': True, 'strip_empty_ends': True, 'argv': None, 'chdir': None, 'executable': None, 'creates': None, 'removes': None, 'stdin': None}}, 'stdout_lines': ['Filesystem                         Size  Used Avail Use% Mounted on', '/dev/mapper/ubuntu--vg-ubuntu--lv   11G  3.6G  6.4G  36% /'], 'stderr_lines': [], 'failed': False, 'item': 'df -H /home', 'ansible_loop_var': 'item'})
+
+2023-07-20 12:51:07: ----------Process starts----------
+2023-07-20 12:51:07: Adding Ansible Hosts
+2023-07-20 12:51:07: Pinging The Servers
+2023-07-20 12:51:10: Running Ansible Playbooks
+2023-07-20 12:51:20: All Commands Successfully Executed
+2023-07-20 12:51:20: ----------Backend Success----------
+2023-07-20 12:51:20: Execution time: 12 seconds
+2023-07-20 12:51:30: Re-running the script
+2023-07-20 12:51:30: ----------Process starts----------
+2023-07-20 12:51:30: Adding Ansible Hosts
+2023-07-20 12:51:30: Pinging The Servers
+2023-07-20 12:51:31: Running Ansible Playbooks
+2023-07-20 12:51:40: All Commands Successfully Executed
+2023-07-20 12:51:40: ----------Backend Success----------
+2023-07-20 12:51:40: Execution time: 10 seconds
+2023-07-20 12:53:06: ----------Process starts----------
+2023-07-20 12:53:06: Adding Ansible Hosts
+2023-07-20 12:53:06: Pinging The Servers
+2023-07-20 12:53:08: Running Ansible Playbooks
+2023-07-20 12:53:18: All Commands Successfully Executed
+2023-07-20 12:53:18: ----------Backend Success----------
+2023-07-20 12:53:18: Execution time: 12 seconds
+2023-07-20 12:53:28: ----------Process starts----------
+2023-07-20 12:53:28: Adding Ansible Hosts
+2023-07-20 12:53:28: Pinging The Servers
+2023-07-20 12:53:29: Running Ansible Playbooks
+2023-07-20 12:53:38: All Commands Successfully Executed
+2023-07-20 12:53:38: ----------Backend Success----------
+2023-07-20 12:53:38: Execution time: 10 seconds
+2023-07-20 12:53:48: Re-running the script
+2023-07-20 12:54:11: ----------Process starts----------
+2023-07-20 12:54:11: Adding Ansible Hosts
+2023-07-20 12:54:11: Pinging The Servers
+2023-07-20 12:54:12: Running Ansible Playbooks
+2023-07-20 12:54:22: All Commands Successfully Executed
+2023-07-20 12:54:22: ----------Backend Success----------
+2023-07-20 12:54:22: Execution time: 10 seconds
+2023-07-20 12:54:32: Re-running the script
+2023-07-20 12:54:32: ----------Process starts----------
+2023-07-20 12:54:32: Adding Ansible Hosts
+2023-07-20 12:54:32: Pinging The Servers
+2023-07-20 12:54:33: Running Ansible Playbooks
+2023-07-20 12:54:42: All Commands Successfully Executed
+2023-07-20 12:54:42: ----------Backend Success----------
+2023-07-20 12:54:42: Execution time: 10 seconds
+2023-07-20 12:54:52: Re-running the script
+2023-07-20 12:54:53: ----------Process starts----------
+2023-07-20 12:54:53: Adding Ansible Hosts
+2023-07-20 12:54:53: Pinging The Servers
+2023-07-20 12:54:54: Running Ansible Playbooks
+2023-07-20 12:55:01: 
+PLAY [Executing commands in servers] *******************************************
+
+TASK [Gathering Facts] *********************************************************
+ok: [server01]
+
+TASK [Delete result directory] *************************************************
+changed: [server01]
+
+TASK [Creates result directory] ************************************************
+changed: [server01]
+
+TASK [Creates output directory] ************************************************
+ok: [server01]
+
+TASK [Checking distribution] ***************************************************
+changed: [server01]
+
+TASK [execute the command] *****************************************************
+changed: [server01] => (item=df -H /home)
+changed: [server01] => (item=uptime -p)
+
+TASK [copying the output] ******************************************************
+changed: [server01] => (item={'changed': True, 'stdout': 'Filesystem                         Size  Used Avail Use% Mounted on\n/dev/mapper/ubuntu--vg-ubuntu--lv   11G  3.6G  6.4G  36% /', 'stderr': '', 'rc': 0, 'cmd': ['df', '-H', '/home'], 'start': '2023-07-20 07:54:24.894331', 'end': '2023-07-20 07:54:24.904213', 'delta': '0:00:00.009882', 'msg': '', 'invocation': {'module_args': {'_raw_params': 'df -H /home', '_uses_shell': False, 'warn': False, 'stdin_add_newline': True, 'strip_empty_ends': True, 'argv': None, 'chdir': None, 'executable': None, 'creates': None, 'removes': None, 'stdin': None}}, 'stdout_lines': ['Filesystem                         Size  Used Avail Use% Mounted on', '/dev/mapper/ubuntu--vg-ubuntu--lv   11G  3.6G  6.4G  36% /'], 'stderr_lines': [], 'failed': False, 'item': 'df -H /home', 'ansible_loop_var': 'item'})
+changed: [server01] => (item={'changed': True, 'stdout': 'up 1 hour, 28 minutes', 'stderr': '', 'rc': 0, 'cmd': ['uptime', '-p'], 'start': '2023-07-20 07:54:25.325996', 'end': '2023-07-20 07:54:25.336955', 'delta': '0:00:00.010959', 'msg': '', 'invocation': {'module_args': {'_raw_params': 'uptime -p', '_uses_shell': False, 'warn': False, 'stdin_add_newline': True, 'strip_empty_ends': True, 'argv': None, 'chdir': None, 'executable': None, 'creates': None, 'removes': None, 'stdin': None}}, 'stdout_lines': ['up 1 hour, 28 minutes'], 'stderr_lines': [], 'failed': False, 'item': 'uptime -p', 'ansible_loop_var': 'item'})
+
