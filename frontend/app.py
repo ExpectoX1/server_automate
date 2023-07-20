@@ -35,7 +35,6 @@ def Streamlit():
 
         execution_time = end_time - start_time
         log_write("Execution time: " + str(int(execution_time)) + " seconds")
-        print("Execution time:", execution_time, "seconds")
         
         create_dead_files(ini_file)
 
@@ -89,7 +88,7 @@ def Streamlit():
                 )
         # time.sleep(60)
         # st.experimental_rerun()
-        # ansible_backup()
+        ansible_backup()
 
     except Exception as e:
         log_write(str(e))

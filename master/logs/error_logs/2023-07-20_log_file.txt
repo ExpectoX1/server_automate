@@ -45,3 +45,92 @@
 2023-07-20 10:59:10: ----------Backend Success----------
 2023-07-20 10:59:25: Execution time: 9 seconds
 2023-07-20 10:59:25: ----------Backend Success----------
+2023-07-20 11:25:30: ----------Process starts----------
+2023-07-20 11:25:30: Adding Ansible Hosts
+2023-07-20 11:25:30: Pinging The Servers
+2023-07-20 11:25:33: server01 can not be accessed via ansible. Please check ini credentials
+2023-07-20 11:29:03: ----------Process starts----------
+2023-07-20 11:29:03: Adding Ansible Hosts
+2023-07-20 11:29:03: Pinging The Servers
+2023-07-20 11:29:11: server01 can not be accessed via ansible. Please check ini credentials
+2023-07-20 11:30:06: ----------Process starts----------
+2023-07-20 11:30:06: Adding Ansible Hosts
+2023-07-20 11:30:06: Pinging The Servers
+2023-07-20 11:30:12: Running Ansible Playbooks
+2023-07-20 11:30:35: ----------Backend Success----------
+2023-07-20 11:30:35: Execution time: 29 seconds
+2023-07-20 11:32:24: ----------Process starts----------
+2023-07-20 11:32:24: Adding Ansible Hosts
+2023-07-20 11:32:24: Pinging The Servers
+2023-07-20 11:32:31: Running Ansible Playbooks
+2023-07-20 11:32:56: ----------Backend Success----------
+2023-07-20 11:32:56: Execution time: 31 seconds
+2023-07-20 11:33:29: ----------Process starts----------
+2023-07-20 11:33:29: Adding Ansible Hosts
+2023-07-20 11:33:29: Pinging The Servers
+2023-07-20 11:33:38: Running Ansible Playbooks
+2023-07-20 11:34:14: ----------Backend Success----------
+2023-07-20 11:34:14: Execution time: 44 seconds
+2023-07-20 11:35:43: ----------Process starts----------
+2023-07-20 11:35:43: Adding Ansible Hosts
+2023-07-20 11:35:43: Pinging The Servers
+2023-07-20 11:35:51: Running Ansible Playbooks
+2023-07-20 11:36:47: ----------Backend Success----------
+2023-07-20 11:36:47: Execution time: 64 seconds
+2023-07-20 11:48:00: ----------Process starts----------
+2023-07-20 11:48:00: Adding Ansible Hosts
+2023-07-20 11:48:00: Pinging The Servers
+2023-07-20 11:48:09: Running Ansible Playbooks
+2023-07-20 11:48:30: 
+PLAY [Executing commands in servers] *******************************************
+
+TASK [Gathering Facts] *********************************************************
+ok: [server01]
+
+TASK [Delete result directory] *************************************************
+changed: [server01]
+
+TASK [Creates result directory] ************************************************
+changed: [server01]
+
+TASK [Creates output directory] ************************************************
+ok: [server01]
+
+TASK [Checking distribution] ***************************************************
+fatal: [server01]: FAILED! => {"changed": false, "msg": "Unsupported parameters for (file) module: content. Supported parameters include: _diff_peek, _original_basename, access_time, access_time_format, attributes, follow, force, group, mode, modification_time, modification_time_format, owner, path, recurse, selevel, serole, setype, seuser, src, state, unsafe_writes (attr, dest, name)."}
+
+PLAY RECAP *********************************************************************
+server01                   : ok=4    changed=2    unreachable=0    failed=1    skipped=0    rescued=0    ignored=0   
+
+
+2023-07-20 11:49:55: ----------Process starts----------
+2023-07-20 11:49:55: Adding Ansible Hosts
+2023-07-20 11:49:55: Pinging The Servers
+2023-07-20 11:50:00: Running Ansible Playbooks
+2023-07-20 11:50:27: All Commands Successfully Executed
+2023-07-20 11:50:27: ----------Backend Success----------
+2023-07-20 11:50:27: Execution time: 32 seconds
+2023-07-20 11:50:27: ----------Process starts----------
+2023-07-20 11:50:27: Adding Ansible Hosts
+2023-07-20 11:50:27: Pinging The Servers
+2023-07-20 11:50:32: Running Ansible Playbooks
+2023-07-20 11:51:05: All Commands Successfully Executed
+2023-07-20 11:51:05: ----------Backend Success----------
+2023-07-20 11:51:05: Execution time: 38 seconds
+2023-07-20 11:59:30: ----------Process starts----------
+2023-07-20 11:59:30: Adding Ansible Hosts
+2023-07-20 11:59:30: Pinging The Servers
+2023-07-20 11:59:36: Running Ansible Playbooks
+2023-07-20 12:00:06: All Commands Successfully Executed
+2023-07-20 12:00:06: ----------Backend Success----------
+2023-07-20 12:00:06: Execution time: 36 seconds
+2023-07-20 12:03:28: ----------Process starts----------
+2023-07-20 12:03:28: Adding Ansible Hosts
+2023-07-20 12:03:28: Pinging The Servers
+2023-07-20 12:08:45: ----------Process starts----------
+2023-07-20 12:08:45: Adding Ansible Hosts
+2023-07-20 12:08:45: Pinging The Servers
+2023-07-20 12:08:53: Running Ansible Playbooks
+2023-07-20 12:09:28: All Commands Successfully Executed
+2023-07-20 12:09:28: ----------Backend Success----------
+2023-07-20 12:09:28: Execution time: 42 seconds

@@ -13,6 +13,8 @@ def create_dead_files(ini_file):
         # List of all output files
         read_files = glob.glob("../master/server_out_folder/server*")
         for names in server_names.sections():
+            if "DEFAULT_VAL" in names:
+                continue
             if (
                 "-command" not in names
                 and (valid_path("../master/server_out_folder/") + names + ".txt")

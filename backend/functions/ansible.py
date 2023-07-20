@@ -87,6 +87,8 @@ def ansible_host(servers):
             content = f.read()
             for headings in main_file.sections():
                 # Exception cases for inventory file
+                if "DEFAULT_VAL" in headings:
+                    continue
                 if "-command" in headings:
                     continue
                 if ("group_" + headings) in content:
@@ -150,6 +152,6 @@ def ansible_backend(servers):
         log_write("----------Process starts----------")
         ansible_host(servers)
         ansible_playbook(ansible_ping())
-        print("All Commands Successfully Executed")
+        log_write("All Commands Successfully Executed")
         log_write("----------Backend Success----------")
         

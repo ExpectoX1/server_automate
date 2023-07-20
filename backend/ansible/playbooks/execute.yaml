@@ -20,6 +20,11 @@
       path: "/tmp/ansible_output"
       state: directory
 
+  - name: Checking distribution
+    copy: 
+      dest: "/tmp/ansible_result/os.txt"
+      content: "os_version_loc: {{ansible_distribution}}\n" 
+
   - name: execute the command 
     command: '{{item}}'
     register: result
