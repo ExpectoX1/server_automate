@@ -4,6 +4,7 @@ import glob,datetime,os,re
 sys.path.append("../")
 from backend.functions.config_parser import ini_parser
 from backend.functions.file_checking import valid_path
+from backend.functions.log import log_write
 
 #getting ansible output after runnng playbook
 #Can be modified to run other commands too
@@ -23,6 +24,7 @@ def run_ansible_command(command):
 #actually running playbook
 def ansible_playbook(empty_inventory):
     try:
+        log_write("Running Ansible Playbooks")
         if not empty_inventory:
             ansible_command = "ansible-playbook " + valid_path("../backend/ansible/playbooks/execute.yaml")
             run_ansible_command(ansible_command)
@@ -32,7 +34,7 @@ def ansible_playbook(empty_inventory):
 #doing ansible ping to check if username is right
 def ansible_ping():
     try:
-
+        log_write("Pinging The Servers")
         ansible_command = "ansible all -m ping"
         output = run_ansible_command(ansible_command)
         if "[WARNING]:" in output:
@@ -64,6 +66,7 @@ def ansible_ping():
 #setting up ansible inventory file for further use
 def ansible_host(servers):
     try:
+        log_write("Adding Ansible Hosts")
         #ping failed server list
         dead_server=[]
         for server in  servers:
@@ -90,12 +93,12 @@ def ansible_host(servers):
                         server_user = "ansible_user=" +  main_file[headings]["user_name"]
 
                         #Connection method with either key or password
-                        if "ssh_password" not in main_file[headings] and "key_path" not in main_file[headings]:
-                            raise Exception("Please provide either ssh_password or key_path")
+                        if "ssh_password" not in main_file[headings] and "ssh_key" not in main_file[headings]:
+                            raise Exception("Please provide either ssh_password or ssh_key")
                         if "ssh_password" in main_file[headings]:
                             server_key = "\nansible_password=" + main_file[headings]["ssh_password"] + "\n"
                         else:
-                            server_key = "\nansible_ssh_private_key_file=" + main_file[headings]["key_path"] + "\n"
+                            server_key = "\nansible_ssh_private_key_file=" + main_file[headings]["ssh_key"] + "\n"
                         
                         #Writing to the inventory file
                         f.write(server_init + server_host + server_var + server_user + server_key)
@@ -125,10 +128,9 @@ def ansible_backup():
         raise Exception(e)
 
 def ansible_backend(servers):
-        print("Process Started")
+        log_write("----------Process starts----------")
         ansible_host(servers)
-        print("Adding host")
-        print("Running ansible commands")
         ansible_playbook(ansible_ping())
-        print("All commands executed")
-        print("Backend Success")
+        print("All Commands Successfully Executed")
+        log_write("----------Backend Success----------")
+        

@@ -47,7 +47,6 @@ def Streamlit():
         execution_time = end_time - start_time
         log_write("Execution time: " + str(int(execution_time)) + " seconds")
         print("Execution time:", execution_time, "seconds")
-        log_write("----------Backend Success----------")
         
         create_dead_files(ini_file)
 
