@@ -107,18 +107,28 @@ def ansible_host(servers):
 def ansible_backup():
     try:
         read_files = glob.glob("../master/server_out_folder/server*")
-        backup_name = datetime.datetime.now().strftime("%Y-%m-%d_%H-%M-%S") + ".txt"
+        backup_name = datetime.datetime.now().strftime("%Y-%m-%d") + ".txt"
         
         #Creating backup file
-        with open(valid_path("../master/logs/ansible_backup/") + backup_name, "wb+") as outfile:
+        with open(valid_path("../master/logs/ansible_backup/") + backup_name, "a+") as outfile:
+            outfile.write(datetime.datetime.now().strftime("\n%H:%M:%S\n"))
             for f in read_files:
                 pattern = r'server\d+'
                 match = re.search(pattern,f)
                 with open(f, "rb") as infile:
-                    outfile.write(match.group().encode('utf-8') + "\n".encode('utf-8') + infile.read() + "\n".encode('utf-8'))
+                    outfile.write(match.group() + ":\n" + infile.read().decode() + "\n")
         
         #Deleting old server_out files
         for f in read_files:
             os.remove(f)
     except Exception as e:
         raise Exception(e)
+
+def ansible_backend(servers):
+        print("Process Started")
+        ansible_host(servers)
+        print("Adding host")
+        print("Running ansible commands")
+        ansible_playbook(ansible_ping())
+        print("All commands executed")
+        print("Backend Success")

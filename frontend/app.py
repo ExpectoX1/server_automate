@@ -3,7 +3,6 @@ from streamlit.components.v1 import html
 
 import time
 
-
 import sys
 
 sys.path.append("../")
@@ -14,13 +13,11 @@ sys.path.append("../backend/string_parsers/")
 
 from backend.string_parsers.output_file_parser import generate_array
 from backend.functions.ansible import (
-    ansible_ping,
-    ansible_playbook,
-    ansible_host,
     ansible_backup,
+    ansible_backend
 )
 from backend.functions.log import log_write
-from backend.functions.file_checking import create_dead_files
+from backend.functions.file_checking import create_dead_files,master_ini_file
 
 
 # Create Streamlit application
@@ -39,42 +36,20 @@ def Streamlit():
         st.title("Server Performance Monitoring v1.0")
         st.write("Server Health Status: ")
 
-        servers = parse_servers("../master/examples.ini")
+        ini_file = master_ini_file()
 
-        # Take out the pingless servers and insert that data to add_host
-        #after that modulize everything into single function to be called
-        # def backend_func(servers):
-        log_write("----------Process Started----------")
-        print("Process Started")
-        ansible_host(servers)
+        servers = parse_servers(ini_file)
 
-        print("Adding host")
-        log_write("Adding host success")
+        start_time = time.time()
+        ansible_backend(servers)
+        end_time = time.time()
 
-
-        print("Pinging Servers")
-        log_write("Ping Success")
-        print("Running SSH Commands")
-
-        ansible_playbook(ansible_ping())
-
-        print("Writing Files")
-        log_write("Writing Files")
-
-        print("Backend Success")
-        
-        print("Creating dead files")
-        create_dead_files("../master/examples.ini")
-
-        # start_time = time.time()
-        # # backend_func()
-        # end_time = time.time()
-
-        # execution_time = end_time - start_time
-        # log_write("Execution time: " + str(int(execution_time)) + " seconds")
-        # print("Execution time:", execution_time, "seconds")
+        execution_time = end_time - start_time
+        log_write("Execution time: " + str(int(execution_time)) + " seconds")
+        print("Execution time:", execution_time, "seconds")
         log_write("----------Backend Success----------")
-
+        
+        create_dead_files(ini_file)
 
         def local_css(file_name):
             with open(file_name) as f:

@@ -18,6 +18,13 @@ def create_dead_files(ini_file):
     except Exception as e:
         raise Exception(e)
 
+def master_ini_file():
+    read_files = glob.glob("../master/*.ini")
+    if len(read_files) != 1:
+        raise Exception("Keep a single ini file in the master folder")
+    else:
+        return valid_path(read_files[0])
+
 #Note: dont put spaces in the beginning of file path string or it will throw an error
 def valid_path(file_path):
     try:
