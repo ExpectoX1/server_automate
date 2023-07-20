@@ -1,4 +1,5 @@
 # Server Performance Monitoring v1.0
+
 ## To run this application, follow these steps:
 
 1. Clone the repository:<br>
@@ -13,9 +14,11 @@
 4. Navigate to the frontend dir<br>
    `cd frontend`
 
-6. Run the Streamlit application:<br>
+5. Run the Streamlit application:<br>
    `streamlit run app.py`
 
-7. Open your web browser and go to http://localhost:8501 to access the application.
+6. Open your web browser and go to http://localhost:8501 to access the application.
 
 ## Project Features and Technologies Used.
+
+### Streamlit - Frontend
