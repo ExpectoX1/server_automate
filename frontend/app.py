@@ -13,6 +13,8 @@ from backend.functions.ansible import ansible_backup, ansible_backend
 from backend.functions.log import log_write
 from backend.functions.file_checking import create_dead_files, master_ini_file
 
+refresh = True
+
 
 @st.cache_data
 def Streamlit():
@@ -86,11 +88,11 @@ def Streamlit():
             )
             refresh_time = 10
             min_mul = 1
-
-        time.sleep(refresh_time * min_mul)
-        log_write("Re-running the script")
-        print("Please Wait...Refreshing App")
-        st.experimental_rerun()
+        if refresh:
+            time.sleep(refresh_time * min_mul)
+            log_write("Re-running the script")
+            print("Please Wait...Refreshing App")
+            st.experimental_rerun()
 
     except Exception as e:
         log_write(str(e))
@@ -101,7 +103,7 @@ if __name__ == "__main__":
     try:
         print(f"Application Running , open browser and go to http://localhost:8501")
         Streamlit()
-        
+
     except Exception as e:
         log_write(str(e))
         st.warning(e, icon="⚠️")

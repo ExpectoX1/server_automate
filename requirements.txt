@@ -1,4 +1,4 @@
-#ansible doesn't work with windows(does work , but has a complex installation), 
+#ansible doesn't work with windows(does work,but has a complex installation), 
 #use alternatives like WSL
 ansible 
 #frontend

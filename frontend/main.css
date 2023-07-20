@@ -115,8 +115,9 @@ div[data-testid="stExpander"] div[role="button"] p:hover
 .expander-card{
     text-align: center; 
     font-weight:600;
-    font-size: 1.2rem; 
-    color: #007BFF;
-    background-color: transparent; 
+    font-size: 1.1rem; 
+    color: black;
+    background-color: #cecece; 
+    border-radius: 10px;
 }
 
