@@ -18,6 +18,7 @@ def parse_servers(config_file):
     try:
         config = ini_parser(config_file)
         servers = []
+        refresh = None
         for section in config.sections():
             if section.startswith("server") and "-command" not in section:
                 server = {
@@ -36,7 +37,10 @@ def parse_servers(config_file):
                 else:
                     server["status"] = "Not Ready"
                 servers.append(server)
-        return servers
+            if section.startswith("DEFAULT_VAL"):
+                refresh =(config[section].get("refresh_time"))
+
+        return servers ,refresh
     except Exception as e:
         raise Exception(e)
 

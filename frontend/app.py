@@ -25,19 +25,16 @@ def Streamlit():
         st.title("Server Performance Monitoring v1.0")
         st.write("Server Health Status: ")
 
-        ini_file = master_ini_file()
-
-        servers = parse_servers(ini_file)
+        ini_file = master_ini_file()  # check for ini files in the master dir.
+        servers, refresh_time = parse_servers(ini_file)  # parse the ini file.
 
         start_time = time.time()
         ansible_backend(servers)
         end_time = time.time()
-
         execution_time = end_time - start_time
-        log_write("Execution time: " + str(int(execution_time)) + " seconds")
-        print("Execution time:", execution_time, "seconds")
-        log_write("----------Backend Success----------")
 
+        log_write("Execution time: " + str(int(execution_time)) + " seconds")
+        # print("Execution time:", execution_time, "seconds")
         create_dead_files(ini_file)
 
         def local_css(file_name):
@@ -46,8 +43,7 @@ def Streamlit():
 
         local_css("./main.css")
 
-        # Display server status
-
+        # Display server status heading
         st.write(
             f"""
             <div class="server-card1 font-bold">
@@ -90,13 +86,15 @@ def Streamlit():
                 )
         # time.sleep(60)
         # st.experimental_rerun()
-        # ansible_backup()
+        ansible_backup()
+        time.sleep(int(refresh_time))
+        log_write("Re-running the script")
+        st.experimental_rerun()
 
     except Exception as e:
         log_write(str(e))
         st.warning(e, icon="⚠️")
         # time.sleep(60)
-        # st.experimental_rerun()
 
 
 if __name__ == "__main__":
