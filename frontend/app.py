@@ -35,7 +35,7 @@ def Streamlit():
         execution_time = end_time - start_time
 
         log_write("Execution time: " + str(int(execution_time)) + " seconds")
-        # print("Execution time:", execution_time, "seconds")
+        
         create_dead_files(ini_file)
 
         def local_css(file_name):
