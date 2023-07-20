@@ -1,9 +1,11 @@
 import sys
+
 sys.path.append("../string_parsers/")
 from uptime_parser import extract_uptime_value
 from mem_parser import extract_percentage_value
 import os
 import re
+
 
 def generate_array():
     def extract_text_files(folder_path):
@@ -14,13 +16,13 @@ def generate_array():
             file_path = os.path.join(folder_path, file_name)
 
             # Check if the file is a text file
-            if os.path.isfile(file_path) and file_name.lower().endswith('.txt'):
+            if os.path.isfile(file_path) and file_name.lower().endswith(".txt"):
                 text_files.append(file_path)
 
         return text_files
 
     def extract_values_from_text(file_path):
-        with open(file_path, 'r') as file:
+        with open(file_path, "r") as file:
             text = file.read()
             uptime = extract_uptime_value(text)
             mem_percentage = extract_percentage_value(text)
@@ -41,21 +43,21 @@ def generate_array():
         match = re.search(pattern, file_path, re.IGNORECASE)
         if match:
             server_index = int(match.group(1))
-            server['index'] = server_index-1
+            server["index"] = server_index - 1
 
             # Extract values from the text file
             uptime, mem_percentage = extract_values_from_text(file_path)
 
             # Store the values in the server dictionary
-            server['uptime'] = uptime
-            server['memory'] = mem_percentage
+            server["uptime"] = uptime
+            server["memory"] = mem_percentage
 
             all_servers.append(server)
 
     return all_servers
 
+
 # #Test the function
 # servers = generate_array()
 # for server in servers:
 #     print(f"Server{server['index']:02}: Uptime={server['uptime']}, Memory={server['memory']}")
- 
