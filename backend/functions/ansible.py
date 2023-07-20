@@ -1,6 +1,7 @@
 import subprocess
 import sys
-import glob,datetime,os,re
+import glob, datetime, os, re
+
 sys.path.append("../")
 from backend.functions.config_parser import ini_parser
 from backend.functions.file_checking import valid_path
@@ -10,7 +11,7 @@ from backend.functions.log import log_write
 #Can be modified to run other commands too
 def run_ansible_command(command):
     try:
-        result = subprocess.run(command, capture_output=True, text=True ,shell=True)
+        result = subprocess.run(command, capture_output=True, text=True, shell=True)
         if result.returncode == 0:
             if not result.stderr:
                 return result.stdout
@@ -21,17 +22,21 @@ def run_ansible_command(command):
     except Exception as e:
         raise Exception(str(e))
 
-#actually running playbook
+
+# actually running playbook
 def ansible_playbook(empty_inventory):
     try:
         log_write("Running Ansible Playbooks")
         if not empty_inventory:
-            ansible_command = "ansible-playbook " + valid_path("../backend/ansible/playbooks/execute.yaml")
+            ansible_command = "ansible-playbook " + valid_path(
+                "../backend/ansible/playbooks/execute.yaml"
+            )
             run_ansible_command(ansible_command)
     except Exception as e:
         raise Exception(e)
 
-#doing ansible ping to check if username is right
+
+# doing ansible ping to check if username is right
 def ansible_ping():
     try:
         log_write("Pinging The Servers")
@@ -39,31 +44,35 @@ def ansible_ping():
         output = run_ansible_command(ansible_command)
         if "[WARNING]:" in output:
             if "Unable to parse" in output:
-                #Wrong ini path
+                # Wrong ini path
                 raise Exception("Config Not Found")
             else:
-                #Case of empty file
+                # Case of empty file
                 return True
         return False
-    
-    except Exception as output:    
-        #Config not found
+
+    except Exception as output:
+        # Config not found
         if "Config Not Found" in str(output):
             raise Exception("INI config file is not found")
-        
-        #Finding the servers that ansible cant connect too
+
+        # Finding the servers that ansible cant connect too
         dead_servers = []
         main_file = ini_parser(valid_path("../master/examples.ini"))
         output = str(output).split()
         for i, string in enumerate(output):
             if "UNREACHABLE!" in string:
-                if (output[i-2] + "-command") in main_file.sections(): 
-                    dead_servers.append(output[i-2])
-        dead_servers_str = ' '.join(map(str, dead_servers))
+                if (output[i - 2] + "-command") in main_file.sections():
+                    dead_servers.append(output[i - 2])
+        dead_servers_str = " ".join(map(str, dead_servers))
 
-        raise Exception(dead_servers_str + " can not be accessed via ansible. Please check ini credentials")
+        raise Exception(
+            dead_servers_str
+            + " can not be accessed via ansible. Please check ini credentials"
+        )
 
-#setting up ansible inventory file for further use
+
+# setting up ansible inventory file for further use
 def ansible_host(servers):
     try:
         log_write("Adding Ansible Hosts")
@@ -74,29 +83,35 @@ def ansible_host(servers):
                 dead_server.append(server["server_name"])
 
         main_file = ini_parser(valid_path("../master/examples.ini"))
-        with open(valid_path('../backend/ansible/inventory/inventory.ini'),'w+') as f:
+        with open(valid_path("../backend/ansible/inventory/inventory.ini"), "w+") as f:
             content = f.read()
             for headings in main_file.sections():
-                #Exception cases for inventory file
-                if ("-command" in headings):
+                # Exception cases for inventory file
+                if "-command" in headings:
                     continue
                 if ("group_" + headings) in content:
                     continue
                 if headings in dead_server:
                     continue
                 else:
-                    #Valid server that ansible can connect too
+                    # Valid server that ansible can connect too
                     if (headings + "-command") in main_file.sections():
-                        server_init = "\n[group_"+ headings+ "]\n" + headings
-                        server_host = " ansible_host="+ main_file[headings]["server_ip"]
-                        server_var = "\n\n[group_"+ headings+ ":vars]\n"
-                        server_user = "ansible_user=" +  main_file[headings]["user_name"]
+                        server_init = "\n[group_" + headings + "]\n" + headings
+                        server_host = (
+                            " ansible_host=" + main_file[headings]["server_ip"]
+                        )
+                        server_var = "\n\n[group_" + headings + ":vars]\n"
+                        server_user = "ansible_user=" + main_file[headings]["user_name"]
 
                         #Connection method with either key or password
                         if "ssh_password" not in main_file[headings] and "ssh_key" not in main_file[headings]:
                             raise Exception("Please provide either ssh_password or ssh_key")
                         if "ssh_password" in main_file[headings]:
-                            server_key = "\nansible_password=" + main_file[headings]["ssh_password"] + "\n"
+                            server_key = (
+                                "\nansible_password="
+                                + main_file[headings]["ssh_password"]
+                                + "\n"
+                            )
                         else:
                             server_key = "\nansible_ssh_private_key_file=" + main_file[headings]["ssh_key"] + "\n"
                         
@@ -105,27 +120,31 @@ def ansible_host(servers):
     except Exception as e:
         raise Exception(e)
 
-#deleting old result files and creating ansible backup file
-#dont use valid path on glob as * will cause not found error
+
+# deleting old result files and creating ansible backup file
+# dont use valid path on glob as * will cause not found error
 def ansible_backup():
     try:
         read_files = glob.glob("../master/server_out_folder/server*")
         backup_name = datetime.datetime.now().strftime("%Y-%m-%d") + ".txt"
-        
-        #Creating backup file
-        with open(valid_path("../master/logs/ansible_backup/") + backup_name, "a+") as outfile:
+
+        # Creating backup file
+        with open(
+            valid_path("../master/logs/ansible_backup/") + backup_name, "a+"
+        ) as outfile:
             outfile.write(datetime.datetime.now().strftime("\n%H:%M:%S\n"))
             for f in read_files:
-                pattern = r'server\d+'
-                match = re.search(pattern,f)
+                pattern = r"server\d+"
+                match = re.search(pattern, f)
                 with open(f, "rb") as infile:
                     outfile.write(match.group() + ":\n" + infile.read().decode() + "\n")
-        
-        #Deleting old server_out files
+
+        # Deleting old server_out files
         for f in read_files:
             os.remove(f)
     except Exception as e:
         raise Exception(e)
+
 
 def ansible_backend(servers):
         log_write("----------Process starts----------")

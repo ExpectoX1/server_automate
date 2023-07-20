@@ -2,6 +2,7 @@ import configparser
 import platform
 from subprocess import call
 
+
 # Ping the host and return the status
 def ping(host):
     try:
@@ -10,6 +11,7 @@ def ping(host):
         return call(command) == 0
     except Exception as e:
         raise Exception(e)
+
 
 # getting server details from ini file
 def parse_servers(config_file):
@@ -27,7 +29,7 @@ def parse_servers(config_file):
                     "server_uptime": config[section].get("server_uptime"),
                     "cummi_status": config[section].get("cummi_status"),
                 }
-                #Checking for server connection with ping
+                # Checking for server connection with ping
                 server_address = server["server_ip"]
                 if ping(server_address):
                     server["status"] = "Ready"

@@ -12,12 +12,9 @@ from backend.functions.config_parser import parse_servers
 sys.path.append("../backend/string_parsers/")
 
 from backend.string_parsers.output_file_parser import generate_array
-from backend.functions.ansible import (
-    ansible_backup,
-    ansible_backend
-)
+from backend.functions.ansible import ansible_backup, ansible_backend
 from backend.functions.log import log_write
-from backend.functions.file_checking import create_dead_files,master_ini_file
+from backend.functions.file_checking import create_dead_files, master_ini_file
 
 
 # Create Streamlit application
@@ -25,14 +22,6 @@ from backend.functions.file_checking import create_dead_files,master_ini_file
 def Streamlit():
     # Call the parse_servers function with the config file path
     try:
-        html(
-            """
-                        <script></script>
-                        """,
-            height=0,
-            width=0,
-        )
-
         st.title("Server Performance Monitoring v1.0")
         st.write("Server Health Status: ")
 
@@ -87,36 +76,21 @@ def Streamlit():
                     <p>{server['server_loc']}</p>
                     <p>{server['os_version']}</p>
                     <p style="color:{ready_not_ready}">{server['status']}</p>
-                    <p>{data[idx-1]["uptime"]}</p>
+                    <p>{data[idx]["uptime"]}</p>
                     <button id="button" class="status-indicator {status_color}" key=f"button_{idx}"></button>
                 </div>
                 """,
                 unsafe_allow_html=True,
             )
             with st.expander(f"'"):
-                # data = generate_array()
-                # print(data[0])
-                # sys.path.append("/backend/String_parsers/")
-
-                found_data = False
-                for tp in range(0, len(data)):
-                    if data[tp]["index"] == idx:
-                        # st.markdown(
-                        #     f'<span style="font-weight: bolds;">Uptime - </span><span>{data[idx-1]["uptime"]}</span>',
-                        #     unsafe_allow_html=True,
-                        # )
-
-                        st.markdown(
-                            f'<p class="expander-card">Memory Usage: {data[idx-1]["memory"]}</p>',
-                            unsafe_allow_html=True,
-                        )
-
-                    if not found_data:
-                        st.write("")
+                st.markdown(
+                    f'<p class="expander-card">Memory Usage: {data[idx]["memory"]}</p>',
+                    unsafe_allow_html=True,
+                )
         # time.sleep(60)
         # st.experimental_rerun()
-        ansible_backup()
-                    
+        # ansible_backup()
+
     except Exception as e:
         log_write(str(e))
         st.warning(e, icon="⚠️")

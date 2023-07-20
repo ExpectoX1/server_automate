@@ -1,12 +1,16 @@
 import re
 
+
 def extract_percentage_value(input_string):
-    percentage_pattern = r'\b(\d+%)\s\/\s'  # Regular expression pattern to match a percentage value
+    percentage_pattern = (
+        r"\b(\d+%)\s\/\s"  # Regular expression pattern to match a percentage value
+    )
     match = re.search(percentage_pattern, input_string)
     if match:
         percentage_value = match.group(1)
         return percentage_value
     return None
+
 
 # # Example usage
 # str= '''
@@ -19,7 +23,7 @@ def extract_percentage_value(input_string):
 # tmpfs                              206M  4.1k  206M   1% /run/user/1000
 # shm                                 68M     0   68M   0% /var/snap/microk8s/common/run/containerd/io.containerd.grpc.v1.cri/sandboxes/23290f2a6e4c2682bb8dd395e5fe4b5b414cfc9417a75565e48546ef2f130846/shm
 # shm                                 68M     0   68M   0% /var/snap/microk8s/common/run/containerd/io.containerd.grpc.v1.cri/sandboxes/6a4041091afaa8527a45004037df27ce91b59d702f0d62a1176bf4469a36cde8/shm
-# shm                                 68M     0   68M   0% /var/snap/microk8s/common/run/containerd/io.containerd.grpc.v1.cri/sandboxes/0ff38d990a4f5ae9fe2ad87965c64cad95d7f6e40531161a338dcbf9f437f3f1/shm 
+# shm                                 68M     0   68M   0% /var/snap/microk8s/common/run/containerd/io.containerd.grpc.v1.cri/sandboxes/0ff38d990a4f5ae9fe2ad87965c64cad95d7f6e40531161a338dcbf9f437f3f1/shm
 # top -n 1_loc: [?1h=[?25l[H[2J(B[mtop - 07:49:29 up  2:43,  2 users,  load average: 2.39, 2.81, 5.49(B[m[39;49m(B[m[39;49m[K
 # Tasks:(B[m[39;49m[1m 138 (B[m[39;49mtotal,(B[m[39;49m[1m   1 (B[m[39;49mrunning,(B[m[39;49m[1m 137 (B[m[39;49msleeping,(B[m[39;49m[1m   0 (B[m[39;49mstopped,(B[m[39;49m[1m   0 (B[m[39;49mzombie(B[m[39;49m(B[m[39;49m[K
 # %Cpu(s):(B[m[39;49m[1m  0.0 (B[m[39;49mus,(B[m[39;49m[1m  0.0 (B[m[39;49msy,(B[m[39;49m[1m  0.0 (B[m[39;49mni,(B[m[39;49m[1m 92.3 (B[m[39;49mid,(B[m[39;49m[1m  0.0 (B[m[39;49mwa,(B[m[39;49m[1m  0.0 (B[m[39;49mhi,(B[m[39;49m[1m  7.7 (B[m[39;49msi,(B[m[39;49m[1m  0.0 (B[m[39;49mst(B[m[39;49m(B[m[39;49m[K
@@ -44,7 +48,7 @@ def extract_percentage_value(input_string):
 # (B[m     14 root      20   0       0      0      0 I   0.0   0.0   0:04.68 rcu_sch+ (B[m[39;49m[K
 # (B[m     15 root      rt   0       0      0      0 S   0.0   0.0   0:00.11 migrati+ (B[m[39;49m[K
 # (B[m     16 root     -51   0       0      0      0 S   0.0   0.0   0:00.00 idle_in+ (B[m[39;49m[K[?1l>[25;1H
-# [?12l[?25h[K 
+# [?12l[?25h[K
 # uptime -p_loc: up 2 hours, 43 minutes
 
 # '''

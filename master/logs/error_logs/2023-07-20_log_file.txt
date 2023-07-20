@@ -31,62 +31,17 @@
 2023-07-20 10:40:54: ----------Backend Success----------
 2023-07-20 10:44:29: Execution time: 47 seconds
 2023-07-20 10:44:29: ----------Backend Success----------
-2023-07-20 10:59:38: Please provide either ssh_password or ssh_key
-2023-07-20 11:00:44: 
-PLAY [Executing commands in servers] *******************************************
-
-TASK [Gathering Facts] *********************************************************
-ok: [server01]
-
-TASK [Delete result directory] *************************************************
-changed: [server01]
-
-TASK [Creates result directory] ************************************************
-changed: [server01]
-
-TASK [Creates output directory] ************************************************
-ok: [server01]
-
-TASK [execute the command] *****************************************************
-changed: [server01] => (item=df -H /home)
-changed: [server01] => (item=uptime -p)
-
-TASK [copying the output] ******************************************************
-changed: [server01] => (item={'changed': True, 'stdout': 'Filesystem                         Size  Used Avail Use% Mounted on\n/dev/mapper/ubuntu--vg-ubuntu--lv   18G  8.3G  8.1G  51% /', 'stderr': '', 'rc': 0, 'cmd': ['df', '-H', '/home'], 'start': '2023-07-20 05:30:22.133538', 'end': '2023-07-20 05:30:22.143871', 'delta': '0:00:00.010333', 'msg': '', 'invocation': {'module_args': {'_raw_params': 'df -H /home', '_uses_shell': False, 'stdin_add_newline': True, 'strip_empty_ends': True, 'argv': None, 'chdir': None, 'executable': None, 'creates': None, 'removes': None, 'stdin': None}}, 'stdout_lines': ['Filesystem                         Size  Used Avail Use% Mounted on', '/dev/mapper/ubuntu--vg-ubuntu--lv   18G  8.3G  8.1G  51% /'], 'stderr_lines': [], 'failed': False, 'item': 'df -H /home', 'ansible_loop_var': 'item'})
-
-TASK [Gathering Facts] *********************************************************
-ok: [server02]
-
-TASK [Delete result directory] *************************************************
-changed: [server02]
-
-TASK [copying the output] ******************************************************
-failed: [server01] (item={'changed': True, 'stdout': 'up 1 hour, 26 minutes', 'stderr': '', 'rc': 0, 'cmd': ['uptime', '-p'], 'start': '2023-07-20 05:30:23.251577', 'end': '2023-07-20 05:30:23.269483', 'delta': '0:00:00.017906', 'msg': '', 'invocation': {'module_args': {'_raw_params': 'uptime -p', '_uses_shell': False, 'stdin_add_newline': True, 'strip_empty_ends': True, 'argv': None, 'chdir': None, 'executable': None, 'creates': None, 'removes': None, 'stdin': None}}, 'stdout_lines': ['up 1 hour, 26 minutes'], 'stderr_lines': [], 'failed': False, 'item': 'uptime -p', 'ansible_loop_var': 'item'}) => {"ansible_loop_var": "item", "changed": false, "checksum": "0daa54fddb473c80252527316f493f0799bce269", "item": {"ansible_loop_var": "item", "changed": true, "cmd": ["uptime", "-p"], "delta": "0:00:00.017906", "end": "2023-07-20 05:30:23.269483", "failed": false, "invocation": {"module_args": {"_raw_params": "uptime -p", "_uses_shell": false, "argv": null, "chdir": null, "creates": null, "executable": null, "removes": null, "stdin": null, "stdin_add_newline": true, "strip_empty_ends": true}}, "item": "uptime -p", "msg": "", "rc": 0, "start": "2023-07-20 05:30:23.251577", "stderr": "", "stderr_lines": [], "stdout": "up 1 hour, 26 minutes", "stdout_lines": ["up 1 hour, 26 minutes"]}, "msg": "Destination directory /tmp/ansible_result does not exist"}
-
-TASK [Creates result directory] ************************************************
-changed: [server02]
-
-TASK [Creates output directory] ************************************************
-ok: [server02]
-
-TASK [execute the command] *****************************************************
-changed: [server02] => (item=df -H /home)
-changed: [server02] => (item=uptime -p)
-
-TASK [copying the output] ******************************************************
-changed: [server02] => (item={'changed': True, 'stdout': 'Filesystem                         Size  Used Avail Use% Mounted on\n/dev/mapper/ubuntu--vg-ubuntu--lv   18G  8.3G  8.1G  51% /', 'stderr': '', 'rc': 0, 'cmd': ['df', '-H', '/home'], 'start': '2023-07-20 05:30:32.465392', 'end': '2023-07-20 05:30:32.480221', 'delta': '0:00:00.014829', 'msg': '', 'invocation': {'module_args': {'_raw_params': 'df -H /home', '_uses_shell': False, 'stdin_add_newline': True, 'strip_empty_ends': True, 'argv': None, 'chdir': None, 'executable': None, 'creates': None, 'removes': None, 'stdin': None}}, 'stdout_lines': ['Filesystem                         Size  Used Avail Use% Mounted on', '/dev/mapper/ubuntu--vg-ubuntu--lv   18G  8.3G  8.1G  51% /'], 'stderr_lines': [], 'failed': False, 'item': 'df -H /home', 'ansible_loop_var': 'item'})
-changed: [server02] => (item={'changed': True, 'stdout': 'up 1 hour, 27 minutes', 'stderr': '', 'rc': 0, 'cmd': ['uptime', '-p'], 'start': '2023-07-20 05:30:33.654199', 'end': '2023-07-20 05:30:33.664709', 'delta': '0:00:00.010510', 'msg': '', 'invocation': {'module_args': {'_raw_params': 'uptime -p', '_uses_shell': False, 'stdin_add_newline': True, 'strip_empty_ends': True, 'argv': None, 'chdir': None, 'executable': None, 'creates': None, 'removes': None, 'stdin': None}}, 'stdout_lines': ['up 1 hour, 27 minutes'], 'stderr_lines': [], 'failed': False, 'item': 'uptime -p', 'ansible_loop_var': 'item'})
-
-TASK [assemble output into single files] ***************************************
-changed: [server02]
-
-TASK [fetch final output file] *************************************************
-changed: [server02]
-
-PLAY RECAP *********************************************************************
-server01                   : ok=5    changed=3    unreachable=0    failed=1    skipped=0    rescued=0    ignored=0   
-server02                   : ok=8    changed=6    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
-
-
-2023-07-20 11:01:24: Execution time: 40 seconds
-2023-07-20 11:01:24: ----------Backend Success----------
+2023-07-20 10:55:14: Execution time: 12 seconds
+2023-07-20 10:55:14: ----------Backend Success----------
+2023-07-20 10:55:40: Execution time: 9 seconds
+2023-07-20 10:55:40: ----------Backend Success----------
+2023-07-20 10:56:27: Execution time: 9 seconds
+2023-07-20 10:56:27: ----------Backend Success----------
+2023-07-20 10:57:08: Execution time: 10 seconds
+2023-07-20 10:57:08: ----------Backend Success----------
+2023-07-20 10:58:18: Execution time: 10 seconds
+2023-07-20 10:58:18: ----------Backend Success----------
+2023-07-20 10:59:10: Execution time: 9 seconds
+2023-07-20 10:59:10: ----------Backend Success----------
+2023-07-20 10:59:25: Execution time: 9 seconds
+2023-07-20 10:59:25: ----------Backend Success----------
