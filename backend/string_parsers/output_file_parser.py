@@ -28,7 +28,7 @@ def generate_array():
             uptime = extract_uptime_value(text)
             mem_percentage = extract_percentage_value(text)
             os_version = extract_os_version(text)
-            return uptime, mem_percentage , os_version
+            return uptime, mem_percentage, os_version
 
     folder_path = "../master/server_out_folder/"
     text_files = extract_text_files(folder_path)
@@ -48,7 +48,7 @@ def generate_array():
             server["index"] = server_index - 1
 
             # Extract values from the text file
-            uptime, mem_percentage , os_version = extract_values_from_text(file_path)
+            uptime, mem_percentage, os_version = extract_values_from_text(file_path)
 
             # Store the values in the server dictionary
             server["uptime"] = uptime

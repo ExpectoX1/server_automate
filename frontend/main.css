@@ -112,10 +112,6 @@ div[data-testid="stExpander"] div[role="button"] p:hover
     margin-top: -5px;
 
 }
-/* .streamlit-expanderContent p{
-    margin-left: 20px;
-
-} */
 .expander-card{
     text-align: center; 
     font-weight:600;
