@@ -3,6 +3,7 @@ import sys
 sys.path.append("../string_parsers/")
 from uptime_parser import extract_uptime_value
 from mem_parser import extract_percentage_value
+from version_parser import extract_os_version
 import os
 import re
 
@@ -26,7 +27,8 @@ def generate_array():
             text = file.read()
             uptime = extract_uptime_value(text)
             mem_percentage = extract_percentage_value(text)
-            return uptime, mem_percentage
+            os_version = extract_os_version(text)
+            return uptime, mem_percentage , os_version
 
     folder_path = "../master/server_out_folder/"
     text_files = extract_text_files(folder_path)
@@ -46,11 +48,12 @@ def generate_array():
             server["index"] = server_index - 1
 
             # Extract values from the text file
-            uptime, mem_percentage = extract_values_from_text(file_path)
+            uptime, mem_percentage , os_version = extract_values_from_text(file_path)
 
             # Store the values in the server dictionary
             server["uptime"] = uptime
             server["memory"] = mem_percentage
+            server["os"] = os_version
 
             all_servers.append(server)
 

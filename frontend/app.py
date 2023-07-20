@@ -27,6 +27,7 @@ def Streamlit():
 
         ini_file = master_ini_file()  # check for ini files in the master dir.
         servers, refresh_time = parse_servers(ini_file)  # parse the ini file.
+        refresh_time = int(refresh_time)
 
         start_time = time.time()
         ansible_backend(servers)
@@ -34,7 +35,7 @@ def Streamlit():
         execution_time = end_time - start_time
 
         log_write("Execution time: " + str(int(execution_time)) + " seconds")
-        
+
         create_dead_files(ini_file)
 
         def local_css(file_name):
@@ -71,7 +72,7 @@ def Streamlit():
                 <div class="server-card">
                     <p>{server['host_name']}</p>
                     <p>{server['server_loc']}</p>
-                    <p>{server['os_version']}</p>
+                    <p>{data[idx]['os']}</p>
                     <p style="color:{ready_not_ready}">{server['status']}</p>
                     <p>{data[idx]["uptime"]}</p>
                     <button id="button" class="status-indicator {status_color}" key=f"button_{idx}"></button>
@@ -87,6 +88,18 @@ def Streamlit():
         # time.sleep(60)
         # st.experimental_rerun()
         ansible_backup()
+        min_mul = 1  ## change this to 60 for mins
+        if refresh_time == None or refresh_time <= 0:
+            log_write(
+                "Invalid refresh variable value, reverting the refresh value to 10s"
+            )
+            refresh_time = 10
+            min_mul = 1
+
+        time.sleep(refresh_time)
+        log_write("Re-running the script")
+        print("Please Wait...Refreshing App")
+        st.experimental_rerun()
 
     except Exception as e:
         log_write(str(e))
@@ -97,6 +110,7 @@ def Streamlit():
 if __name__ == "__main__":
     try:
         # while(True):
+        print(f"Application Running , open browser and go to http://localhost:8501")
         Streamlit()
 
         # time.sleep(30)
