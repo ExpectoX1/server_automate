@@ -7,8 +7,9 @@ from backend.functions.config_parser import ini_parser
 from backend.functions.file_checking import valid_path
 from backend.functions.log import log_write
 
-#getting ansible output after runnng playbook
-#Can be modified to run other commands too
+
+# getting ansible output after runnng playbook
+# Can be modified to run other commands too
 def run_ansible_command(command):
     try:
         result = subprocess.run(command, capture_output=True, text=True, shell=True)
@@ -83,9 +84,9 @@ def ansible_ping():
 def ansible_host(servers):
     try:
         log_write("Adding Ansible Hosts")
-        #ping failed server list
-        dead_server=[]
-        for server in  servers:
+        # ping failed server list
+        dead_server = []
+        for server in servers:
             if server["status"] == "Not Ready":
                 dead_server.append(server["server_name"])
 
@@ -112,9 +113,14 @@ def ansible_host(servers):
                         server_var = "\n\n[group_" + headings + ":vars]\n"
                         server_user = "ansible_user=" + main_file[headings]["user_name"]
 
-                        #Connection method with either key or password
-                        if "ssh_password" not in main_file[headings] and "ssh_key" not in main_file[headings]:
-                            raise Exception("Please provide either ssh_password or ssh_key")
+                        # Connection method with either key or password
+                        if (
+                            "ssh_password" not in main_file[headings]
+                            and "ssh_key" not in main_file[headings]
+                        ):
+                            raise Exception(
+                                "Please provide either ssh_password or ssh_key"
+                            )
                         if "ssh_password" in main_file[headings]:
                             server_key = (
                                 "\nansible_password="
@@ -122,10 +128,20 @@ def ansible_host(servers):
                                 + "\n"
                             )
                         else:
-                            server_key = "\nansible_ssh_private_key_file=" + main_file[headings]["ssh_key"] + "\n"
-                        
-                        #Writing to the inventory file
-                        f.write(server_init + server_host + server_var + server_user + server_key)
+                            server_key = (
+                                "\nansible_ssh_private_key_file="
+                                + main_file[headings]["ssh_key"]
+                                + "\n"
+                            )
+
+                        # Writing to the inventory file
+                        f.write(
+                            server_init
+                            + server_host
+                            + server_var
+                            + server_user
+                            + server_key
+                        )
     except Exception as e:
         raise Exception(e)
 
@@ -156,11 +172,11 @@ def ansible_backup():
 
 
 def ansible_backend(servers):
-        try:
-            log_write("----------Process starts----------")
-            ansible_host(servers)
-            ansible_playbook(ansible_ping())
-            log_write("All Commands Successfully Executed")
-            log_write("----------Backend Success----------")
-        except Exception as e:
-            raise Exception(e)    
+    try:
+        log_write("----------Process starts----------")
+        ansible_host(servers)
+        ansible_playbook(ansible_ping())
+        log_write("All Commands Successfully Executed")
+        log_write("----------Backend Success----------")
+    except Exception as e:
+        raise Exception(e)

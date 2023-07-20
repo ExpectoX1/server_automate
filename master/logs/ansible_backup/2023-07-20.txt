@@ -634,3 +634,11 @@ df -H /home_loc: Filesystem                         Size  Used Avail Use% Mounte
 uptime -p_loc: up 1 hour, 28 minutes 
 os_version_loc: Ubuntu
 
+
+13:26:38
+server01:
+df -H /home_loc: Filesystem                         Size  Used Avail Use% Mounted on
+/dev/mapper/ubuntu--vg-ubuntu--lv   11G  3.6G  6.4G  36% / 
+uptime -p_loc: up 2 hours 
+os_version_loc: Ubuntu
+
