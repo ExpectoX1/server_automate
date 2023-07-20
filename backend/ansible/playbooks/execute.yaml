@@ -1,4 +1,3 @@
-#have error handling or a search functions for the search fnction
 
 - name: Executing commands in servers
   hosts: all

@@ -149,9 +149,11 @@ def ansible_backup():
 
 
 def ansible_backend(servers):
-        log_write("----------Process starts----------")
-        ansible_host(servers)
-        ansible_playbook(ansible_ping())
-        log_write("All Commands Successfully Executed")
-        log_write("----------Backend Success----------")
-        
+        try:
+            log_write("----------Process starts----------")
+            ansible_host(servers)
+            ansible_playbook(ansible_ping())
+            log_write("All Commands Successfully Executed")
+            log_write("----------Backend Success----------")
+        except Exception as e:
+            raise Exception(e)    

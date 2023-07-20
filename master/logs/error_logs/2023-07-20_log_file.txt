@@ -156,3 +156,10 @@ ok: [server02]
 2023-07-20 11:51:24: Execution time: 5 seconds
 2023-07-20 11:51:34: Re-running the script
 2023-07-20 11:51:39: Execution time: 5 seconds
+2023-07-20 13:21:52: ----------Process starts----------
+2023-07-20 13:21:52: Adding Ansible Hosts
+2023-07-20 13:21:52: Pinging The Servers
+2023-07-20 13:22:01: Running Ansible Playbooks
+2023-07-20 13:22:39: All Commands Successfully Executed
+2023-07-20 13:22:39: ----------Backend Success----------
+2023-07-20 13:22:39: Execution time: 46 seconds
