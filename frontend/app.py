@@ -1,5 +1,4 @@
 import streamlit as st
-from streamlit.components.v1 import html
 import time
 import sys
 
@@ -16,11 +15,14 @@ from backend.functions.file_checking import create_dead_files, master_ini_file
 refresh = True
 
 
-@st.cache_data
 def Streamlit():
     # Call the parse_servers function with the config file path
     try:
         st.title("Server Performance Monitoring v1.0")
+
+        # Add a text input box to search for a specific server
+        search_server_name = st.text_input("Search Server by Name:")
+
         st.write("Server Health Status: ")
 
         ini_file = master_ini_file()  # check for ini files in the master dir.
@@ -42,6 +44,15 @@ def Streamlit():
 
         local_css("./main.css")  # importing CSS
 
+        # Filter servers based on the search_server_name if provided
+        filtered_servers = servers
+        if search_server_name:
+            filtered_servers = [
+                server
+                for server in servers
+                if server["host_name"].lower() == search_server_name.lower()
+            ]
+
         # Display server status heading
         st.write(
             f"""
@@ -58,28 +69,35 @@ def Streamlit():
         )
 
         # Display server status
-        for idx, server in enumerate(servers):
+        data_servers = generate_array()
+        for server in filtered_servers:
+            index = servers.index(server)
             status_color = "ready" if server["status"] == "Ready" else "not-ready"
             ready_not_ready = "green" if server["status"] == "Ready" else "red"
-            data_servers = generate_array()
             st.write(
                 f"""
                 <div class="server-card">
                     <p>{server['host_name']}</p>
                     <p>{server['server_loc']}</p>
-                    <p>{data_servers[idx]['os']}</p>
+                    <p>{data_servers[index]['os']}</p>
                     <p style="color:{ready_not_ready}">{server['status']}</p>
-                    <p>{data_servers[idx]["uptime"]}</p>
-                    <button id="button" class="status-indicator {status_color}" key=f"button_{idx}"></button>
+                    <p>{data_servers[index]["uptime"]}</p>
+                    <button id="button" class="status-indicator {status_color}" key=f"button_{server['host_name']}"></button>
                 </div>
                 """,
                 unsafe_allow_html=True,
             )
             with st.expander(f"'"):
                 st.markdown(
-                    f'<p class="expander-card">Memory Usage: {data_servers[idx]["memory"]}</p>',
+                    f'<p class="expander-card">Memory Usage: {data_servers[index]["memory"]}</p>',
                     unsafe_allow_html=True,
                 )
+
+        if not search_server_name and not filtered_servers:
+            st.write("No servers found.")
+        elif search_server_name and not filtered_servers:
+            st.write(f"No server with the name '{search_server_name}' found.")
+
         ansible_backup()
         min_mul = 1  ## change this to 60 for mins
         if refresh_time == None or refresh_time <= 0:
@@ -102,6 +120,9 @@ def Streamlit():
 if __name__ == "__main__":
     try:
         print(f"Application Running , open browser and go to http://localhost:8501")
+
+        # Add an on_change event for the text box to refresh on Enter key press
+
         Streamlit()
 
     except Exception as e:
