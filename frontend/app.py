@@ -1,6 +1,7 @@
 import streamlit as st
 import time
 import sys
+from streamlit_autorefresh import st_autorefresh
 
 sys.path.append("../")
 from backend.functions.config_parser import parse_servers
@@ -13,6 +14,16 @@ from backend.functions.log import log_write
 from backend.functions.file_checking import create_dead_files, master_ini_file
 
 refresh = True
+mul = 1  # make this 60 later
+ini_file = master_ini_file()
+refesh_timer = parse_servers(ini_file)
+refesh_timer = int(refesh_timer[1])
+if refesh_timer < 0:
+    log_write("Invalid refresh timer, returning to defaults")
+    refesh_timer = 10
+refresh_count = st_autorefresh(refesh_timer * mul * 1000)  # in milli seconds
+print("Please Wait, refresh in progress...")
+log_write("Page Refreshing" + str(refresh_count + 1))
 
 
 def Streamlit():
@@ -52,6 +63,13 @@ def Streamlit():
                 for server in servers
                 if server["host_name"].lower() == search_server_name.lower()
             ]
+        if filtered_servers != servers:
+            log_write("Searched For a Server")
+            log_write(filtered_servers)
+        if not filtered_servers:  # Check if there are no matching servers
+            st.write("No servers Found.")
+            log_write("No servers Found")
+            return  # Exit the function to avoid the refresh logic
 
         # Display server status heading
         st.write(
@@ -93,24 +111,7 @@ def Streamlit():
                     unsafe_allow_html=True,
                 )
 
-        if not search_server_name and not filtered_servers:
-            st.write("No servers found.")
-        elif search_server_name and not filtered_servers:
-            st.write(f"No server with the name '{search_server_name}' found.")
-
         ansible_backup()
-        min_mul = 1  ## change this to 60 for mins
-        if refresh_time == None or refresh_time <= 0:
-            log_write(
-                "Invalid refresh variable value, reverting the refresh value to 10s"
-            )
-            refresh_time = 10
-            min_mul = 1
-        if refresh:
-            time.sleep(refresh_time * min_mul)
-            log_write("Re-running the script")
-            print("Please Wait...Refreshing App")
-            st.experimental_rerun()
 
     except Exception as e:
         log_write(str(e))
