@@ -1,6 +1,7 @@
 import streamlit as st
 import time
 import sys
+import datetime
 from streamlit_autorefresh import st_autorefresh
 
 sys.path.append("../")
@@ -23,7 +24,7 @@ if refesh_timer < 0:
     refesh_timer = 10
 refresh_count = st_autorefresh(refesh_timer * mul * 1000)  # in milli seconds
 print("Please Wait, refresh in progress...")
-log_write("Page Refreshing" + str(refresh_count + 1))
+log_write("Page Refreshing " + str(refresh_count + 1))
 
 
 def Streamlit():
@@ -38,7 +39,6 @@ def Streamlit():
 
         ini_file = master_ini_file()  # check for ini files in the master dir.
         servers, refresh_time = parse_servers(ini_file)  # parse the ini file.
-        refresh_time = int(refresh_time)  # refresh time
 
         start_time = time.time()
         ansible_backend(servers)
@@ -110,22 +110,21 @@ def Streamlit():
                     f'<p class="expander-card">Memory Usage: {data_servers[index]["memory"]}</p>',
                     unsafe_allow_html=True,
                 )
-
-        ansible_backup()
+        timestamp = datetime.datetime.now().strftime("%H:%M:%S")
+        st.toast("Success: Latest Info Displaying " + "Time: " + timestamp)
+        # ansible_backup()
 
     except Exception as e:
         log_write(str(e))
-        st.warning(e, icon="⚠️")
+        st.toast(e, icon="⚠️")
 
 
 if __name__ == "__main__":
     try:
         print(f"Application Running , open browser and go to http://localhost:8501")
 
-        # Add an on_change event for the text box to refresh on Enter key press
-
         Streamlit()
 
     except Exception as e:
         log_write(str(e))
-        st.warning(e, icon="⚠️")
+        st.toast(e, icon="⚠️")

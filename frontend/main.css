@@ -91,13 +91,13 @@ div[data-testid="stExpander"] div[role="button"] p{
     
    
 }
-div[data-testid="stExpander"] div[role="button"] p:hover 
-{
-    transform: rotate(90deg); /* Rotating 90 degrees to the right on hover */
+div[data-testid="stExpander"] div[role="button"]:hover p {
+    transform: rotate(90deg);
     margin-top: 2px;
-    fill:transparent;
+    fill: transparent;
     color: transparent;
-}
+    scale: 0.9;
+  }
 .click-through {
     pointer-events: none;
   }
@@ -110,6 +110,7 @@ div[data-testid="stExpander"] div[role="button"] p:hover
     border-bottom-right-radius: 5px;
     border-bottom-left-radius: 5px;
     margin-top: -5px;
+    padding: 10px;
 
 }
 .expander-card{
@@ -119,5 +120,6 @@ div[data-testid="stExpander"] div[role="button"] p:hover
     color: black;
     background-color: #cecece; 
     border-radius: 10px;
+    padding: 10px;
 }
 
