@@ -3,6 +3,7 @@ import time
 import sys
 import datetime
 from streamlit_autorefresh import st_autorefresh
+from read_files import read_files_in_folder
 
 sys.path.append("../")
 from backend.functions.config_parser import parse_servers
@@ -112,7 +113,19 @@ def Streamlit():
                 )
         timestamp = datetime.datetime.now().strftime("%H:%M:%S")
         st.toast("Success: Latest Info Displaying " + "Time: " + timestamp)
-        # ansible_backup()
+        ansible_backup()
+        st.sidebar.title("Custom Outputs")
+        folderpath = "../master/recent_out_folder"
+
+        contents, txtname = read_files_in_folder(folderpath)
+        for i in range(0, len(contents)):
+            if st.sidebar.button("View Contents of : " + txtname[i]):
+                st.sidebar.write(contents[i])
+                st.sidebar.download_button(
+                    label="Download " + txtname[i],
+                    data=contents[i],
+                    file_name=txtname[i],
+                )
 
     except Exception as e:
         log_write(str(e))
