@@ -22,5 +22,25 @@
 ## Project Features and Technologies Used.
 
 When the application starts up . All the servers are pinged by ansible and the frontend code runs, and the status of all the servers are displayed. The servers which are not active will be displayed as "Not Ready". All the servers which are active, ansible will run commands mentioned in the .ini file under the `[server0x-command]`. The result of running the command will be displayed on the screen (have to set it up) and if a command fails or doesn't run , ansible will throw an error. 
-Every time the code runs , the log file gets appended `master/logs/error_logs` where you can see the execution status of the appliction. Also , all the ansible outputs are appended in a file under , `master/logs/ansible_backup`.
+Every time the code runs , the log file gets appended `master/logs/error_logs` where you can see the execution status of the appliction. Also , all the ansible outputs are appended in a file under , `master/logs/ansible_backup`. Any command mentioned in the .ini file under `[server0x-command]` will be executed by ansible on the respective server and it's output if not displayed on the frontend it will be printed out in a file under `master/logs/ansible_backup`.
+
+### Technologies Used
+<ul>
+<b>1. Streamlit <br> </b>
+<b>2. Ansible </b>
+</ul>
+
+#### Streamlit:
+Streamlit is a user-friendly and powerful Python library designed for creating web applications with ease. With Streamlit, developers can transform their data scripts into interactive web apps effortlessly, eliminating the need for complex web development frameworks. It allows users to visualize data, generate plots, and display machine learning models, all through simple Python code. The real strength of Streamlit lies in its simplicity; even those with minimal web development experience can quickly build impressive and interactive web applications. Whether it's data exploration, prototyping, or sharing insights, Streamlit empowers developers to turn their ideas into functional and attractive web applications without the hassle of traditional web development. Docs : https://docs.streamlit.io/.
+
+#### Ansible:
+Ansible is an open-source automation tool used for managing IT infrastructure and application deployment. It simplifies tasks through a human-readable language, requiring no additional software on managed nodes due to its agentless architecture. Ansible is versatile, efficient, and widely adopted for streamlining complex workflows and accelerating infrastructure and application deployment. Docs: https://access.redhat.com/documentation/en-us/red_hat_ansible_automation_platform/2.4 
+
+We have also used many parsers like , `.txt` , `.ini` and `.config` parsers. All of them were made form scratch. 
+
+#### App Demo:
+
+![Alt text](image.png)
+
+
 
