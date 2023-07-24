@@ -40,7 +40,8 @@ We have also used many parsers like , `.txt` , `.ini` and `.config` parsers. All
 
 #### App Demo:
 
-![Alt text](image.png)
+![image](https://github.com/ExpectoX1/server_automate/assets/79239242/479d13c9-4090-4748-822d-f11368dd5696)
+
 
 
 
