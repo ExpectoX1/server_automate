@@ -1,6 +1,24 @@
 import os
 
 
+def extract_info(input_string):
+    lines = input_string.strip().split("\n")
+    result = []
+    count = 0
+    for i, line in enumerate(lines):  # Use enumerate to get index 'i'
+        if "_loc:" in line:
+            command = line.split("_loc:")[0].strip()
+            info = line.split("_loc:")[-1].strip()
+            length = 0
+            result.append(command + " (command " + str(i - count + 1) + ") ::: " + info)
+            length = len(command + " (command" + str(i - count + 1) + ") ::: ")
+        else:
+            result.append(" " * length + line)
+            length = 0
+            count = count + 1
+    return "\n".join(result)
+
+
 def read_files_in_folder(folder_path):
     all_file_contents = []
     file_names = []
@@ -20,7 +38,6 @@ def read_files_in_folder(folder_path):
         ):  # Ensure we are dealing with files, not subdirectories
             with open(file_path, "r") as f:
                 file_content = f.read()
-                all_file_contents.append(file_content)
+                all_file_contents.append(extract_info(file_content))
                 file_names.append(file_path[-12:])
-
     return all_file_contents, file_names

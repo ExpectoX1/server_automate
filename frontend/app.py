@@ -1,19 +1,18 @@
 import streamlit as st
 import time
 import sys
-import datetime
-from streamlit_autorefresh import st_autorefresh
-from read_files import read_files_in_folder
 
 sys.path.append("../")
-from backend.functions.config_parser import parse_servers
-
 sys.path.append("../backend/string_parsers/")
-
+import datetime
+from streamlit_autorefresh import st_autorefresh
+from backend.functions.read_files import read_files_in_folder
+from backend.functions.config_parser import parse_servers
 from backend.string_parsers.output_file_parser import generate_array
 from backend.functions.ansible import ansible_backup, ansible_backend
 from backend.functions.log import log_write
 from backend.functions.file_checking import create_dead_files, master_ini_file
+
 
 refresh = True
 mul = 1  # make this 60 later
@@ -34,10 +33,7 @@ def Streamlit():
         st.title("Server Performance Monitoring v1.0")
 
         # Add a text input box to search for a specific server
-        search_server_name = st.text_input("Search Server by Name:")
-
-        st.write("Server Health Status: ")
-
+        search_server_name = st.text_input("Search Server by Hostname:")
         ini_file = master_ini_file()  # check for ini files in the master dir.
         servers, refresh_time = parse_servers(ini_file)  # parse the ini file.
 
@@ -113,14 +109,16 @@ def Streamlit():
                 )
         timestamp = datetime.datetime.now().strftime("%H:%M:%S")
         st.toast("Success: Latest Info Displaying " + "Time: " + timestamp)
+        st.toast("Last Execution Time : " + str(int(execution_time)) + " seconds")
         ansible_backup()
         st.sidebar.title("Custom Outputs")
         folderpath = "../master/recent_out_folder"
 
         contents, txtname = read_files_in_folder(folderpath)
         for i in range(0, len(contents)):
-            if st.sidebar.button("View Contents of : " + txtname[i]):
-                st.sidebar.write(contents[i])
+            if st.sidebar.button("View Contents of : " + txtname[i][:-4]):
+                st.sidebar.text(contents[i])
+                st.toast(contents[i])
                 st.sidebar.download_button(
                     label="Download " + txtname[i],
                     data=contents[i],
