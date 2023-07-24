@@ -1,5 +1,4 @@
-date_loc: Mon Jul 24 03:17:13 PM UTC 2023 
 df -H /home_loc: Filesystem                         Size  Used Avail Use% Mounted on
 /dev/mapper/ubuntu--vg-ubuntu--lv   11G  4.0G  6.0G  40% / 
-uptime -p_loc: up 1 hour, 52 minutes 
+uptime -p_loc: up 2 hours, 49 minutes 
 os_version_loc: Ubuntu
