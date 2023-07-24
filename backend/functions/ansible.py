@@ -35,14 +35,15 @@ def ansible_playbook(empty_inventory):
             run_ansible_command(ansible_command)
     except Exception as e:
         error = str(e).split()
-        error_message = ''
+        error_message = ""
         for indx, string in enumerate(error):
-            if '\"msg\":' in string:
+            if '"msg":' in string:
                 while "}" not in error[indx]:
                     error_message += error[indx] + " "
                     indx += 1
             error_message += "\n"
         raise Exception(error_message)
+
 
 # doing ansible ping to check if username is right
 def ansible_ping():
@@ -167,6 +168,7 @@ def ansible_backup():
         # Deleting old server_out files
         for f in read_files:
             os.remove(f)
+            log_write("Deleted File" + str(f))
     except Exception as e:
         raise Exception(e)
 

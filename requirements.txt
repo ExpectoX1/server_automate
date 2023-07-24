@@ -6,5 +6,8 @@ streamlit
 #scheduler for timed functions 
 schedule
 configparser
+# From testing working with latest python ,
+#3.11 but in docs mentioned that it might create problems , use python 3.8 for best results
+streamlit-autorefresh
 
 
