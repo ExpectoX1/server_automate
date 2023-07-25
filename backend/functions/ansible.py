@@ -171,6 +171,7 @@ def ansible_backup():
         raise Exception(e)
 
 
+
 def delete_ansible():
     try:
         read_files = glob.glob("../master/server_out_folder/server*")

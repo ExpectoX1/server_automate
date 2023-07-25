@@ -3,45 +3,53 @@
   strategy: free
   tasks:
     - name: Delete result directory
-      file:
+      ansible.builtin.file:
         path: "/tmp/ansible_result"
         state: absent
 
     - name: Creates result directory
-      file:
+      ansible.builtin.file:
         path: "/tmp/ansible_result"
         state: directory
+        mode: "0644"
 
     - name: Creates output directory
-      file:
+      ansible.builtin.file:
         path: "/tmp/ansible_output"
         state: directory
+        mode: "0644"
 
     - name: Checking distribution
-      copy:
+      ansible.builtin.copy:
         dest: "/tmp/ansible_result/os.txt"
-        content: "os_version_loc: {{ansible_distribution}}\n"
+        content: "os_version_loc: {{ ansible_distribution }}\n"
+        mode: "0644"
 
-    - name: execute the command
-      command: "{{item}}"
+
+    - name: Execute the command
+      ansible.builtin.command: "{{ item }}"
       register: result
       loop: "{{ q('ini', '.*', section=command_section, file='../../../master/examples.ini', re=True) }}"
       vars:
-        command_section: "{{inventory_hostname}}-command"
+        command_section: "{{ inventory_hostname }}-command"
+      changed_when: false
 
-    - name: copying the output
-      copy:
-        dest: "/tmp/ansible_result/'{{item.item | basename}}'.txt"
+
+    - name: Copying the output
+      ansible.builtin.copy:
+        dest: "/tmp/ansible_result/'{{ item.item | basename }}'.txt"
         content: "{{ item.item }}_loc: {{ item.stdout }} \n"
+        mode: "0644"
       loop: "{{ result.results }}"
 
-    - name: assemble output into single files
-      assemble:
+    - name: Assemble output into single files
+      ansible.builtin.assemble:
         src: "/tmp/ansible_result"
-        dest: "/tmp/ansible_output/{{inventory_hostname}}.txt"
+        dest: "/tmp/ansible_output/{{ inventory_hostname }}.txt"
+        mode: "0644"
 
-    - name: fetch final output file
-      fetch:
-        src: "/tmp/ansible_output/{{inventory_hostname}}.txt"
-        dest: ../../../master/server_out_folder/{{inventory_hostname}}.txt
-        flat: yes
+    - name: Fetch final output file
+      ansible.builtin.fetch:
+        src: "/tmp/ansible_output/{{ inventory_hostname }}.txt"
+        dest: ../../../master/server_out_folder/{{ inventory_hostname }}.txt
+        flat: true
