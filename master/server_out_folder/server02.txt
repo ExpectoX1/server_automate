@@ -1,4 +1,0 @@
-df -H /home_loc: Filesystem                         Size  Used Avail Use% Mounted on
-/dev/mapper/ubuntu--vg-ubuntu--lv   11G  4.0G  6.0G  40% / 
-uptime -p_loc: up 56 minutes 
-os_version_loc: Ubuntu

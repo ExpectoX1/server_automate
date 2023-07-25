@@ -19,8 +19,7 @@ def generate_array():
             # Check if the file is a text file
             if os.path.isfile(file_path) and file_name.lower().endswith(".txt"):
                 text_files.append(file_path)
-
-        return text_files
+        return sorted(text_files)
 
     def extract_values_from_text(file_path):
         with open(file_path, "r") as file:
@@ -31,6 +30,7 @@ def generate_array():
             return uptime, mem_percentage, os_version
 
     folder_path = "../master/server_out_folder/"
+    # folder_path = "../../master/server_out_folder" // test
     text_files = extract_text_files(folder_path)
     all_servers = []
 
@@ -60,7 +60,9 @@ def generate_array():
     return all_servers
 
 
-# #Test the function
+# # Test the function
 # servers = generate_array()
 # for server in servers:
-#     print(f"Server{server['index']:02}: Uptime={server['uptime']}, Memory={server['memory']}")
+#     print(
+#         f"Server{server['index']:02}: Uptime={server['uptime']}, Memory={server['memory']}"
+#     )
