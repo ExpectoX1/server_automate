@@ -35,7 +35,7 @@ def Streamlit():
     # Call the parse_servers function with the config file path
     try:
         delete_ansible()
-        st.title("Server Performance Monitoring v1.0")
+        st.title("Server Performance Monitoring v1.1.0")
 
         # Add a text input box to search for a specific server
         search_server_name = st.text_input("Search Server by Hostname:")
@@ -43,7 +43,9 @@ def Streamlit():
         servers, refresh_time = parse_servers(ini_file)  # parse the ini file.
 
         start_time = time.time()
+
         ansible_backend(servers)
+
         end_time = time.time()
         execution_time = end_time - start_time
 
@@ -114,24 +116,38 @@ def Streamlit():
                 )
         timestamp = datetime.datetime.now().strftime("%H:%M:%S")
         st.toast("Success: Latest Info Displaying " + "Time: " + timestamp)
-        st.toast("Last Execution Time : " + str(int(execution_time)) + " seconds")
+        st.toast("Backend Execution Time : " + str(int(execution_time)) + " seconds")
         ansible_backup()
         st.sidebar.title("Custom Outputs")
         folderpath = "../master/server_out_folder"
-
-        contents, txtname = read_files_in_folder(folderpath)
-        for i in range(0, len(contents)):
-            if st.sidebar.button("View Contents of : " + txtname[i][:-4]):
-                if contents[i] == "":
-                    contents[i] = txtname[i][:-4] + " Not Reachable"
-
-                st.sidebar.text(contents[i])
-                st.toast(contents[i])
-                st.sidebar.download_button(
-                    label="Download " + txtname[i],
-                    data=contents[i],
-                    file_name=txtname[i],
-                )
+        (contents, txtname) = read_files_in_folder(folderpath)
+        tab1, tab2 = st.sidebar.tabs(["Custom Outputs", "Terminal"])
+        with tab1:
+            for i in range(0, len(contents)):
+                if st.button("View Contents of : " + txtname[i][:-4]):
+                    if contents[i] == "":
+                        st.text(txtname[i][:-4] + " Not Reachable check logs")
+                        st.toast(txtname[i][:-4] + " Not Reachable check logs")
+                        st.download_button(
+                            label="Download " + txtname[i],
+                            data=txtname[i][:-4] + " Not Reachable",
+                            file_name=txtname[i],
+                        )
+                    else:
+                        st.text(contents[i])
+                        st.toast(contents[i])
+                        st.download_button(
+                            label="Download " + txtname[i],
+                            data=contents[i],
+                            file_name=txtname[i],
+                        )
+        with tab2:
+            shell = st.text_area(
+                "Enter the command you want to Execute",
+                height=400,
+            )
+            st.write(shell)
+            # call command here
 
     except Exception as e:
         log_write(str(e))
@@ -140,9 +156,12 @@ def Streamlit():
 
 if __name__ == "__main__":
     try:
+        start_t = time.time()
         print(f"Application Running , open browser and go to http://localhost:8501")
         refreshing()
         Streamlit()
+        end_t = time.time()
+        st.toast("Total Execution Time: " + str(int(end_t - start_t)) + " seconds")
 
     except Exception as e:
         log_write(str(e))

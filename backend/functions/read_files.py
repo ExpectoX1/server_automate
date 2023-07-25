@@ -1,4 +1,5 @@
 import os
+import time
 
 
 def extract_info(input_string):
@@ -41,4 +42,9 @@ def read_files_in_folder(folder_path):
                 file_content = f.read()
                 all_file_contents.append(extract_info(file_content))
                 file_names.append(file_path[-12:])
-    return all_file_contents, file_names
+    sorted_contents = sorted(zip(file_names, all_file_contents), reverse=False)
+    sorted_file_names, sorted_all_file_contents = zip(*sorted_contents)
+    return sorted_all_file_contents, sorted_file_names
+
+
+# print(read_files_in_folder("../../master/server_out_folder"))
