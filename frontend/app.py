@@ -35,7 +35,7 @@ def Streamlit():
     # Call the parse_servers function with the config file path
     try:
         delete_ansible()
-        st.title("Server Performance Monitoring v1.0")
+        st.title("Server Performance Monitoring v1.1.0")
 
         # Add a text input box to search for a specific server
         search_server_name = st.text_input("Search Server by Hostname:")
@@ -161,7 +161,7 @@ if __name__ == "__main__":
         refreshing()
         Streamlit()
         end_t = time.time()
-        st.toast("Total Execution Time: "+str(int(end_t - start_t))+" seconds")
+        st.toast("Total Execution Time: " + str(int(end_t - start_t)) + " seconds")
 
     except Exception as e:
         log_write(str(e))

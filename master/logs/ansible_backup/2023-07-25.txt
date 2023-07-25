@@ -1065,3 +1065,55 @@ os_version_loc: Ubuntu
 
 server02:
 
+
+14:12:59
+server03:
+date_loc: Tue Jul 25 09:00:19 AM UTC 2023 
+df -H /home_loc: Filesystem                         Size  Used Avail Use% Mounted on
+/dev/mapper/ubuntu--vg-ubuntu--lv   11G  4.0G  6.0G  41% / 
+uptime -p_loc: up 3 hours, 17 minutes 
+os_version_loc: Ubuntu
+
+server01:
+df -H /home_loc: Filesystem                         Size  Used Avail Use% Mounted on
+/dev/mapper/ubuntu--vg-ubuntu--lv   11G  4.0G  6.0G  41% / 
+uptime -p_loc: up 3 hours, 17 minutes 
+os_version_loc: Ubuntu
+
+server02:
+
+
+14:13:01
+server03:
+date_loc: Tue Jul 25 09:00:22 AM UTC 2023 
+df -H /home_loc: Filesystem                         Size  Used Avail Use% Mounted on
+/dev/mapper/ubuntu--vg-ubuntu--lv   11G  4.0G  6.0G  41% / 
+uptime -p_loc: up 3 hours, 17 minutes 
+os_version_loc: Ubuntu
+
+server01:
+date_loc: Tue Jul 25 09:00:19 AM UTC 2023 
+df -H /home_loc: Filesystem                         Size  Used Avail Use% Mounted on
+/dev/mapper/ubuntu--vg-ubuntu--lv   11G  4.0G  6.0G  41% / 
+uptime -p_loc: up 3 hours, 17 minutes 
+os_version_loc: Ubuntu
+
+server02:
+
+
+14:15:18
+server03:
+date_loc: Tue Jul 25 09:02:28 AM UTC 2023 
+df -H /home_loc: Filesystem                         Size  Used Avail Use% Mounted on
+/dev/mapper/ubuntu--vg-ubuntu--lv   11G  4.0G  6.0G  41% / 
+uptime -p_loc: up 3 hours, 19 minutes 
+os_version_loc: Ubuntu
+
+server01:
+df -H /home_loc: Filesystem                         Size  Used Avail Use% Mounted on
+/dev/mapper/ubuntu--vg-ubuntu--lv   11G  4.0G  6.0G  41% / 
+uptime -p_loc: up 3 hours, 19 minutes 
+os_version_loc: Ubuntu
+
+server02:
+
