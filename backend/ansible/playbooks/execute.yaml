@@ -45,8 +45,3 @@
         src: "/tmp/ansible_output/{{inventory_hostname}}.txt"
         dest: ../../../master/server_out_folder/{{inventory_hostname}}.txt
         flat: yes
-    - name: fetch final output file
-      fetch:
-        src: "/tmp/ansible_output/{{inventory_hostname}}.txt"
-        dest: ../../../master/recent_out_folder/{{inventory_hostname}}.txt
-        flat: yes

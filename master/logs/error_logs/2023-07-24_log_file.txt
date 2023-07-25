@@ -178,3 +178,13 @@
 2023-07-24 22:18:32: Execution time: 12 seconds
 2023-07-24 22:18:32: Deleted File../master/server_out_folder/server01.txt
 2023-07-24 22:18:32: Deleted File../master/server_out_folder/server02.txt
+2023-07-24 22:26:01: Page Refreshing 1
+2023-07-24 22:26:11: ----------Process starts----------
+2023-07-24 22:26:11: Adding Ansible Hosts
+2023-07-24 22:26:11: Pinging The Servers
+2023-07-24 22:26:14: Running Ansible Playbooks
+2023-07-24 22:26:27: All Commands Successfully Executed
+2023-07-24 22:26:27: ----------Backend Success----------
+2023-07-24 22:26:27: Execution time: 15 seconds
+2023-07-24 22:26:27: Deleted File../master/server_out_folder/server01.txt
+2023-07-24 22:26:27: Deleted File../master/server_out_folder/server02.txt

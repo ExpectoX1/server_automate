@@ -4,6 +4,7 @@ import os
 def extract_info(input_string):
     lines = input_string.strip().split("\n")
     result = []
+    length = 0
     count = 0
     for i, line in enumerate(lines):  # Use enumerate to get index 'i'
         if "_loc:" in line:

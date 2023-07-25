@@ -1,6 +1,7 @@
 import subprocess
 import sys
 import glob, datetime, os, re
+import streamlit as st
 
 sys.path.append("../")
 from backend.functions.config_parser import ini_parser
@@ -42,7 +43,8 @@ def ansible_playbook(empty_inventory):
                     error_message += error[indx] + " "
                     indx += 1
             error_message += "\n"
-        raise Exception(error_message)
+        log_write(error_message.strip())
+        st.toast(error_message.strip())
 
 
 # doing ansible ping to check if username is right
@@ -165,6 +167,13 @@ def ansible_backup():
                 with open(f, "rb") as infile:
                     outfile.write(match.group() + ":\n" + infile.read().decode() + "\n")
 
+    except Exception as e:
+        raise Exception(e)
+
+
+def delete_ansible():
+    try:
+        read_files = glob.glob("../master/server_out_folder/server*")
         # Deleting old server_out files
         for f in read_files:
             os.remove(f)

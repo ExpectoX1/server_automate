@@ -9,27 +9,32 @@ from streamlit_autorefresh import st_autorefresh
 from backend.functions.read_files import read_files_in_folder
 from backend.functions.config_parser import parse_servers
 from backend.string_parsers.output_file_parser import generate_array
-from backend.functions.ansible import ansible_backup, ansible_backend
+from backend.functions.ansible import ansible_backup, ansible_backend, delete_ansible
 from backend.functions.log import log_write
 from backend.functions.file_checking import create_dead_files, master_ini_file
 
 
-refresh = True
-mul = 1  # make this 60 later
-ini_file = master_ini_file()
-refesh_timer = parse_servers(ini_file)
-refesh_timer = int(refesh_timer[1])
-if refesh_timer < 0:
-    log_write("Invalid refresh timer, returning to defaults")
-    refesh_timer = 10
-refresh_count = st_autorefresh(refesh_timer * mul * 1000)  # in milli seconds
-print("Please Wait, refresh in progress...")
-log_write("Page Refreshing " + str(refresh_count + 1))
+def refreshing():
+    try:
+        refresh = True
+        mul = 1  # make this 60 later
+        ini_file = master_ini_file()
+        refesh_timer = parse_servers(ini_file)
+        refesh_timer = int(refesh_timer[1])
+        if refesh_timer < 0:
+            log_write("Invalid refresh timer, returning to defaults")
+            refesh_timer = 10
+        refresh_count = st_autorefresh(refesh_timer * mul * 1000)  # in milli seconds
+        print("Please Wait, refresh in progress...")
+        log_write("Page Refreshing " + str(refresh_count + 1))
+    except Exception as e:
+        raise Exception(e)
 
 
 def Streamlit():
     # Call the parse_servers function with the config file path
     try:
+        delete_ansible()
         st.title("Server Performance Monitoring v1.0")
 
         # Add a text input box to search for a specific server
@@ -112,11 +117,14 @@ def Streamlit():
         st.toast("Last Execution Time : " + str(int(execution_time)) + " seconds")
         ansible_backup()
         st.sidebar.title("Custom Outputs")
-        folderpath = "../master/recent_out_folder"
+        folderpath = "../master/server_out_folder"
 
         contents, txtname = read_files_in_folder(folderpath)
         for i in range(0, len(contents)):
             if st.sidebar.button("View Contents of : " + txtname[i][:-4]):
+                if contents[i] == "":
+                    contents[i] = txtname[i][:-4] + " Not Reachable"
+
                 st.sidebar.text(contents[i])
                 st.toast(contents[i])
                 st.sidebar.download_button(
@@ -133,7 +141,7 @@ def Streamlit():
 if __name__ == "__main__":
     try:
         print(f"Application Running , open browser and go to http://localhost:8501")
-
+        refreshing()
         Streamlit()
 
     except Exception as e:
