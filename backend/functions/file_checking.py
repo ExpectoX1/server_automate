@@ -29,6 +29,7 @@ def create_dead_files(ini_file):
         raise Exception(e)
 
 
+#Looking for the ini file path in master to be passed into config_parser.ini_file()
 def master_ini_file():
     read_files = glob.glob("../master/*.ini")
     if len(read_files) != 1:
@@ -38,6 +39,7 @@ def master_ini_file():
 
 
 # Note: dont put spaces in the beginning of file path string or it will throw an error
+#Checking if file/directory exists or not
 def valid_path(file_path):
     try:
         my_file = Path(file_path)

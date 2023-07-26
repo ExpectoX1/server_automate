@@ -1,5 +1,5 @@
 import sys
-import glob, os, re
+import glob, os
 import streamlit as st
 
 sys.path.append("../")
@@ -16,12 +16,15 @@ def ansible_shell(command):
             log_write("Deleted File" + str(f))
         
         log_write("Running Ansible Shell playbook")
-        ansible_command = "ansible-playbook " + valid_path(
-            "../backend/ansible/playbooks/shell.yaml"
-        )
-        + "--extra-vars" + '"shell_command=' + command + '"' 
+        #Keeping command as an extra variable for ansible
+        ansible_command = 'ansible-playbook ' + valid_path(
+            '../backend/ansible/playbooks/shell.yaml'
+        ) + ' --extra-vars "shell_command=' + command + '"'
         run_ansible_command(ansible_command)
+        log_write("Ansible Shell Command Successfully Executed")
+
     except Exception as e:
+        #Parsing ansible playbook output for all error messages
         error = str(e).split()
         error_message = ""
         for indx, string in enumerate(error):
@@ -32,21 +35,3 @@ def ansible_shell(command):
             error_message += "\n"
         log_write(error_message.strip())
         st.toast(error_message.strip())
-
-def ansible_shell_output():
-    try:
-        read_files = glob.glob("../master/shell_out_folder/server*")
-        output_name = "shell_output.txt"
-
-        # Creating backup file
-        with open(
-            valid_path("../master/shell_out_folder/") + output_name, "a+"
-        ) as outfile:
-            for f in read_files:
-                pattern = r"server\d+"
-                match = re.search(pattern, f)
-                with open(f, "rb") as infile:
-                    outfile.write(match.group() + ":\n" + infile.read().decode() + "\n")
-
-    except Exception as e:
-        raise Exception(e)

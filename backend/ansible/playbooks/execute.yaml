@@ -11,19 +11,19 @@
       ansible.builtin.file:
         path: "/tmp/ansible_result"
         state: directory
-        mode: "0644"
+        mode: "0777"
 
     - name: Creates output directory
       ansible.builtin.file:
         path: "/tmp/ansible_output"
         state: directory
-        mode: "0644"
+        mode: "0777"
 
     - name: Checking distribution
       ansible.builtin.copy:
         dest: "/tmp/ansible_result/os.txt"
         content: "os_version_loc: {{ ansible_distribution }}\n"
-        mode: "0644"
+        mode: "0777"
 
 
     - name: Execute the command
@@ -39,14 +39,14 @@
       ansible.builtin.copy:
         dest: "/tmp/ansible_result/'{{ item.item | basename }}'.txt"
         content: "{{ item.item }}_loc: {{ item.stdout }} \n"
-        mode: "0644"
+        mode: "0777"
       loop: "{{ result.results }}"
 
     - name: Assemble output into single files
       ansible.builtin.assemble:
         src: "/tmp/ansible_result"
         dest: "/tmp/ansible_output/{{ inventory_hostname }}.txt"
-        mode: "0644"
+        mode: "0777"
 
     - name: Fetch final output file
       ansible.builtin.fetch:

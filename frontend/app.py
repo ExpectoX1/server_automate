@@ -2,6 +2,7 @@ import streamlit as st
 import time
 import sys
 
+
 sys.path.append("../")
 sys.path.append("../backend/string_parsers/")
 import datetime
@@ -12,6 +13,7 @@ from backend.string_parsers.output_file_parser import generate_array
 from backend.functions.ansible import ansible_backup, ansible_backend, delete_ansible
 from backend.functions.log import log_write
 from backend.functions.file_checking import create_dead_files, master_ini_file
+from backend.functions.shell import ansible_shell
 
 
 def refreshing():
@@ -146,6 +148,7 @@ def Streamlit():
                 "Enter the command you want to Execute",
                 height=400,
             )
+            ansible_shell("date")
             st.write(shell)
             # call command here
 

@@ -45,6 +45,3 @@ def read_files_in_folder(folder_path):
     sorted_contents = sorted(zip(file_names, all_file_contents), reverse=False)
     sorted_file_names, sorted_all_file_contents = zip(*sorted_contents)
     return sorted_all_file_contents, sorted_file_names
-
-
-# print(read_files_in_folder("../../master/server_out_folder"))

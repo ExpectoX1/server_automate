@@ -3,6 +3,16 @@
   strategy: free
   tasks:
 
+  - name: Creating Shell Directory
+    ansible.builtin.file:
+      path: "/tmp/ansible_shell"
+      state: directory
+      mode: "0777"
+
+  - name: Checking for shell command
+    ansible.builtin.debug:
+      msg: "Inserted Command: {{ shell_command }}"
+
   - name: Executing shell command
     ansible.builtin.command: "{{ shell_command }}"
     register: result
@@ -10,12 +20,12 @@
 
   - name: Creating output file
     ansible.builtin.copy:
-      dest: "/tmp/ansible_result/'{{ shell_command }}'_shell.txt"
+      dest: "/tmp/ansible_shell/'{{ shell_command }}'_shell.txt"
       content: "{{ shell_command }}_loc: {{ result.stdout }}\n"
-      mode: "0644"
+      mode: "0777"
 
   - name: Fetch output file
     ansible.builtin.fetch:
-      src: "/tmp/ansible_result/'{{ shell_command }}'_shell.txt"
+      src: "/tmp/ansible_shell/'{{ shell_command }}'_shell.txt"
       dest: ../../../master/shell_out_folder/{{ inventory_hostname }}.txt
       flat: true

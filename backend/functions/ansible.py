@@ -35,6 +35,7 @@ def ansible_playbook(empty_inventory):
             )
             run_ansible_command(ansible_command)
     except Exception as e:
+        #Parsing ansible playbook output for all error messages
         error = str(e).split()
         error_message = ""
         for indx, string in enumerate(error):
