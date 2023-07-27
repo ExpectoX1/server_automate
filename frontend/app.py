@@ -14,6 +14,7 @@ from backend.functions.ansible import ansible_backup, ansible_backend, delete_an
 from backend.functions.log import log_write
 from backend.functions.file_checking import create_dead_files, master_ini_file
 from backend.functions.shell import ansible_shell
+from backend.functions.shell_check import check_shell
 
 
 def refreshing():
@@ -149,14 +150,19 @@ def Streamlit():
                 height=100,
             )
             if shell != "":
-                ansible_shell(shell)
-                contents, filename = read_files_in_folder("../master/shell_out_folder")
-                for i in range(0, len(filename)):
-                    st.divider()
-                    st.write(
-                    f"<p class='custom-paragraph'>{filename[i][:-4]}</p>",
-                    unsafe_allow_html=True,)                   
-                    st.text(contents[i])
+                shell = check_shell(shell)
+                if shell != "invalid":
+                    ansible_shell(shell)
+                    contents, filename = read_files_in_folder(
+                        "../master/shell_out_folder"
+                    )
+                    for i in range(0, len(filename)):
+                        st.divider()
+                        st.write(
+                            f"<p class='custom-paragraph'>{filename[i][:-4]}</p>",
+                            unsafe_allow_html=True,
+                        )
+                        st.text(contents[i])
 
             # call command here
 
