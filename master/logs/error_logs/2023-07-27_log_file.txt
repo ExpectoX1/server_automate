@@ -1,0 +1,5694 @@
+2023-07-27 10:34:53: Page Refreshing 1
+2023-07-27 10:34:53: Deleted File../master/server_out_folder/server01.txt
+2023-07-27 10:34:53: Deleted File../master/server_out_folder/server02.txt
+2023-07-27 10:35:13: ----------Process starts----------
+2023-07-27 10:35:13: Adding Ansible Hosts
+2023-07-27 10:35:13: Pinging The Servers
+2023-07-27 10:35:14: Running Ansible Playbooks
+2023-07-27 10:35:14: All Commands Successfully Executed
+2023-07-27 10:35:14: ----------Backend Success----------
+2023-07-27 10:35:14: Execution time: 0 seconds
+2023-07-27 10:35:14: Deleted File../master/shell_out_folder/server01.txt
+2023-07-27 10:35:14: Running Ansible Shell playbook
+2023-07-27 10:35:14: Ansible Shell Command Successfully Executed
+2023-07-27 10:36:35: Page Refreshing 1
+2023-07-27 10:36:35: Deleted File../master/server_out_folder/server01.txt
+2023-07-27 10:36:35: Deleted File../master/server_out_folder/server02.txt
+2023-07-27 10:36:35: ----------Process starts----------
+2023-07-27 10:36:35: Adding Ansible Hosts
+2023-07-27 10:36:35: Pinging The Servers
+2023-07-27 10:36:37: Running Ansible Playbooks
+2023-07-27 10:36:42: All Commands Successfully Executed
+2023-07-27 10:36:42: ----------Backend Success----------
+2023-07-27 10:36:42: Execution time: 7 seconds
+2023-07-27 10:36:42: Running Ansible Shell playbook
+2023-07-27 10:36:45: Ansible Shell Command Successfully Executed
+2023-07-27 10:38:33: Page Refreshing 1
+2023-07-27 10:38:33: Deleted File../master/server_out_folder/server01.txt
+2023-07-27 10:38:33: Deleted File../master/server_out_folder/server02.txt
+2023-07-27 10:38:34: ----------Process starts----------
+2023-07-27 10:38:34: Adding Ansible Hosts
+2023-07-27 10:38:34: Pinging The Servers
+2023-07-27 10:38:35: Running Ansible Playbooks
+2023-07-27 10:38:40: All Commands Successfully Executed
+2023-07-27 10:38:40: ----------Backend Success----------
+2023-07-27 10:38:40: Execution time: 6 seconds
+2023-07-27 10:38:40: Deleted File../master/shell_out_folder/server01.txt
+2023-07-27 10:38:40: Deleted File../master/shell_out_folder/server02.txt
+2023-07-27 10:38:40: Running Ansible Shell playbook
+2023-07-27 10:38:44: Ansible Shell Command Successfully Executed
+2023-07-27 10:39:47: Page Refreshing 1
+2023-07-27 10:39:47: Deleted File../master/server_out_folder/server01.txt
+2023-07-27 10:39:47: Deleted File../master/server_out_folder/server02.txt
+2023-07-27 10:39:47: ----------Process starts----------
+2023-07-27 10:39:47: Adding Ansible Hosts
+2023-07-27 10:39:47: Pinging The Servers
+2023-07-27 10:39:49: Running Ansible Playbooks
+2023-07-27 10:39:54: Page Refreshing 1
+2023-07-27 10:39:54: ----------Process starts----------
+2023-07-27 10:39:54: Adding Ansible Hosts
+2023-07-27 10:39:54: Pinging The Servers
+2023-07-27 10:39:54: All Commands Successfully Executed
+2023-07-27 10:39:54: ----------Backend Success----------
+2023-07-27 10:39:54: Execution time: 7 seconds
+2023-07-27 10:39:55: Running Ansible Playbooks
+2023-07-27 10:39:55: Page Refreshing 1
+2023-07-27 10:39:55: Deleted File../master/server_out_folder/server01.txt
+2023-07-27 10:39:55: Deleted File../master/server_out_folder/server02.txt
+2023-07-27 10:39:55: ----------Process starts----------
+2023-07-27 10:39:55: Adding Ansible Hosts
+2023-07-27 10:39:55: Pinging The Servers
+2023-07-27 10:39:56: Running Ansible Playbooks
+2023-07-27 10:40:02: All Commands Successfully Executed
+2023-07-27 10:40:02: ----------Backend Success----------
+2023-07-27 10:40:02: Execution time: 8 seconds
+2023-07-27 10:40:03: All Commands Successfully Executed
+2023-07-27 10:40:03: ----------Backend Success----------
+2023-07-27 10:40:03: Execution time: 7 seconds
+2023-07-27 10:40:03: Deleted File../master/shell_out_folder/server01.txt
+2023-07-27 10:40:03: Deleted File../master/shell_out_folder/server02.txt
+2023-07-27 10:40:03: Running Ansible Shell playbook
+2023-07-27 10:40:07: Ansible Shell Command Successfully Executed
+2023-07-27 10:40:07: text() missing 1 required positional argument: 'body'
+2023-07-27 10:40:19: Page Refreshing 1
+2023-07-27 10:40:19: Deleted File../master/server_out_folder/server01.txt
+2023-07-27 10:40:19: Deleted File../master/server_out_folder/server02.txt
+2023-07-27 10:40:19: ----------Process starts----------
+2023-07-27 10:40:19: Adding Ansible Hosts
+2023-07-27 10:40:19: Pinging The Servers
+2023-07-27 10:40:20: Running Ansible Playbooks
+2023-07-27 10:40:25: All Commands Successfully Executed
+2023-07-27 10:40:25: ----------Backend Success----------
+2023-07-27 10:40:25: Execution time: 5 seconds
+2023-07-27 10:40:41: Page Refreshing 1
+2023-07-27 10:40:41: Deleted File../master/server_out_folder/server01.txt
+2023-07-27 10:40:41: Deleted File../master/server_out_folder/server02.txt
+2023-07-27 10:40:41: ----------Process starts----------
+2023-07-27 10:40:41: Adding Ansible Hosts
+2023-07-27 10:40:41: Pinging The Servers
+2023-07-27 10:40:42: Running Ansible Playbooks
+2023-07-27 10:40:44: Page Refreshing 1
+2023-07-27 10:40:44: ----------Process starts----------
+2023-07-27 10:40:44: Adding Ansible Hosts
+2023-07-27 10:40:44: Pinging The Servers
+2023-07-27 10:40:45: Running Ansible Playbooks
+2023-07-27 10:40:49: "msg": "rmtree failed: [Errno 2] No such file or directory:
+2023-07-27 10:40:51: Page Refreshing 1
+2023-07-27 10:40:51: Deleted File../master/server_out_folder/server01.txt
+2023-07-27 10:40:51: ----------Process starts----------
+2023-07-27 10:40:51: Adding Ansible Hosts
+2023-07-27 10:40:51: Pinging The Servers
+2023-07-27 10:40:51: All Commands Successfully Executed
+2023-07-27 10:40:51: ----------Backend Success----------
+2023-07-27 10:40:51: Execution time: 7 seconds
+2023-07-27 10:40:52: Running Ansible Playbooks
+2023-07-27 10:40:58: All Commands Successfully Executed
+2023-07-27 10:40:58: ----------Backend Success----------
+2023-07-27 10:40:58: Execution time: 6 seconds
+2023-07-27 10:40:58: Deleted File../master/shell_out_folder/server01.txt
+2023-07-27 10:40:58: Deleted File../master/shell_out_folder/server02.txt
+2023-07-27 10:40:58: Running Ansible Shell playbook
+2023-07-27 10:41:01: Ansible Shell Command Successfully Executed
+2023-07-27 10:41:13: Page Refreshing 1
+2023-07-27 10:41:13: Deleted File../master/server_out_folder/server01.txt
+2023-07-27 10:41:13: Deleted File../master/server_out_folder/server02.txt
+2023-07-27 10:41:13: ----------Process starts----------
+2023-07-27 10:41:13: Adding Ansible Hosts
+2023-07-27 10:41:13: Pinging The Servers
+2023-07-27 10:41:13: Running Ansible Playbooks
+2023-07-27 10:41:16: Page Refreshing 1
+2023-07-27 10:41:16: ----------Process starts----------
+2023-07-27 10:41:16: Adding Ansible Hosts
+2023-07-27 10:41:16: Pinging The Servers
+2023-07-27 10:41:17: Running Ansible Playbooks
+2023-07-27 10:41:20: "msg": "", "rc": 0, "start": "2023-07-27 05:11:18.769187", "stderr": "", "stderr_lines": [], "stdout": "up 5 minutes", "stdout_lines": ["up 5 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+"msg": "Destination directory /tmp/ansible_result does not 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+"msg": "", "rc": 0, "start": "2023-07-27 05:11:18.848387", "stderr": "", "stderr_lines": [], "stdout": "up 5 minutes", "stdout_lines": ["up 5 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+"msg": "Destination directory /tmp/ansible_result does not
+2023-07-27 10:41:23: All Commands Successfully Executed
+2023-07-27 10:41:23: ----------Backend Success----------
+2023-07-27 10:41:23: Execution time: 7 seconds
+2023-07-27 10:41:23: Deleted File../master/shell_out_folder/server01.txt
+2023-07-27 10:41:23: Deleted File../master/shell_out_folder/server02.txt
+2023-07-27 10:41:23: Running Ansible Shell playbook
+2023-07-27 10:41:26: Ansible Shell Command Successfully Executed
+2023-07-27 10:41:38: Page Refreshing 1
+2023-07-27 10:41:38: Deleted File../master/server_out_folder/server01.txt
+2023-07-27 10:41:38: Deleted File../master/server_out_folder/server02.txt
+2023-07-27 10:41:38: ----------Process starts----------
+2023-07-27 10:41:38: Adding Ansible Hosts
+2023-07-27 10:41:38: Pinging The Servers
+2023-07-27 10:41:39: Running Ansible Playbooks
+2023-07-27 10:41:44: All Commands Successfully Executed
+2023-07-27 10:41:44: ----------Backend Success----------
+2023-07-27 10:41:44: Execution time: 5 seconds
+2023-07-27 10:41:44: Deleted File../master/shell_out_folder/server01.txt
+2023-07-27 10:41:44: Deleted File../master/shell_out_folder/server02.txt
+2023-07-27 10:41:44: Running Ansible Shell playbook
+2023-07-27 10:41:45: Page Refreshing 1
+2023-07-27 10:41:45: Deleted File../master/server_out_folder/server01.txt
+2023-07-27 10:41:45: Deleted File../master/server_out_folder/server02.txt
+2023-07-27 10:41:45: ----------Process starts----------
+2023-07-27 10:41:45: Adding Ansible Hosts
+2023-07-27 10:41:45: Pinging The Servers
+2023-07-27 10:41:46: Running Ansible Playbooks
+2023-07-27 10:41:47: "msg": "Inserted Command: " 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+"msg": "Inserted Command: " 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+"msg": "no command given", "rc": 256, "start": null, "stderr": "", "stderr_lines": [], "stdout": "", "stdout_lines": 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+"msg": "no command given", "rc": 256, "start": null, "stderr": "", "stderr_lines": [], "stdout": "", "stdout_lines":
+2023-07-27 10:41:52: All Commands Successfully Executed
+2023-07-27 10:41:52: ----------Backend Success----------
+2023-07-27 10:41:52: Execution time: 7 seconds
+2023-07-27 10:41:52: Running Ansible Shell playbook
+2023-07-27 10:41:52: Page Refreshing 1
+2023-07-27 10:41:52: Deleted File../master/server_out_folder/server01.txt
+2023-07-27 10:41:52: Deleted File../master/server_out_folder/server02.txt
+2023-07-27 10:41:52: ----------Process starts----------
+2023-07-27 10:41:52: Adding Ansible Hosts
+2023-07-27 10:41:52: Pinging The Servers
+2023-07-27 10:41:53: Page Refreshing 1
+2023-07-27 10:41:53: ----------Process starts----------
+2023-07-27 10:41:53: Adding Ansible Hosts
+2023-07-27 10:41:53: Pinging The Servers
+2023-07-27 10:41:54: Running Ansible Playbooks
+2023-07-27 10:41:54: Running Ansible Playbooks
+2023-07-27 10:41:55: "msg": "Inserted Command: " 
+
+
+
+
+
+
+
+
+"msg": "Inserted Command: " 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+"msg": "no command given", "rc": 256, "start": null, "stderr": "", "stderr_lines": [], "stdout": "", "stdout_lines": 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+"msg": "no command given", "rc": 256, "start": null, "stderr": "", "stderr_lines": [], "stdout": "", "stdout_lines":
+2023-07-27 10:42:02: All Commands Successfully Executed
+2023-07-27 10:42:02: ----------Backend Success----------
+2023-07-27 10:42:02: Execution time: 9 seconds
+2023-07-27 10:42:02: All Commands Successfully Executed
+2023-07-27 10:42:02: ----------Backend Success----------
+2023-07-27 10:42:02: Execution time: 9 seconds
+2023-07-27 10:42:02: Running Ansible Shell playbook
+2023-07-27 10:42:04: "msg": "Inserted Command: " 
+
+
+
+
+
+
+
+
+"msg": "Inserted Command: " 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+"msg": "no command given", "rc": 256, "start": null, "stderr": "", "stderr_lines": [], "stdout": "", "stdout_lines": 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+"msg": "no command given", "rc": 256, "start": null, "stderr": "", "stderr_lines": [], "stdout": "", "stdout_lines":
+2023-07-27 10:42:04: not enough values to unpack (expected 2, got 0)
+2023-07-27 10:42:19: Page Refreshing 1
+2023-07-27 10:42:19: Deleted File../master/server_out_folder/server01.txt
+2023-07-27 10:42:19: Deleted File../master/server_out_folder/server02.txt
+2023-07-27 10:42:19: ----------Process starts----------
+2023-07-27 10:42:19: Adding Ansible Hosts
+2023-07-27 10:42:19: Pinging The Servers
+2023-07-27 10:42:20: Running Ansible Playbooks
+2023-07-27 10:42:25: All Commands Successfully Executed
+2023-07-27 10:42:25: ----------Backend Success----------
+2023-07-27 10:42:25: Execution time: 6 seconds
+2023-07-27 10:42:25: Running Ansible Shell playbook
+2023-07-27 10:42:28: Ansible Shell Command Successfully Executed
+2023-07-27 10:43:09: Page Refreshing 1
+2023-07-27 10:43:09: Deleted File../master/server_out_folder/server01.txt
+2023-07-27 10:43:09: Deleted File../master/server_out_folder/server02.txt
+2023-07-27 10:43:09: ----------Process starts----------
+2023-07-27 10:43:09: Adding Ansible Hosts
+2023-07-27 10:43:09: Pinging The Servers
+2023-07-27 10:43:10: Running Ansible Playbooks
+2023-07-27 10:43:16: All Commands Successfully Executed
+2023-07-27 10:43:16: ----------Backend Success----------
+2023-07-27 10:43:16: Execution time: 6 seconds
+2023-07-27 10:43:16: Deleted File../master/shell_out_folder/server01.txt
+2023-07-27 10:43:16: Deleted File../master/shell_out_folder/server02.txt
+2023-07-27 10:43:16: Running Ansible Shell playbook
+2023-07-27 10:43:19: Ansible Shell Command Successfully Executed
+2023-07-27 10:43:37: Page Refreshing 1
+2023-07-27 10:43:37: Deleted File../master/server_out_folder/server01.txt
+2023-07-27 10:43:37: Deleted File../master/server_out_folder/server02.txt
+2023-07-27 10:43:37: ----------Process starts----------
+2023-07-27 10:43:37: Adding Ansible Hosts
+2023-07-27 10:43:37: Pinging The Servers
+2023-07-27 10:43:38: Running Ansible Playbooks
+2023-07-27 10:43:43: All Commands Successfully Executed
+2023-07-27 10:43:43: ----------Backend Success----------
+2023-07-27 10:43:43: Execution time: 5 seconds
+2023-07-27 10:43:43: Deleted File../master/shell_out_folder/server01.txt
+2023-07-27 10:43:43: Deleted File../master/shell_out_folder/server02.txt
+2023-07-27 10:43:43: Running Ansible Shell playbook
+2023-07-27 10:43:45: "msg": "Inserted Command: ping" 
+
+
+
+
+
+
+
+
+"msg": "Inserted Command: ping" 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+"msg": "non-zero return code", "rc": 1, "start": "2023-07-27 05:13:46.137133", "stderr": "ping: usage error: Destination address required", "stderr_lines": ["ping: usage error: Destination address required"], "stdout": "", "stdout_lines": 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+"msg": "non-zero return code", "rc": 1, "start": "2023-07-27 05:13:46.137470", "stderr": "ping: usage error: Destination address required", "stderr_lines": ["ping: usage error: Destination address required"], "stdout": "", "stdout_lines":
+2023-07-27 10:43:45: not enough values to unpack (expected 2, got 0)
+2023-07-27 10:44:09: Page Refreshing 1
+2023-07-27 10:44:09: Deleted File../master/server_out_folder/server01.txt
+2023-07-27 10:44:09: Deleted File../master/server_out_folder/server02.txt
+2023-07-27 10:44:09: ----------Process starts----------
+2023-07-27 10:44:09: Adding Ansible Hosts
+2023-07-27 10:44:09: Pinging The Servers
+2023-07-27 10:44:10: Running Ansible Playbooks
+2023-07-27 10:44:15: All Commands Successfully Executed
+2023-07-27 10:44:15: ----------Backend Success----------
+2023-07-27 10:44:15: Execution time: 6 seconds
+2023-07-27 10:44:15: Running Ansible Shell playbook
+2023-07-27 10:44:18: Ansible Shell Command Successfully Executed
+2023-07-27 10:44:31: Page Refreshing 1
+2023-07-27 10:44:31: Deleted File../master/server_out_folder/server01.txt
+2023-07-27 10:44:31: Deleted File../master/server_out_folder/server02.txt
+2023-07-27 10:44:31: ----------Process starts----------
+2023-07-27 10:44:31: Adding Ansible Hosts
+2023-07-27 10:44:31: Pinging The Servers
+2023-07-27 10:44:32: Running Ansible Playbooks
+2023-07-27 10:44:37: All Commands Successfully Executed
+2023-07-27 10:44:37: ----------Backend Success----------
+2023-07-27 10:44:37: Execution time: 5 seconds
+2023-07-27 10:44:37: Deleted File../master/shell_out_folder/server01.txt
+2023-07-27 10:44:37: Deleted File../master/shell_out_folder/server02.txt
+2023-07-27 10:44:37: Running Ansible Shell playbook
+2023-07-27 10:44:40: Ansible Shell Command Successfully Executed
+2023-07-27 10:45:21: Page Refreshing 1
+2023-07-27 10:45:21: Deleted File../master/server_out_folder/server01.txt
+2023-07-27 10:45:21: Deleted File../master/server_out_folder/server02.txt
+2023-07-27 10:45:21: ----------Process starts----------
+2023-07-27 10:45:21: Adding Ansible Hosts
+2023-07-27 10:45:21: Pinging The Servers
+2023-07-27 10:45:22: Running Ansible Playbooks
+2023-07-27 10:45:23: Page Refreshing 1
+2023-07-27 10:45:23: ----------Process starts----------
+2023-07-27 10:45:23: Adding Ansible Hosts
+2023-07-27 10:45:23: Pinging The Servers
+2023-07-27 10:45:24: Running Ansible Playbooks
+2023-07-27 10:45:30: All Commands Successfully Executed
+2023-07-27 10:45:30: ----------Backend Success----------
+2023-07-27 10:45:30: Execution time: 8 seconds
+2023-07-27 10:45:30: Deleted File../master/shell_out_folder/server01.txt
+2023-07-27 10:45:30: Deleted File../master/shell_out_folder/server02.txt
+2023-07-27 10:45:30: Running Ansible Shell playbook
+2023-07-27 10:45:32: All Commands Successfully Executed
+2023-07-27 10:45:32: ----------Backend Success----------
+2023-07-27 10:45:32: Execution time: 8 seconds
+2023-07-27 10:45:33: Ansible Shell Command Successfully Executed
+2023-07-27 10:46:16: Page Refreshing 1
+2023-07-27 10:46:16: Deleted File../master/server_out_folder/server01.txt
+2023-07-27 10:46:16: Deleted File../master/server_out_folder/server02.txt
+2023-07-27 10:46:16: ----------Process starts----------
+2023-07-27 10:46:16: Adding Ansible Hosts
+2023-07-27 10:46:16: Pinging The Servers
+2023-07-27 10:46:16: Running Ansible Playbooks
+2023-07-27 10:46:21: All Commands Successfully Executed
+2023-07-27 10:46:21: ----------Backend Success----------
+2023-07-27 10:46:21: Execution time: 5 seconds
+2023-07-27 10:46:21: Deleted File../master/shell_out_folder/server01.txt
+2023-07-27 10:46:21: Deleted File../master/shell_out_folder/server02.txt
+2023-07-27 10:46:21: Running Ansible Shell playbook
+2023-07-27 10:46:24: "msg": "Inserted Command: ip" 
+
+
+
+
+
+
+
+
+"msg": "Inserted Command: ip" 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+"msg": "non-zero return code", "rc": 255, "start": "2023-07-27 05:16:24.624359", "stderr": "Usage: ip [ OPTIONS ] OBJECT { COMMAND | help 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+"msg": "non-zero return code", "rc": 255, "start": "2023-07-27 05:16:24.624031", "stderr": "Usage: ip [ OPTIONS ] OBJECT { COMMAND | help
+2023-07-27 10:46:24: not enough values to unpack (expected 2, got 0)
+2023-07-27 10:46:39: Page Refreshing 1
+2023-07-27 10:46:39: Deleted File../master/server_out_folder/server01.txt
+2023-07-27 10:46:39: Deleted File../master/server_out_folder/server02.txt
+2023-07-27 10:46:39: ----------Process starts----------
+2023-07-27 10:46:39: Adding Ansible Hosts
+2023-07-27 10:46:39: Pinging The Servers
+2023-07-27 10:46:40: Running Ansible Playbooks
+2023-07-27 10:46:45: All Commands Successfully Executed
+2023-07-27 10:46:45: ----------Backend Success----------
+2023-07-27 10:46:45: Execution time: 6 seconds
+2023-07-27 10:46:54: Page Refreshing 1
+2023-07-27 10:46:54: Deleted File../master/server_out_folder/server01.txt
+2023-07-27 10:46:54: Deleted File../master/server_out_folder/server02.txt
+2023-07-27 10:46:54: ----------Process starts----------
+2023-07-27 10:46:54: Adding Ansible Hosts
+2023-07-27 10:46:54: Pinging The Servers
+2023-07-27 10:46:54: Running Ansible Playbooks
+2023-07-27 10:47:00: All Commands Successfully Executed
+2023-07-27 10:47:00: ----------Backend Success----------
+2023-07-27 10:47:00: Execution time: 6 seconds
+2023-07-27 10:47:00: Running Ansible Shell playbook
+2023-07-27 10:47:02: "msg": "Inserted Command: ip" 
+
+
+
+
+
+
+
+
+"msg": "Inserted Command: ip" 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+"msg": "non-zero return code", "rc": 255, "start": "2023-07-27 05:17:03.144374", "stderr": "Usage: ip [ OPTIONS ] OBJECT { COMMAND | help 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+"msg": "non-zero return code", "rc": 255, "start": "2023-07-27 05:17:03.149181", "stderr": "Usage: ip [ OPTIONS ] OBJECT { COMMAND | help
+2023-07-27 10:47:02: not enough values to unpack (expected 2, got 0)
+2023-07-27 10:47:18: Page Refreshing 1
+2023-07-27 10:47:18: Deleted File../master/server_out_folder/server01.txt
+2023-07-27 10:47:18: Deleted File../master/server_out_folder/server02.txt
+2023-07-27 10:47:18: ----------Process starts----------
+2023-07-27 10:47:18: Adding Ansible Hosts
+2023-07-27 10:47:18: Pinging The Servers
+2023-07-27 10:47:19: Running Ansible Playbooks
+2023-07-27 10:47:24: All Commands Successfully Executed
+2023-07-27 10:47:24: ----------Backend Success----------
+2023-07-27 10:47:24: Execution time: 6 seconds
+2023-07-27 10:47:24: Running Ansible Shell playbook
+2023-07-27 10:47:28: Ansible Shell Command Successfully Executed
+2023-07-27 10:47:39: Page Refreshing 1
+2023-07-27 10:47:39: Deleted File../master/server_out_folder/server01.txt
+2023-07-27 10:47:39: Deleted File../master/server_out_folder/server02.txt
+2023-07-27 10:47:39: ----------Process starts----------
+2023-07-27 10:47:39: Adding Ansible Hosts
+2023-07-27 10:47:39: Pinging The Servers
+2023-07-27 10:47:40: Running Ansible Playbooks
+2023-07-27 10:47:46: All Commands Successfully Executed
+2023-07-27 10:47:46: ----------Backend Success----------
+2023-07-27 10:47:46: Execution time: 6 seconds
+2023-07-27 10:47:46: Deleted File../master/shell_out_folder/server01.txt
+2023-07-27 10:47:46: Deleted File../master/shell_out_folder/server02.txt
+2023-07-27 10:47:46: Running Ansible Shell playbook
+2023-07-27 10:47:48: "msg": "Inserted Command: ip" 
+
+
+
+
+
+
+
+
+"msg": "Inserted Command: ip" 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+"msg": "non-zero return code", "rc": 255, "start": "2023-07-27 05:17:49.133915", "stderr": "Usage: ip [ OPTIONS ] OBJECT { COMMAND | help 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+"msg": "non-zero return code", "rc": 255, "start": "2023-07-27 05:17:49.134430", "stderr": "Usage: ip [ OPTIONS ] OBJECT { COMMAND | help
+2023-07-27 10:47:48: not enough values to unpack (expected 2, got 0)
+2023-07-27 10:48:25: Page Refreshing 1
+2023-07-27 10:48:25: Deleted File../master/server_out_folder/server01.txt
+2023-07-27 10:48:25: Deleted File../master/server_out_folder/server02.txt
+2023-07-27 10:48:25: ----------Process starts----------
+2023-07-27 10:48:25: Adding Ansible Hosts
+2023-07-27 10:48:25: Pinging The Servers
+2023-07-27 10:48:25: Running Ansible Playbooks
+2023-07-27 10:48:31: All Commands Successfully Executed
+2023-07-27 10:48:31: ----------Backend Success----------
+2023-07-27 10:48:31: Execution time: 6 seconds
+2023-07-27 10:48:31: Running Ansible Shell playbook
+2023-07-27 10:48:33: "msg": "Inserted Command: ip" 
+
+
+
+
+
+
+
+
+"msg": "Inserted Command: ip" 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+"msg": "non-zero return code", "rc": 255, "start": "2023-07-27 05:18:34.331542", "stderr": "Usage: ip [ OPTIONS ] OBJECT { COMMAND | help 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+"msg": "non-zero return code", "rc": 255, "start": "2023-07-27 05:18:34.332261", "stderr": "Usage: ip [ OPTIONS ] OBJECT { COMMAND | help
+2023-07-27 10:48:33: not enough values to unpack (expected 2, got 0)
+2023-07-27 10:48:47: Page Refreshing 1
+2023-07-27 10:48:47: Deleted File../master/server_out_folder/server01.txt
+2023-07-27 10:48:47: Deleted File../master/server_out_folder/server02.txt
+2023-07-27 10:48:47: ----------Process starts----------
+2023-07-27 10:48:47: Adding Ansible Hosts
+2023-07-27 10:48:47: Pinging The Servers
+2023-07-27 10:48:48: Running Ansible Playbooks
+2023-07-27 10:48:54: All Commands Successfully Executed
+2023-07-27 10:48:54: ----------Backend Success----------
+2023-07-27 10:48:54: Execution time: 6 seconds
+2023-07-27 10:48:54: Running Ansible Shell playbook
+2023-07-27 10:48:56: "msg": "Inserted Command: ifconfig" 
+
+
+
+
+
+
+
+
+"msg": "Inserted Command: ifconfig" 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+"msg": "[Errno 2] No such file or directory: b'ifconfig'", "rc": 2, "stderr": "", "stderr_lines": [], "stdout": "", "stdout_lines": 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+"msg": "[Errno 2] No such file or directory: b'ifconfig'", "rc": 2, "stderr": "", "stderr_lines": [], "stdout": "", "stdout_lines":
+2023-07-27 10:48:56: not enough values to unpack (expected 2, got 0)
+2023-07-27 10:49:10: Page Refreshing 1
+2023-07-27 10:49:10: Deleted File../master/server_out_folder/server01.txt
+2023-07-27 10:49:10: Deleted File../master/server_out_folder/server02.txt
+2023-07-27 10:49:10: ----------Process starts----------
+2023-07-27 10:49:10: Adding Ansible Hosts
+2023-07-27 10:49:10: Pinging The Servers
+2023-07-27 10:49:10: Running Ansible Playbooks
+2023-07-27 10:49:16: All Commands Successfully Executed
+2023-07-27 10:49:16: ----------Backend Success----------
+2023-07-27 10:49:16: Execution time: 6 seconds
+2023-07-27 10:49:16: Running Ansible Shell playbook
+2023-07-27 10:49:18: "msg": "Inserted Command: ifconfig" 
+
+
+
+
+
+
+
+
+"msg": "Inserted Command: ifconfig" 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+"msg": "[Errno 2] No such file or directory: b'ifconfig'", "rc": 2, "stderr": "", "stderr_lines": [], "stdout": "", "stdout_lines": 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+"msg": "[Errno 2] No such file or directory: b'ifconfig'", "rc": 2, "stderr": "", "stderr_lines": [], "stdout": "", "stdout_lines":
+2023-07-27 10:49:18: not enough values to unpack (expected 2, got 0)
+2023-07-27 10:50:17: Page Refreshing 1
+2023-07-27 10:50:17: Deleted File../master/server_out_folder/server01.txt
+2023-07-27 10:50:17: Deleted File../master/server_out_folder/server02.txt
+2023-07-27 10:50:17: ----------Process starts----------
+2023-07-27 10:50:17: Adding Ansible Hosts
+2023-07-27 10:50:17: Pinging The Servers
+2023-07-27 10:50:17: Running Ansible Playbooks
+2023-07-27 10:50:22: All Commands Successfully Executed
+2023-07-27 10:50:22: ----------Backend Success----------
+2023-07-27 10:50:22: Execution time: 5 seconds
+2023-07-27 10:50:22: Running Ansible Shell playbook
+2023-07-27 10:50:26: Ansible Shell Command Successfully Executed
+2023-07-27 10:50:37: Page Refreshing 1
+2023-07-27 10:50:37: Deleted File../master/server_out_folder/server01.txt
+2023-07-27 10:50:37: Deleted File../master/server_out_folder/server02.txt
+2023-07-27 10:50:37: ----------Process starts----------
+2023-07-27 10:50:37: Adding Ansible Hosts
+2023-07-27 10:50:37: Pinging The Servers
+2023-07-27 10:50:38: Running Ansible Playbooks
+2023-07-27 10:50:43: All Commands Successfully Executed
+2023-07-27 10:50:43: ----------Backend Success----------
+2023-07-27 10:50:43: Execution time: 6 seconds
+2023-07-27 10:50:43: Deleted File../master/shell_out_folder/server01.txt
+2023-07-27 10:50:43: Deleted File../master/shell_out_folder/server02.txt
+2023-07-27 10:50:43: Running Ansible Shell playbook
+2023-07-27 10:50:46: Ansible Shell Command Successfully Executed
+2023-07-27 10:51:08: Page Refreshing 1
+2023-07-27 10:51:08: Deleted File../master/server_out_folder/server01.txt
+2023-07-27 10:51:08: Deleted File../master/server_out_folder/server02.txt
+2023-07-27 10:51:08: ----------Process starts----------
+2023-07-27 10:51:08: Adding Ansible Hosts
+2023-07-27 10:51:08: Pinging The Servers
+2023-07-27 10:51:09: Running Ansible Playbooks
+2023-07-27 10:51:14: All Commands Successfully Executed
+2023-07-27 10:51:14: ----------Backend Success----------
+2023-07-27 10:51:14: Execution time: 5 seconds
+2023-07-27 10:51:14: Deleted File../master/shell_out_folder/server01.txt
+2023-07-27 10:51:14: Deleted File../master/shell_out_folder/server02.txt
+2023-07-27 10:51:14: Running Ansible Shell playbook
+2023-07-27 10:51:17: Ansible Shell Command Successfully Executed
+2023-07-27 10:51:27: Page Refreshing 1
+2023-07-27 10:51:27: Deleted File../master/server_out_folder/server01.txt
+2023-07-27 10:51:27: Deleted File../master/server_out_folder/server02.txt
+2023-07-27 10:51:27: ----------Process starts----------
+2023-07-27 10:51:27: Adding Ansible Hosts
+2023-07-27 10:51:27: Pinging The Servers
+2023-07-27 10:51:28: Running Ansible Playbooks
+2023-07-27 10:51:33: All Commands Successfully Executed
+2023-07-27 10:51:33: ----------Backend Success----------
+2023-07-27 10:51:33: Execution time: 5 seconds
+2023-07-27 10:51:33: Deleted File../master/shell_out_folder/server01.txt
+2023-07-27 10:51:33: Deleted File../master/shell_out_folder/server02.txt
+2023-07-27 10:51:33: Running Ansible Shell playbook
+2023-07-27 10:51:36: Ansible Shell Command Successfully Executed
+2023-07-27 10:51:48: Page Refreshing 1
+2023-07-27 10:51:48: Deleted File../master/server_out_folder/server01.txt
+2023-07-27 10:51:48: Deleted File../master/server_out_folder/server02.txt
+2023-07-27 10:51:48: ----------Process starts----------
+2023-07-27 10:51:48: Adding Ansible Hosts
+2023-07-27 10:51:48: Pinging The Servers
+2023-07-27 10:51:49: Running Ansible Playbooks
+2023-07-27 10:51:54: All Commands Successfully Executed
+2023-07-27 10:51:54: ----------Backend Success----------
+2023-07-27 10:51:54: Execution time: 6 seconds
+2023-07-27 10:51:54: Deleted File../master/shell_out_folder/server01.txt
+2023-07-27 10:51:54: Deleted File../master/shell_out_folder/server02.txt
+2023-07-27 10:51:54: Running Ansible Shell playbook
+2023-07-27 10:51:56: "msg": "Inserted Command: ifconfig" 
+
+
+
+
+
+
+
+
+"msg": "Inserted Command: ifconfig" 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+"msg": "[Errno 2] No such file or directory: b'ifconfig'", "rc": 2, "stderr": "", "stderr_lines": [], "stdout": "", "stdout_lines": 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+"msg": "[Errno 2] No such file or directory: b'ifconfig'", "rc": 2, "stderr": "", "stderr_lines": [], "stdout": "", "stdout_lines":
+2023-07-27 10:51:56: not enough values to unpack (expected 2, got 0)
+2023-07-27 10:52:09: Page Refreshing 1
+2023-07-27 10:52:09: Deleted File../master/server_out_folder/server01.txt
+2023-07-27 10:52:09: Deleted File../master/server_out_folder/server02.txt
+2023-07-27 10:52:09: ----------Process starts----------
+2023-07-27 10:52:09: Adding Ansible Hosts
+2023-07-27 10:52:09: Pinging The Servers
+2023-07-27 10:52:10: Running Ansible Playbooks
+2023-07-27 10:52:15: All Commands Successfully Executed
+2023-07-27 10:52:15: ----------Backend Success----------
+2023-07-27 10:52:15: Execution time: 6 seconds
+2023-07-27 10:52:15: Running Ansible Shell playbook
+2023-07-27 10:52:17: "msg": "Inserted Command: i" 
+
+
+
+
+
+
+
+
+"msg": "Inserted Command: i" 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+"msg": "[Errno 2] No such file or directory: b'i'", "rc": 2, "stderr": "", "stderr_lines": [], "stdout": "", "stdout_lines": 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+"msg": "[Errno 2] No such file or directory: b'i'", "rc": 2, "stderr": "", "stderr_lines": [], "stdout": "", "stdout_lines":
+2023-07-27 10:52:17: not enough values to unpack (expected 2, got 0)
+2023-07-27 10:52:22: Page Refreshing 1
+2023-07-27 10:52:22: Deleted File../master/server_out_folder/server01.txt
+2023-07-27 10:52:22: Deleted File../master/server_out_folder/server02.txt
+2023-07-27 10:52:22: ----------Process starts----------
+2023-07-27 10:52:22: Adding Ansible Hosts
+2023-07-27 10:52:22: Pinging The Servers
+2023-07-27 10:52:23: Running Ansible Playbooks
+2023-07-27 10:52:28: All Commands Successfully Executed
+2023-07-27 10:52:28: ----------Backend Success----------
+2023-07-27 10:52:28: Execution time: 6 seconds
+2023-07-27 10:52:28: Running Ansible Shell playbook
+2023-07-27 10:52:30: "msg": "Inserted Command: ip" 
+
+
+
+
+
+
+
+
+"msg": "Inserted Command: ip" 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+"msg": "non-zero return code", "rc": 255, "start": "2023-07-27 05:22:31.392610", "stderr": "Usage: ip [ OPTIONS ] OBJECT { COMMAND | help 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+"msg": "non-zero return code", "rc": 255, "start": "2023-07-27 05:22:31.395693", "stderr": "Usage: ip [ OPTIONS ] OBJECT { COMMAND | help
+2023-07-27 10:52:30: not enough values to unpack (expected 2, got 0)
+2023-07-27 10:53:04: Page Refreshing 1
+2023-07-27 10:53:04: Deleted File../master/server_out_folder/server01.txt
+2023-07-27 10:53:04: Deleted File../master/server_out_folder/server02.txt
+2023-07-27 10:53:04: ----------Process starts----------
+2023-07-27 10:53:04: Adding Ansible Hosts
+2023-07-27 10:53:04: Pinging The Servers
+2023-07-27 10:53:05: Running Ansible Playbooks
+2023-07-27 10:53:11: All Commands Successfully Executed
+2023-07-27 10:53:11: ----------Backend Success----------
+2023-07-27 10:53:11: Execution time: 6 seconds
+2023-07-27 10:53:18: Page Refreshing 1
+2023-07-27 10:53:18: Deleted File../master/server_out_folder/server01.txt
+2023-07-27 10:53:18: Deleted File../master/server_out_folder/server02.txt
+2023-07-27 10:53:18: ----------Process starts----------
+2023-07-27 10:53:18: Adding Ansible Hosts
+2023-07-27 10:53:18: Pinging The Servers
+2023-07-27 10:53:19: Running Ansible Playbooks
+2023-07-27 10:53:25: All Commands Successfully Executed
+2023-07-27 10:53:25: ----------Backend Success----------
+2023-07-27 10:53:25: Execution time: 6 seconds
+2023-07-27 10:53:25: Running Ansible Shell playbook
+2023-07-27 10:53:27: "msg": "Inserted Command: ip" 
+
+
+
+
+
+
+
+
+"msg": "Inserted Command: ip" 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+"msg": "non-zero return code", "rc": 255, "start": "2023-07-27 05:23:27.976910", "stderr": "Usage: ip [ OPTIONS ] OBJECT { COMMAND | help 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+"msg": "non-zero return code", "rc": 255, "start": "2023-07-27 05:23:27.979349", "stderr": "Usage: ip [ OPTIONS ] OBJECT { COMMAND | help
+2023-07-27 10:53:27: not enough values to unpack (expected 2, got 0)
+2023-07-27 10:55:53: Page Refreshing 1
+2023-07-27 10:55:53: Deleted File../master/server_out_folder/server01.txt
+2023-07-27 10:55:53: Deleted File../master/server_out_folder/server02.txt
+2023-07-27 10:55:53: ----------Process starts----------
+2023-07-27 10:55:53: Adding Ansible Hosts
+2023-07-27 10:55:53: Pinging The Servers
+2023-07-27 10:55:55: Running Ansible Playbooks
+2023-07-27 10:56:00: All Commands Successfully Executed
+2023-07-27 10:56:00: ----------Backend Success----------
+2023-07-27 10:56:00: Execution time: 7 seconds
+2023-07-27 10:56:00: Running Ansible Shell playbook
+2023-07-27 10:56:03: "msg": "Inserted Command: ip" 
+
+
+
+
+
+
+
+
+"msg": "Inserted Command: ip" 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+"msg": "non-zero return code", "rc": 255, "start": "2023-07-27 05:26:03.687027", "stderr": "Usage: ip [ OPTIONS ] OBJECT { COMMAND | help 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+"msg": "non-zero return code", "rc": 255, "start": "2023-07-27 05:26:03.686724", "stderr": "Usage: ip [ OPTIONS ] OBJECT { COMMAND | help
+2023-07-27 10:56:03: not enough values to unpack (expected 2, got 0)
+2023-07-27 10:56:36: Page Refreshing 1
+2023-07-27 10:56:36: Deleted File../master/server_out_folder/server01.txt
+2023-07-27 10:56:36: Deleted File../master/server_out_folder/server02.txt
+2023-07-27 10:56:36: ----------Process starts----------
+2023-07-27 10:56:36: Adding Ansible Hosts
+2023-07-27 10:56:36: Pinging The Servers
+2023-07-27 10:56:37: Running Ansible Playbooks
+2023-07-27 10:56:42: All Commands Successfully Executed
+2023-07-27 10:56:42: ----------Backend Success----------
+2023-07-27 10:56:42: Execution time: 6 seconds
+2023-07-27 10:56:42: Running Ansible Shell playbook
+2023-07-27 10:56:45: "msg": "Inserted Command: ip" 
+
+
+
+
+
+
+
+
+"msg": "Inserted Command: ip" 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+"msg": "non-zero return code", "rc": 255, "start": "2023-07-27 05:26:45.612824", "stderr": "Usage: ip [ OPTIONS ] OBJECT { COMMAND | help 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+"msg": "non-zero return code", "rc": 255, "start": "2023-07-27 05:26:45.614483", "stderr": "Usage: ip [ OPTIONS ] OBJECT { COMMAND | help
+2023-07-27 10:56:45: not enough values to unpack (expected 2, got 0)
+2023-07-27 10:58:27: Page Refreshing 1
+2023-07-27 10:58:27: Deleted File../master/server_out_folder/server01.txt
+2023-07-27 10:58:27: Deleted File../master/server_out_folder/server02.txt
+2023-07-27 10:58:27: ----------Process starts----------
+2023-07-27 10:58:27: Adding Ansible Hosts
+2023-07-27 10:58:27: Pinging The Servers
+2023-07-27 10:58:28: Running Ansible Playbooks
+2023-07-27 10:58:32: 
+2023-07-27 10:58:32: Toast body cannot be blank - please provide a message.
+2023-07-27 10:58:37: Page Refreshing 1
+2023-07-27 10:58:37: ----------Process starts----------
+2023-07-27 10:58:37: Adding Ansible Hosts
+2023-07-27 10:58:37: Pinging The Servers
+2023-07-27 10:58:38: Running Ansible Playbooks
+2023-07-27 10:58:39: Page Refreshing 1
+2023-07-27 10:58:39: ----------Process starts----------
+2023-07-27 10:58:39: Adding Ansible Hosts
+2023-07-27 10:58:39: Pinging The Servers
+2023-07-27 10:58:40: Running Ansible Playbooks
+2023-07-27 10:58:46: All Commands Successfully Executed
+2023-07-27 10:58:46: ----------Backend Success----------
+2023-07-27 10:58:46: Execution time: 8 seconds
+2023-07-27 10:58:46: Running Ansible Shell playbook
+2023-07-27 10:58:48: All Commands Successfully Executed
+2023-07-27 10:58:48: ----------Backend Success----------
+2023-07-27 10:58:48: Execution time: 8 seconds
+2023-07-27 10:58:48: Running Ansible Shell playbook
+2023-07-27 10:58:49: 
+PLAY [Executing commands in servers] *******************************************
+
+TASK [Gathering Facts] *********************************************************
+ok: [server01]
+ok: [server02]
+
+TASK [Creating Shell Directory] ************************************************
+ok: [server01]
+ok: [server02]
+
+TASK [Checking for shell command] **********************************************
+ok: [server01] => {
+    "msg": "Inserted Command: ip"
+}
+ok: [server02] => {
+    "msg": "Inserted Command: ip"
+}
+
+TASK [Executing shell command] *************************************************
+fatal: [server01]: FAILED! => {"changed": false, "cmd": ["ip"], "delta": "0:00:00.004376", "end": "2023-07-27 05:28:49.764293", "msg": "non-zero return code", "rc": 255, "start": "2023-07-27 05:28:49.759917", "stderr": "Usage: ip [ OPTIONS ] OBJECT { COMMAND | help }\n       ip [ -force ] -batch filename\nwhere  OBJECT := { address | addrlabel | fou | help | ila | ioam | l2tp | link |\n                   macsec | maddress | monitor | mptcp | mroute | mrule |\n                   neighbor | neighbour | netconf | netns | nexthop | ntable |\n                   ntbl | route | rule | sr | tap | tcpmetrics |\n                   token | tunnel | tuntap | vrf | xfrm }\n       OPTIONS := { -V[ersion] | -s[tatistics] | -d[etails] | -r[esolve] |\n                    -h[uman-readable] | -iec | -j[son] | -p[retty] |\n                    -f[amily] { inet | inet6 | mpls | bridge | link } |\n                    -4 | -6 | -M | -B | -0 |\n                    -l[oops] { maximum-addr-flush-attempts } | -br[ief] |\n                    -o[neline] | -t[imestamp] | -ts[hort] | -b[atch] [filename] |\n                    -rc[vbuf] [size] | -n[etns] name | -N[umeric] | -a[ll] |\n                    -c[olor]}", "stderr_lines": ["Usage: ip [ OPTIONS ] OBJECT { COMMAND | help }", "       ip [ -force ] -batch filename", "where  OBJECT := { address | addrlabel | fou | help | ila | ioam | l2tp | link |", "                   macsec | maddress | monitor | mptcp | mroute | mrule |", "                   neighbor | neighbour | netconf | netns | nexthop | ntable |", "                   ntbl | route | rule | sr | tap | tcpmetrics |", "                   token | tunnel | tuntap | vrf | xfrm }", "       OPTIONS := { -V[ersion] | -s[tatistics] | -d[etails] | -r[esolve] |", "                    -h[uman-readable] | -iec | -j[son] | -p[retty] |", "                    -f[amily] { inet | inet6 | mpls | bridge | link } |", "                    -4 | -6 | -M | -B | -0 |", "                    -l[oops] { maximum-addr-flush-attempts } | -br[ief] |", "                    -o[neline] | -t[imestamp] | -ts[hort] | -b[atch] [filename] |", "                    -rc[vbuf] [size] | -n[etns] name | -N[umeric] | -a[ll] |", "                    -c[olor]}"], "stdout": "", "stdout_lines": []}
+fatal: [server02]: FAILED! => {"changed": false, "cmd": ["ip"], "delta": "0:00:00.006681", "end": "2023-07-27 05:28:49.766871", "msg": "non-zero return code", "rc": 255, "start": "2023-07-27 05:28:49.760190", "stderr": "Usage: ip [ OPTIONS ] OBJECT { COMMAND | help }\n       ip [ -force ] -batch filename\nwhere  OBJECT := { address | addrlabel | fou | help | ila | ioam | l2tp | link |\n                   macsec | maddress | monitor | mptcp | mroute | mrule |\n                   neighbor | neighbour | netconf | netns | nexthop | ntable |\n                   ntbl | route | rule | sr | tap | tcpmetrics |\n                   token | tunnel | tuntap | vrf | xfrm }\n       OPTIONS := { -V[ersion] | -s[tatistics] | -d[etails] | -r[esolve] |\n                    -h[uman-readable] | -iec | -j[son] | -p[retty] |\n                    -f[amily] { inet | inet6 | mpls | bridge | link } |\n                    -4 | -6 | -M | -B | -0 |\n                    -l[oops] { maximum-addr-flush-attempts } | -br[ief] |\n                    -o[neline] | -t[imestamp] | -ts[hort] | -b[atch] [filename] |\n                    -rc[vbuf] [size] | -n[etns] name | -N[umeric] | -a[ll] |\n                    -c[olor]}", "stderr_lines": ["Usage: ip [ OPTIONS ] OBJECT { COMMAND | help }", "       ip [ -force ] -batch filename", "where  OBJECT := { address | addrlabel | fou | help | ila | ioam | l2tp | link |", "                   macsec | maddress | monitor | mptcp | mroute | mrule |", "                   neighbor | neighbour | netconf | netns | nexthop | ntable |", "                   ntbl | route | rule | sr | tap | tcpmetrics |", "                   token | tunnel | tuntap | vrf | xfrm }", "       OPTIONS := { -V[ersion] | -s[tatistics] | -d[etails] | -r[esolve] |", "                    -h[uman-readable] | -iec | -j[son] | -p[retty] |", "                    -f[amily] { inet | inet6 | mpls | bridge | link } |", "                    -4 | -6 | -M | -B | -0 |", "                    -l[oops] { maximum-addr-flush-attempts } | -br[ief] |", "                    -o[neline] | -t[imestamp] | -ts[hort] | -b[atch] [filename] |", "                    -rc[vbuf] [size] | -n[etns] name | -N[umeric] | -a[ll] |", "                    -c[olor]}"], "stdout": "", "stdout_lines": []}
+
+PLAY RECAP *********************************************************************
+server01                   : ok=3    changed=0    unreachable=0    failed=1    skipped=0    rescued=0    ignored=0   
+server02                   : ok=3    changed=0    unreachable=0    failed=1    skipped=0    rescued=0    ignored=0   
+
+
+2023-07-27 10:58:50: 
+PLAY [Executing commands in servers] *******************************************
+
+TASK [Gathering Facts] *********************************************************
+ok: [server01]
+ok: [server02]
+
+TASK [Creating Shell Directory] ************************************************
+ok: [server02]
+ok: [server01]
+
+TASK [Checking for shell command] **********************************************
+ok: [server01] => {
+    "msg": "Inserted Command: ip"
+}
+ok: [server02] => {
+    "msg": "Inserted Command: ip"
+}
+
+TASK [Executing shell command] *************************************************
+fatal: [server01]: FAILED! => {"changed": false, "cmd": ["ip"], "delta": "0:00:00.004134", "end": "2023-07-27 05:28:51.329048", "msg": "non-zero return code", "rc": 255, "start": "2023-07-27 05:28:51.324914", "stderr": "Usage: ip [ OPTIONS ] OBJECT { COMMAND | help }\n       ip [ -force ] -batch filename\nwhere  OBJECT := { address | addrlabel | fou | help | ila | ioam | l2tp | link |\n                   macsec | maddress | monitor | mptcp | mroute | mrule |\n                   neighbor | neighbour | netconf | netns | nexthop | ntable |\n                   ntbl | route | rule | sr | tap | tcpmetrics |\n                   token | tunnel | tuntap | vrf | xfrm }\n       OPTIONS := { -V[ersion] | -s[tatistics] | -d[etails] | -r[esolve] |\n                    -h[uman-readable] | -iec | -j[son] | -p[retty] |\n                    -f[amily] { inet | inet6 | mpls | bridge | link } |\n                    -4 | -6 | -M | -B | -0 |\n                    -l[oops] { maximum-addr-flush-attempts } | -br[ief] |\n                    -o[neline] | -t[imestamp] | -ts[hort] | -b[atch] [filename] |\n                    -rc[vbuf] [size] | -n[etns] name | -N[umeric] | -a[ll] |\n                    -c[olor]}", "stderr_lines": ["Usage: ip [ OPTIONS ] OBJECT { COMMAND | help }", "       ip [ -force ] -batch filename", "where  OBJECT := { address | addrlabel | fou | help | ila | ioam | l2tp | link |", "                   macsec | maddress | monitor | mptcp | mroute | mrule |", "                   neighbor | neighbour | netconf | netns | nexthop | ntable |", "                   ntbl | route | rule | sr | tap | tcpmetrics |", "                   token | tunnel | tuntap | vrf | xfrm }", "       OPTIONS := { -V[ersion] | -s[tatistics] | -d[etails] | -r[esolve] |", "                    -h[uman-readable] | -iec | -j[son] | -p[retty] |", "                    -f[amily] { inet | inet6 | mpls | bridge | link } |", "                    -4 | -6 | -M | -B | -0 |", "                    -l[oops] { maximum-addr-flush-attempts } | -br[ief] |", "                    -o[neline] | -t[imestamp] | -ts[hort] | -b[atch] [filename] |", "                    -rc[vbuf] [size] | -n[etns] name | -N[umeric] | -a[ll] |", "                    -c[olor]}"], "stdout": "", "stdout_lines": []}
+fatal: [server02]: FAILED! => {"changed": false, "cmd": ["ip"], "delta": "0:00:00.004154", "end": "2023-07-27 05:28:51.331498", "msg": "non-zero return code", "rc": 255, "start": "2023-07-27 05:28:51.327344", "stderr": "Usage: ip [ OPTIONS ] OBJECT { COMMAND | help }\n       ip [ -force ] -batch filename\nwhere  OBJECT := { address | addrlabel | fou | help | ila | ioam | l2tp | link |\n                   macsec | maddress | monitor | mptcp | mroute | mrule |\n                   neighbor | neighbour | netconf | netns | nexthop | ntable |\n                   ntbl | route | rule | sr | tap | tcpmetrics |\n                   token | tunnel | tuntap | vrf | xfrm }\n       OPTIONS := { -V[ersion] | -s[tatistics] | -d[etails] | -r[esolve] |\n                    -h[uman-readable] | -iec | -j[son] | -p[retty] |\n                    -f[amily] { inet | inet6 | mpls | bridge | link } |\n                    -4 | -6 | -M | -B | -0 |\n                    -l[oops] { maximum-addr-flush-attempts } | -br[ief] |\n                    -o[neline] | -t[imestamp] | -ts[hort] | -b[atch] [filename] |\n                    -rc[vbuf] [size] | -n[etns] name | -N[umeric] | -a[ll] |\n                    -c[olor]}", "stderr_lines": ["Usage: ip [ OPTIONS ] OBJECT { COMMAND | help }", "       ip [ -force ] -batch filename", "where  OBJECT := { address | addrlabel | fou | help | ila | ioam | l2tp | link |", "                   macsec | maddress | monitor | mptcp | mroute | mrule |", "                   neighbor | neighbour | netconf | netns | nexthop | ntable |", "                   ntbl | route | rule | sr | tap | tcpmetrics |", "                   token | tunnel | tuntap | vrf | xfrm }", "       OPTIONS := { -V[ersion] | -s[tatistics] | -d[etails] | -r[esolve] |", "                    -h[uman-readable] | -iec | -j[son] | -p[retty] |", "                    -f[amily] { inet | inet6 | mpls | bridge | link } |", "                    -4 | -6 | -M | -B | -0 |", "                    -l[oops] { maximum-addr-flush-attempts } | -br[ief] |", "                    -o[neline] | -t[imestamp] | -ts[hort] | -b[atch] [filename] |", "                    -rc[vbuf] [size] | -n[etns] name | -N[umeric] | -a[ll] |", "                    -c[olor]}"], "stdout": "", "stdout_lines": []}
+
+PLAY RECAP *********************************************************************
+server01                   : ok=3    changed=0    unreachable=0    failed=1    skipped=0    rescued=0    ignored=0   
+server02                   : ok=3    changed=0    unreachable=0    failed=1    skipped=0    rescued=0    ignored=0   
+
+
+2023-07-27 11:04:03: Page Refreshing 1
+2023-07-27 11:04:03: Deleted File../master/server_out_folder/server01.txt
+2023-07-27 11:04:03: Page Refreshing 1
+2023-07-27 11:04:03: Deleted File../master/server_out_folder/server02.txt
+2023-07-27 11:04:03: ----------Process starts----------
+2023-07-27 11:04:03: Adding Ansible Hosts
+2023-07-27 11:04:03: Pinging The Servers
+2023-07-27 11:04:03: ----------Process starts----------
+2023-07-27 11:04:03: Adding Ansible Hosts
+2023-07-27 11:04:03: Pinging The Servers
+2023-07-27 11:04:06: Running Ansible Playbooks
+2023-07-27 11:04:06: Running Ansible Playbooks
+2023-07-27 11:04:06: Page Refreshing 1
+2023-07-27 11:04:06: ----------Process starts----------
+2023-07-27 11:04:06: Adding Ansible Hosts
+2023-07-27 11:04:06: Pinging The Servers
+2023-07-27 11:04:07: Running Ansible Playbooks
+2023-07-27 11:04:17: All Commands Successfully Executed
+2023-07-27 11:04:17: ----------Backend Success----------
+2023-07-27 11:04:17: Execution time: 14 seconds
+2023-07-27 11:04:17: All Commands Successfully Executed
+2023-07-27 11:04:17: ----------Backend Success----------
+2023-07-27 11:04:17: Execution time: 14 seconds
+2023-07-27 11:04:18: All Commands Successfully Executed
+2023-07-27 11:04:18: ----------Backend Success----------
+2023-07-27 11:04:18: Execution time: 11 seconds
+2023-07-27 11:04:18: Running Ansible Shell playbook
+2023-07-27 11:04:21: Ansible Shell Command Successfully Executed
+2023-07-27 11:05:08: Page Refreshing 1
+2023-07-27 11:05:08: Deleted File../master/server_out_folder/server01.txt
+2023-07-27 11:05:08: Deleted File../master/server_out_folder/server02.txt
+2023-07-27 11:05:08: ----------Process starts----------
+2023-07-27 11:05:08: Adding Ansible Hosts
+2023-07-27 11:05:08: Pinging The Servers
+2023-07-27 11:05:08: Running Ansible Playbooks
+2023-07-27 11:05:14: All Commands Successfully Executed
+2023-07-27 11:05:14: ----------Backend Success----------
+2023-07-27 11:05:14: Execution time: 6 seconds
+2023-07-27 11:05:14: Deleted File../master/shell_out_folder/server01.txt
+2023-07-27 11:05:14: Deleted File../master/shell_out_folder/server02.txt
+2023-07-27 11:05:14: Running Ansible Shell playbook
+2023-07-27 11:05:18: Ansible Shell Command Successfully Executed
+2023-07-27 11:06:14: Page Refreshing 1
+2023-07-27 11:06:14: Deleted File../master/server_out_folder/server01.txt
+2023-07-27 11:06:14: Deleted File../master/server_out_folder/server02.txt
+2023-07-27 11:06:14: ----------Process starts----------
+2023-07-27 11:06:14: Adding Ansible Hosts
+2023-07-27 11:06:14: Pinging The Servers
+2023-07-27 11:06:15: Running Ansible Playbooks
+2023-07-27 11:06:20: All Commands Successfully Executed
+2023-07-27 11:06:20: ----------Backend Success----------
+2023-07-27 11:06:20: Execution time: 6 seconds
+2023-07-27 11:06:36: Page Refreshing 1
+2023-07-27 11:06:36: Deleted File../master/server_out_folder/server01.txt
+2023-07-27 11:06:36: Deleted File../master/server_out_folder/server02.txt
+2023-07-27 11:06:36: ----------Process starts----------
+2023-07-27 11:06:36: Adding Ansible Hosts
+2023-07-27 11:06:36: Pinging The Servers
+2023-07-27 11:06:37: Running Ansible Playbooks
+2023-07-27 11:06:42: All Commands Successfully Executed
+2023-07-27 11:06:42: ----------Backend Success----------
+2023-07-27 11:06:42: Execution time: 6 seconds
+2023-07-27 11:06:42: Deleted File../master/shell_out_folder/server01.txt
+2023-07-27 11:06:42: Deleted File../master/shell_out_folder/server02.txt
+2023-07-27 11:06:42: Running Ansible Shell playbook
+2023-07-27 11:07:25: Page Refreshing 1
+2023-07-27 11:07:25: Deleted File../master/server_out_folder/server01.txt
+2023-07-27 11:07:25: Deleted File../master/server_out_folder/server02.txt
+2023-07-27 11:07:25: ----------Process starts----------
+2023-07-27 11:07:25: Adding Ansible Hosts
+2023-07-27 11:07:25: Pinging The Servers
+2023-07-27 11:07:26: Running Ansible Playbooks
+2023-07-27 11:07:31: All Commands Successfully Executed
+2023-07-27 11:07:31: ----------Backend Success----------
+2023-07-27 11:07:31: Execution time: 6 seconds
+2023-07-27 11:07:42: Page Refreshing 1
+2023-07-27 11:07:42: Deleted File../master/server_out_folder/server01.txt
+2023-07-27 11:07:42: Deleted File../master/server_out_folder/server02.txt
+2023-07-27 11:07:42: ----------Process starts----------
+2023-07-27 11:07:42: Adding Ansible Hosts
+2023-07-27 11:07:42: Pinging The Servers
+2023-07-27 11:07:43: Running Ansible Playbooks
+2023-07-27 11:07:48: All Commands Successfully Executed
+2023-07-27 11:07:48: ----------Backend Success----------
+2023-07-27 11:07:48: Execution time: 6 seconds
+2023-07-27 11:07:48: Running Ansible Shell playbook
+2023-07-27 11:07:51: Ansible Shell Command Successfully Executed
+2023-07-27 11:08:11: Page Refreshing 1
+2023-07-27 11:08:11: Deleted File../master/server_out_folder/server01.txt
+2023-07-27 11:08:11: Deleted File../master/server_out_folder/server02.txt
+2023-07-27 11:08:11: ----------Process starts----------
+2023-07-27 11:08:11: Adding Ansible Hosts
+2023-07-27 11:08:11: Pinging The Servers
+2023-07-27 11:08:11: Running Ansible Playbooks
+2023-07-27 11:08:17: All Commands Successfully Executed
+2023-07-27 11:08:17: ----------Backend Success----------
+2023-07-27 11:08:17: Execution time: 5 seconds
+2023-07-27 11:09:31: Page Refreshing 1
+2023-07-27 11:09:31: Deleted File../master/server_out_folder/server01.txt
+2023-07-27 11:09:31: Deleted File../master/server_out_folder/server02.txt
+2023-07-27 11:09:31: ----------Process starts----------
+2023-07-27 11:09:31: Adding Ansible Hosts
+2023-07-27 11:09:31: Pinging The Servers
+2023-07-27 11:09:32: Running Ansible Playbooks
+2023-07-27 11:09:32: Page Refreshing 1
+2023-07-27 11:09:32: ----------Process starts----------
+2023-07-27 11:09:32: Adding Ansible Hosts
+2023-07-27 11:09:32: Pinging The Servers
+2023-07-27 11:09:33: Running Ansible Playbooks
+2023-07-27 11:09:35: Page Refreshing 1
+2023-07-27 11:09:35: ----------Process starts----------
+2023-07-27 11:09:35: Adding Ansible Hosts
+2023-07-27 11:09:35: Pinging The Servers
+2023-07-27 11:09:36: Running Ansible Playbooks
+2023-07-27 11:09:40: "msg": "Source (/tmp/ansible_result) does not 
+
+
+
+
+
+
+
+
+
+
+
+"msg": "Source (/tmp/ansible_result) does not
+2023-07-27 11:09:43: All Commands Successfully Executed
+2023-07-27 11:09:43: ----------Backend Success----------
+2023-07-27 11:09:43: Execution time: 10 seconds
+2023-07-27 11:09:44: All Commands Successfully Executed
+2023-07-27 11:09:44: ----------Backend Success----------
+2023-07-27 11:09:44: Execution time: 9 seconds
+2023-07-27 11:09:59: Page Refreshing 1
+2023-07-27 11:09:59: Deleted File../master/server_out_folder/server01.txt
+2023-07-27 11:09:59: Deleted File../master/server_out_folder/server02.txt
+2023-07-27 11:09:59: ----------Process starts----------
+2023-07-27 11:09:59: Adding Ansible Hosts
+2023-07-27 11:09:59: Pinging The Servers
+2023-07-27 11:10:00: Running Ansible Playbooks
+2023-07-27 11:10:05: All Commands Successfully Executed
+2023-07-27 11:10:05: ----------Backend Success----------
+2023-07-27 11:10:05: Execution time: 6 seconds
+2023-07-27 11:10:05: Deleted File../master/shell_out_folder/server01.txt
+2023-07-27 11:10:05: Deleted File../master/shell_out_folder/server02.txt
+2023-07-27 11:10:05: Running Ansible Shell playbook
+2023-07-27 11:10:08: Ansible Shell Command Successfully Executed
+2023-07-27 11:10:45: Page Refreshing 1
+2023-07-27 11:10:45: Deleted File../master/server_out_folder/server01.txt
+2023-07-27 11:10:45: Deleted File../master/server_out_folder/server02.txt
+2023-07-27 11:10:45: ----------Process starts----------
+2023-07-27 11:10:45: Adding Ansible Hosts
+2023-07-27 11:10:45: Pinging The Servers
+2023-07-27 11:10:46: Running Ansible Playbooks
+2023-07-27 11:10:51: All Commands Successfully Executed
+2023-07-27 11:10:51: ----------Backend Success----------
+2023-07-27 11:10:51: Execution time: 5 seconds
+2023-07-27 11:10:51: Deleted File../master/shell_out_folder/server01.txt
+2023-07-27 11:10:51: Deleted File../master/shell_out_folder/server02.txt
+2023-07-27 11:10:51: Running Ansible Shell playbook
+2023-07-27 11:10:54: Ansible Shell Command Successfully Executed
+2023-07-27 11:11:17: Page Refreshing 1
+2023-07-27 11:11:17: Deleted File../master/server_out_folder/server01.txt
+2023-07-27 11:11:17: Deleted File../master/server_out_folder/server02.txt
+2023-07-27 11:11:17: ----------Process starts----------
+2023-07-27 11:11:17: Adding Ansible Hosts
+2023-07-27 11:11:17: Pinging The Servers
+2023-07-27 11:11:18: Running Ansible Playbooks
+2023-07-27 11:11:24: Page Refreshing 1
+2023-07-27 11:11:24: Deleted File../master/server_out_folder/server01.txt
+2023-07-27 11:11:24: Deleted File../master/server_out_folder/server02.txt
+2023-07-27 11:11:24: ----------Process starts----------
+2023-07-27 11:11:24: Adding Ansible Hosts
+2023-07-27 11:11:24: Pinging The Servers
+2023-07-27 11:11:24: All Commands Successfully Executed
+2023-07-27 11:11:24: ----------Backend Success----------
+2023-07-27 11:11:24: Execution time: 6 seconds
+2023-07-27 11:11:24: Running Ansible Playbooks
+2023-07-27 11:11:28: Page Refreshing 1
+2023-07-27 11:11:28: Deleted File../master/server_out_folder/server01.txt
+2023-07-27 11:11:28: Deleted File../master/server_out_folder/server02.txt
+2023-07-27 11:11:28: ----------Process starts----------
+2023-07-27 11:11:28: Adding Ansible Hosts
+2023-07-27 11:11:28: Pinging The Servers
+2023-07-27 11:11:29: Running Ansible Playbooks
+2023-07-27 11:11:31: All Commands Successfully Executed
+2023-07-27 11:11:31: ----------Backend Success----------
+2023-07-27 11:11:31: Execution time: 7 seconds
+2023-07-27 11:11:35: Page Refreshing 1
+2023-07-27 11:11:35: Deleted File../master/server_out_folder/server01.txt
+2023-07-27 11:11:35: Deleted File../master/server_out_folder/server02.txt
+2023-07-27 11:11:35: ----------Process starts----------
+2023-07-27 11:11:35: Adding Ansible Hosts
+2023-07-27 11:11:35: Pinging The Servers
+2023-07-27 11:11:35: All Commands Successfully Executed
+2023-07-27 11:11:35: ----------Backend Success----------
+2023-07-27 11:11:35: Execution time: 7 seconds
+2023-07-27 11:11:36: Running Ansible Playbooks
+2023-07-27 11:11:39: Page Refreshing 1
+2023-07-27 11:11:39: Deleted File../master/server_out_folder/server01.txt
+2023-07-27 11:11:39: Deleted File../master/server_out_folder/server02.txt
+2023-07-27 11:11:39: ----------Process starts----------
+2023-07-27 11:11:39: Adding Ansible Hosts
+2023-07-27 11:11:39: Pinging The Servers
+2023-07-27 11:11:40: Running Ansible Playbooks
+2023-07-27 11:11:42: All Commands Successfully Executed
+2023-07-27 11:11:42: ----------Backend Success----------
+2023-07-27 11:11:42: Execution time: 7 seconds
+2023-07-27 11:11:46: All Commands Successfully Executed
+2023-07-27 11:11:46: ----------Backend Success----------
+2023-07-27 11:11:46: Execution time: 6 seconds
+2023-07-27 11:11:46: Deleted File../master/shell_out_folder/server01.txt
+2023-07-27 11:11:46: Deleted File../master/shell_out_folder/server02.txt
+2023-07-27 11:11:46: Running Ansible Shell playbook
+2023-07-27 11:11:47: Page Refreshing 1
+2023-07-27 11:11:47: Deleted File../master/server_out_folder/server01.txt
+2023-07-27 11:11:47: Deleted File../master/server_out_folder/server02.txt
+2023-07-27 11:11:47: ----------Process starts----------
+2023-07-27 11:11:47: Adding Ansible Hosts
+2023-07-27 11:11:47: Pinging The Servers
+2023-07-27 11:11:48: Running Ansible Playbooks
+2023-07-27 11:11:50: Ansible Shell Command Successfully Executed
+2023-07-27 11:11:53: Page Refreshing 1
+2023-07-27 11:11:53: ----------Process starts----------
+2023-07-27 11:11:53: Adding Ansible Hosts
+2023-07-27 11:11:53: Pinging The Servers
+2023-07-27 11:11:54: Running Ansible Playbooks
+2023-07-27 11:11:54: Page Refreshing 1
+2023-07-27 11:11:54: ----------Process starts----------
+2023-07-27 11:11:54: Adding Ansible Hosts
+2023-07-27 11:11:54: Pinging The Servers
+2023-07-27 11:11:56: Running Ansible Playbooks
+2023-07-27 11:11:56: All Commands Successfully Executed
+2023-07-27 11:11:56: ----------Backend Success----------
+2023-07-27 11:11:56: Execution time: 8 seconds
+2023-07-27 11:11:59: Page Refreshing 1
+2023-07-27 11:11:59: Deleted File../master/server_out_folder/server01.txt
+2023-07-27 11:11:59: Deleted File../master/server_out_folder/server02.txt
+2023-07-27 11:11:59: ----------Process starts----------
+2023-07-27 11:11:59: Adding Ansible Hosts
+2023-07-27 11:11:59: Pinging The Servers
+2023-07-27 11:12:00: Running Ansible Playbooks
+2023-07-27 11:12:03: All Commands Successfully Executed
+2023-07-27 11:12:03: ----------Backend Success----------
+2023-07-27 11:12:03: Execution time: 10 seconds
+2023-07-27 11:12:04: "msg": "", "rc": 0, "start": "2023-07-27 05:42:03.088935", "stderr": "", "stderr_lines": [], "stdout": "up 36 minutes", "stdout_lines": ["up 36 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+"msg": "Destination directory /tmp/ansible_result does not 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+"msg": "", "rc": 0, "start": "2023-07-27 05:42:03.084917", "stderr": "", "stderr_lines": [], "stdout": "up 36 minutes", "stdout_lines": ["up 36 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+"msg": "Destination directory /tmp/ansible_result does not
+2023-07-27 11:12:05: Page Refreshing 1
+2023-07-27 11:12:05: Deleted File../master/server_out_folder/server01.txt
+2023-07-27 11:12:05: Deleted File../master/server_out_folder/server02.txt
+2023-07-27 11:12:05: ----------Process starts----------
+2023-07-27 11:12:05: Adding Ansible Hosts
+2023-07-27 11:12:05: Pinging The Servers
+2023-07-27 11:12:06: Running Ansible Playbooks
+2023-07-27 11:12:08: Page Refreshing 1
+2023-07-27 11:12:08: ----------Process starts----------
+2023-07-27 11:12:08: Adding Ansible Hosts
+2023-07-27 11:12:08: Pinging The Servers
+2023-07-27 11:12:09: All Commands Successfully Executed
+2023-07-27 11:12:09: ----------Backend Success----------
+2023-07-27 11:12:09: Execution time: 9 seconds
+2023-07-27 11:12:10: Running Ansible Playbooks
+2023-07-27 11:12:12: Page Refreshing 1
+2023-07-27 11:12:12: Deleted File../master/server_out_folder/server01.txt
+2023-07-27 11:12:12: Deleted File../master/server_out_folder/server02.txt
+2023-07-27 11:12:12: ----------Process starts----------
+2023-07-27 11:12:12: Adding Ansible Hosts
+2023-07-27 11:12:12: Pinging The Servers
+2023-07-27 11:12:13: "msg": "", "rc": 0, "start": "2023-07-27 05:42:11.828907", "stderr": "", "stderr_lines": [], "stdout": "Filesystem Size Used Avail Use% Mounted on\n/dev/mapper/ubuntu--vg-ubuntu--lv 11G 4.1G 5.9G 42% /", "stdout_lines": ["Filesystem Size Used Avail Use% Mounted on", "/dev/mapper/ubuntu--vg-ubuntu--lv 11G 4.1G 5.9G 42% 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+"msg": "Destination directory /tmp/ansible_result does not 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+"msg": "", "rc": 0, "start": "2023-07-27 05:42:11.833344", "stderr": "", "stderr_lines": [], "stdout": "Filesystem Size Used Avail Use% Mounted on\n/dev/mapper/ubuntu--vg-ubuntu--lv 11G 4.1G 5.9G 42% /", "stdout_lines": ["Filesystem Size Used Avail Use% Mounted on", "/dev/mapper/ubuntu--vg-ubuntu--lv 11G 4.1G 5.9G 42% 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+"msg": "Destination directory /tmp/ansible_result does not
+2023-07-27 11:12:13: Running Ansible Playbooks
+2023-07-27 11:12:18: All Commands Successfully Executed
+2023-07-27 11:12:18: ----------Backend Success----------
+2023-07-27 11:12:18: Execution time: 9 seconds
+2023-07-27 11:12:20: All Commands Successfully Executed
+2023-07-27 11:12:20: ----------Backend Success----------
+2023-07-27 11:12:20: Execution time: 7 seconds
+2023-07-27 11:12:20: Deleted File../master/shell_out_folder/server01.txt
+2023-07-27 11:12:20: Deleted File../master/shell_out_folder/server02.txt
+2023-07-27 11:12:20: Running Ansible Shell playbook
+2023-07-27 11:12:23: Ansible Shell Command Successfully Executed
+2023-07-27 11:12:26: Page Refreshing 1
+2023-07-27 11:12:26: Deleted File../master/server_out_folder/server01.txt
+2023-07-27 11:12:26: Deleted File../master/server_out_folder/server02.txt
+2023-07-27 11:12:26: ----------Process starts----------
+2023-07-27 11:12:26: Adding Ansible Hosts
+2023-07-27 11:12:26: Pinging The Servers
+2023-07-27 11:12:27: Running Ansible Playbooks
+2023-07-27 11:12:31: Page Refreshing 1
+2023-07-27 11:12:31: ----------Process starts----------
+2023-07-27 11:12:31: Adding Ansible Hosts
+2023-07-27 11:12:31: Pinging The Servers
+2023-07-27 11:12:32: Running Ansible Playbooks
+2023-07-27 11:12:33: All Commands Successfully Executed
+2023-07-27 11:12:33: ----------Backend Success----------
+2023-07-27 11:12:33: Execution time: 6 seconds
+2023-07-27 11:12:33: Page Refreshing 1
+2023-07-27 11:12:33: Deleted File../master/server_out_folder/server01.txt
+2023-07-27 11:12:33: Deleted File../master/server_out_folder/server02.txt
+2023-07-27 11:12:33: ----------Process starts----------
+2023-07-27 11:12:33: Adding Ansible Hosts
+2023-07-27 11:12:33: Pinging The Servers
+2023-07-27 11:12:34: Page Refreshing 1
+2023-07-27 11:12:34: ----------Process starts----------
+2023-07-27 11:12:34: Adding Ansible Hosts
+2023-07-27 11:12:34: Pinging The Servers
+2023-07-27 11:12:34: Running Ansible Playbooks
+2023-07-27 11:12:35: Running Ansible Playbooks
+2023-07-27 11:12:41: "msg": "", "rc": 0, "start": "2023-07-27 05:42:38.943607", "stderr": "", "stderr_lines": [], "stdout": "Filesystem Size Used Avail Use% Mounted on\n/dev/mapper/ubuntu--vg-ubuntu--lv 11G 4.1G 5.9G 42% /", "stdout_lines": ["Filesystem Size Used Avail Use% Mounted on", "/dev/mapper/ubuntu--vg-ubuntu--lv 11G 4.1G 5.9G 42% 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+"msg": "Destination directory /tmp/ansible_result does not 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+"msg": "", "rc": 0, "start": "2023-07-27 05:42:38.883323", "stderr": "", "stderr_lines": [], "stdout": "Filesystem Size Used Avail Use% Mounted on\n/dev/mapper/ubuntu--vg-ubuntu--lv 11G 4.1G 5.9G 42% /", "stdout_lines": ["Filesystem Size Used Avail Use% Mounted on", "/dev/mapper/ubuntu--vg-ubuntu--lv 11G 4.1G 5.9G 42% 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+"msg": "Destination directory /tmp/ansible_result does not
+2023-07-27 11:12:44: All Commands Successfully Executed
+2023-07-27 11:12:44: ----------Backend Success----------
+2023-07-27 11:12:44: Execution time: 11 seconds
+2023-07-27 11:12:45: All Commands Successfully Executed
+2023-07-27 11:12:45: ----------Backend Success----------
+2023-07-27 11:12:45: Execution time: 10 seconds
+2023-07-27 11:12:45: Deleted File../master/shell_out_folder/server01.txt
+2023-07-27 11:12:45: Deleted File../master/shell_out_folder/server02.txt
+2023-07-27 11:12:45: Running Ansible Shell playbook
+2023-07-27 11:12:48: Ansible Shell Command Successfully Executed
+2023-07-27 11:13:00: Page Refreshing 1
+2023-07-27 11:13:00: Deleted File../master/server_out_folder/server01.txt
+2023-07-27 11:13:00: Deleted File../master/server_out_folder/server02.txt
+2023-07-27 11:13:00: ----------Process starts----------
+2023-07-27 11:13:00: Adding Ansible Hosts
+2023-07-27 11:13:00: Pinging The Servers
+2023-07-27 11:13:01: Running Ansible Playbooks
+2023-07-27 11:13:03: Page Refreshing 1
+2023-07-27 11:13:03: ----------Process starts----------
+2023-07-27 11:13:03: Adding Ansible Hosts
+2023-07-27 11:13:03: Pinging The Servers
+2023-07-27 11:13:04: Running Ansible Playbooks
+2023-07-27 11:13:07: "msg": "Source (/tmp/ansible_result) does not 
+
+
+
+
+
+
+
+
+
+
+
+"msg": "Source (/tmp/ansible_result) does not
+2023-07-27 11:13:08: Page Refreshing 1
+2023-07-27 11:13:08: ----------Process starts----------
+2023-07-27 11:13:08: Adding Ansible Hosts
+2023-07-27 11:13:08: Pinging The Servers
+2023-07-27 11:13:09: Running Ansible Playbooks
+2023-07-27 11:13:11: All Commands Successfully Executed
+2023-07-27 11:13:11: ----------Backend Success----------
+2023-07-27 11:13:11: Execution time: 8 seconds
+2023-07-27 11:13:12: Page Refreshing 1
+2023-07-27 11:13:12: Deleted File../master/server_out_folder/server01.txt
+2023-07-27 11:13:12: Deleted File../master/server_out_folder/server02.txt
+2023-07-27 11:13:12: ----------Process starts----------
+2023-07-27 11:13:12: Adding Ansible Hosts
+2023-07-27 11:13:12: Pinging The Servers
+2023-07-27 11:13:13: Running Ansible Playbooks
+2023-07-27 11:13:16: "msg": "", "rc": 0, "start": "2023-07-27 05:43:14.841802", "stderr": "", "stderr_lines": [], "stdout": "up 37 minutes", "stdout_lines": ["up 37 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+"msg": "Destination directory /tmp/ansible_result does not 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+"msg": "", "rc": 0, "start": "2023-07-27 05:43:14.849234", "stderr": "", "stderr_lines": [], "stdout": "up 37 minutes", "stdout_lines": ["up 37 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+"msg": "Destination directory /tmp/ansible_result does not
+2023-07-27 11:13:19: Page Refreshing 1
+2023-07-27 11:13:19: ----------Process starts----------
+2023-07-27 11:13:19: Adding Ansible Hosts
+2023-07-27 11:13:19: Pinging The Servers
+2023-07-27 11:13:20: All Commands Successfully Executed
+2023-07-27 11:13:20: ----------Backend Success----------
+2023-07-27 11:13:20: Execution time: 7 seconds
+2023-07-27 11:13:20: Running Ansible Playbooks
+2023-07-27 11:13:25: All Commands Successfully Executed
+2023-07-27 11:13:25: ----------Backend Success----------
+2023-07-27 11:13:25: Execution time: 6 seconds
+2023-07-27 11:13:25: Deleted File../master/shell_out_folder/server01.txt
+2023-07-27 11:13:25: Deleted File../master/shell_out_folder/server02.txt
+2023-07-27 11:13:25: Running Ansible Shell playbook
+2023-07-27 11:13:28: Ansible Shell Command Successfully Executed
+2023-07-27 11:13:29: Page Refreshing 1
+2023-07-27 11:13:29: Deleted File../master/server_out_folder/server01.txt
+2023-07-27 11:13:29: Deleted File../master/server_out_folder/server02.txt
+2023-07-27 11:13:29: ----------Process starts----------
+2023-07-27 11:13:29: Adding Ansible Hosts
+2023-07-27 11:13:29: Pinging The Servers
+2023-07-27 11:13:30: Running Ansible Playbooks
+2023-07-27 11:13:35: All Commands Successfully Executed
+2023-07-27 11:13:35: ----------Backend Success----------
+2023-07-27 11:13:35: Execution time: 6 seconds
+2023-07-27 11:13:35: Deleted File../master/shell_out_folder/server01.txt
+2023-07-27 11:13:35: Deleted File../master/shell_out_folder/server02.txt
+2023-07-27 11:13:35: Running Ansible Shell playbook
+2023-07-27 11:13:37: Page Refreshing 1
+2023-07-27 11:13:37: Deleted File../master/server_out_folder/server01.txt
+2023-07-27 11:13:37: Deleted File../master/server_out_folder/server02.txt
+2023-07-27 11:13:37: ----------Process starts----------
+2023-07-27 11:13:37: Adding Ansible Hosts
+2023-07-27 11:13:37: Pinging The Servers
+2023-07-27 11:13:38: Running Ansible Playbooks
+2023-07-27 11:13:38: Page Refreshing 1
+2023-07-27 11:13:38: ----------Process starts----------
+2023-07-27 11:13:38: Adding Ansible Hosts
+2023-07-27 11:13:38: Pinging The Servers
+2023-07-27 11:13:39: Running Ansible Playbooks
+2023-07-27 11:13:40: Ansible Shell Command Successfully Executed
+2023-07-27 11:13:43: Page Refreshing 1
+2023-07-27 11:13:44: ----------Process starts----------
+2023-07-27 11:13:44: Adding Ansible Hosts
+2023-07-27 11:13:44: Pinging The Servers
+2023-07-27 11:13:45: Running Ansible Playbooks
+2023-07-27 11:13:48: Page Refreshing 1
+2023-07-27 11:13:48: ----------Process starts----------
+2023-07-27 11:13:48: Adding Ansible Hosts
+2023-07-27 11:13:48: Pinging The Servers
+2023-07-27 11:13:49: All Commands Successfully Executed
+2023-07-27 11:13:49: ----------Backend Success----------
+2023-07-27 11:13:49: Execution time: 12 seconds
+2023-07-27 11:13:50: Running Ansible Playbooks
+2023-07-27 11:13:50: All Commands Successfully Executed
+2023-07-27 11:13:50: ----------Backend Success----------
+2023-07-27 11:13:50: Execution time: 11 seconds
+2023-07-27 11:13:51: Page Refreshing 1
+2023-07-27 11:13:51: Deleted File../master/server_out_folder/server01.txt
+2023-07-27 11:13:51: Deleted File../master/server_out_folder/server02.txt
+2023-07-27 11:13:51: ----------Process starts----------
+2023-07-27 11:13:51: Adding Ansible Hosts
+2023-07-27 11:13:51: Pinging The Servers
+2023-07-27 11:13:52: Page Refreshing 1
+2023-07-27 11:13:52: ----------Process starts----------
+2023-07-27 11:13:52: Adding Ansible Hosts
+2023-07-27 11:13:52: Pinging The Servers
+2023-07-27 11:13:52: Running Ansible Playbooks
+2023-07-27 11:13:54: Page Refreshing 1
+2023-07-27 11:13:54: ----------Process starts----------
+2023-07-27 11:13:54: Adding Ansible Hosts
+2023-07-27 11:13:54: Pinging The Servers
+2023-07-27 11:13:54: Running Ansible Playbooks
+2023-07-27 11:13:57: Running Ansible Playbooks
+2023-07-27 11:13:58: "msg": "Destination directory /tmp/ansible_result does not 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+"msg": "Destination directory /tmp/ansible_result does not
+2023-07-27 11:13:59: "msg": "Source (/tmp/ansible_result) does not 
+
+
+
+
+
+
+
+
+
+
+
+"msg": "Source (/tmp/ansible_result) does not
+2023-07-27 11:14:02: "msg": "Destination directory /tmp/ansible_result does not 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+"msg": "Destination directory /tmp/ansible_result does not
+2023-07-27 11:14:07: All Commands Successfully Executed
+2023-07-27 11:14:07: ----------Backend Success----------
+2023-07-27 11:14:07: Execution time: 14 seconds
+2023-07-27 11:14:07: All Commands Successfully Executed
+2023-07-27 11:14:07: ----------Backend Success----------
+2023-07-27 11:14:07: Execution time: 12 seconds
+2023-07-27 11:14:07: Deleted File../master/shell_out_folder/server01.txt
+2023-07-27 11:14:07: Deleted File../master/shell_out_folder/server02.txt
+2023-07-27 11:14:07: Running Ansible Shell playbook
+2023-07-27 11:14:10: Ansible Shell Command Successfully Executed
+2023-07-27 11:14:22: Page Refreshing 1
+2023-07-27 11:14:22: Deleted File../master/server_out_folder/server01.txt
+2023-07-27 11:14:22: Deleted File../master/server_out_folder/server02.txt
+2023-07-27 11:14:22: ----------Process starts----------
+2023-07-27 11:14:22: Adding Ansible Hosts
+2023-07-27 11:14:22: Pinging The Servers
+2023-07-27 11:14:23: Running Ansible Playbooks
+2023-07-27 11:14:26: Page Refreshing 1
+2023-07-27 11:14:26: ----------Process starts----------
+2023-07-27 11:14:26: Adding Ansible Hosts
+2023-07-27 11:14:26: Pinging The Servers
+2023-07-27 11:14:27: Running Ansible Playbooks
+2023-07-27 11:14:29: "msg": "Source (/tmp/ansible_result) does not 
+
+
+
+
+
+
+
+
+
+
+
+"msg": "Source (/tmp/ansible_result) does not
+2023-07-27 11:14:33: All Commands Successfully Executed
+2023-07-27 11:14:33: ----------Backend Success----------
+2023-07-27 11:14:33: Execution time: 7 seconds
+2023-07-27 11:14:33: Deleted File../master/shell_out_folder/server01.txt
+2023-07-27 11:14:33: Deleted File../master/shell_out_folder/server02.txt
+2023-07-27 11:14:33: Running Ansible Shell playbook
+2023-07-27 11:14:36: Ansible Shell Command Successfully Executed
+2023-07-27 11:14:53: Page Refreshing 1
+2023-07-27 11:14:53: Deleted File../master/server_out_folder/server01.txt
+2023-07-27 11:14:53: Deleted File../master/server_out_folder/server02.txt
+2023-07-27 11:14:53: ----------Process starts----------
+2023-07-27 11:14:53: Adding Ansible Hosts
+2023-07-27 11:14:53: Pinging The Servers
+2023-07-27 11:14:54: Running Ansible Playbooks
+2023-07-27 11:14:56: Page Refreshing 1
+2023-07-27 11:14:56: ----------Process starts----------
+2023-07-27 11:14:56: Adding Ansible Hosts
+2023-07-27 11:14:56: Pinging The Servers
+2023-07-27 11:14:57: Running Ansible Playbooks
+2023-07-27 11:15:01: All Commands Successfully Executed
+2023-07-27 11:15:01: ----------Backend Success----------
+2023-07-27 11:15:01: Execution time: 8 seconds
+2023-07-27 11:15:04: All Commands Successfully Executed
+2023-07-27 11:15:04: ----------Backend Success----------
+2023-07-27 11:15:04: Execution time: 8 seconds
+2023-07-27 11:15:04: Deleted File../master/shell_out_folder/server01.txt
+2023-07-27 11:15:04: Deleted File../master/shell_out_folder/server02.txt
+2023-07-27 11:15:04: Running Ansible Shell playbook
+2023-07-27 11:15:07: Ansible Shell Command Successfully Executed
+2023-07-27 11:17:20: Page Refreshing 1
+2023-07-27 11:17:20: Deleted File../master/server_out_folder/server01.txt
+2023-07-27 11:17:20: Deleted File../master/server_out_folder/server02.txt
+2023-07-27 11:17:20: ----------Process starts----------
+2023-07-27 11:17:20: Adding Ansible Hosts
+2023-07-27 11:17:20: Pinging The Servers
+2023-07-27 11:17:20: Running Ansible Playbooks
+2023-07-27 11:17:26: All Commands Successfully Executed
+2023-07-27 11:17:26: ----------Backend Success----------
+2023-07-27 11:17:26: Execution time: 6 seconds
+2023-07-27 11:17:26: Deleted File../master/shell_out_folder/server01.txt
+2023-07-27 11:17:26: Deleted File../master/shell_out_folder/server02.txt
+2023-07-27 11:17:26: Running Ansible Shell playbook
+2023-07-27 11:17:29: Ansible Shell Command Successfully Executed
+2023-07-27 11:18:27: "msg": "Inserted Command: sudo echo test" 
+
+
+
+
+
+
+
+
+
+
+"msg": "Inserted Command: sudo echo test"
+2023-07-27 11:18:33: Page Refreshing 1
+2023-07-27 11:18:33: Deleted File../master/server_out_folder/server01.txt
+2023-07-27 11:18:33: Deleted File../master/server_out_folder/server02.txt
+2023-07-27 11:18:33: ----------Process starts----------
+2023-07-27 11:18:33: Adding Ansible Hosts
+2023-07-27 11:18:33: Pinging The Servers
+2023-07-27 11:18:34: Running Ansible Playbooks
+2023-07-27 11:18:35: Page Refreshing 1
+2023-07-27 11:18:35: ----------Process starts----------
+2023-07-27 11:18:35: Adding Ansible Hosts
+2023-07-27 11:18:35: Pinging The Servers
+2023-07-27 11:18:36: Running Ansible Playbooks
+2023-07-27 11:18:42: All Commands Successfully Executed
+2023-07-27 11:18:42: ----------Backend Success----------
+2023-07-27 11:18:42: Execution time: 8 seconds
+2023-07-27 11:18:43: All Commands Successfully Executed
+2023-07-27 11:18:43: ----------Backend Success----------
+2023-07-27 11:18:43: Execution time: 7 seconds
+2023-07-27 11:18:54: Page Refreshing 1
+2023-07-27 11:18:54: Deleted File../master/server_out_folder/server01.txt
+2023-07-27 11:18:54: Deleted File../master/server_out_folder/server02.txt
+2023-07-27 11:18:54: ----------Process starts----------
+2023-07-27 11:18:54: Adding Ansible Hosts
+2023-07-27 11:18:54: Pinging The Servers
+2023-07-27 11:18:55: Running Ansible Playbooks
+2023-07-27 11:19:00: All Commands Successfully Executed
+2023-07-27 11:19:00: ----------Backend Success----------
+2023-07-27 11:19:00: Execution time: 5 seconds
+2023-07-27 11:19:00: Deleted File../master/shell_out_folder/server01.txt
+2023-07-27 11:19:00: Deleted File../master/shell_out_folder/server02.txt
+2023-07-27 11:19:00: Running Ansible Shell playbook
+2023-07-27 11:19:02: "msg": "Inserted Command: python --version" 
+
+
+
+
+
+
+
+
+
+"msg": "Inserted Command: python --version" 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+"msg": "[Errno 2] No such file or directory: b'python'", "rc": 2, "stderr": "", "stderr_lines": [], "stdout": "", "stdout_lines": 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+"msg": "[Errno 2] No such file or directory: b'python'", "rc": 2, "stderr": "", "stderr_lines": [], "stdout": "", "stdout_lines":
+2023-07-27 11:19:02: not enough values to unpack (expected 2, got 0)
+2023-07-27 11:19:09: Page Refreshing 1
+2023-07-27 11:19:09: Deleted File../master/server_out_folder/server01.txt
+2023-07-27 11:19:09: Deleted File../master/server_out_folder/server02.txt
+2023-07-27 11:19:09: ----------Process starts----------
+2023-07-27 11:19:09: Adding Ansible Hosts
+2023-07-27 11:19:09: Pinging The Servers
+2023-07-27 11:19:10: Running Ansible Playbooks
+2023-07-27 11:19:15: All Commands Successfully Executed
+2023-07-27 11:19:15: ----------Backend Success----------
+2023-07-27 11:19:15: Execution time: 6 seconds
+2023-07-27 11:19:15: Running Ansible Shell playbook
+2023-07-27 11:19:19: Ansible Shell Command Successfully Executed
+2023-07-27 11:19:59: Page Refreshing 1
+2023-07-27 11:19:59: Deleted File../master/server_out_folder/server01.txt
+2023-07-27 11:19:59: Deleted File../master/server_out_folder/server02.txt
+2023-07-27 11:19:59: ----------Process starts----------
+2023-07-27 11:19:59: Adding Ansible Hosts
+2023-07-27 11:19:59: Pinging The Servers
+2023-07-27 11:19:59: Running Ansible Playbooks
+2023-07-27 11:20:04: All Commands Successfully Executed
+2023-07-27 11:20:04: ----------Backend Success----------
+2023-07-27 11:20:04: Execution time: 5 seconds
+2023-07-27 11:20:15: Page Refreshing 1
+2023-07-27 11:20:15: Deleted File../master/server_out_folder/server01.txt
+2023-07-27 11:20:15: Deleted File../master/server_out_folder/server02.txt
+2023-07-27 11:20:16: ----------Process starts----------
+2023-07-27 11:20:16: Adding Ansible Hosts
+2023-07-27 11:20:16: Pinging The Servers
+2023-07-27 11:20:16: Running Ansible Playbooks
+2023-07-27 11:20:21: All Commands Successfully Executed
+2023-07-27 11:20:21: ----------Backend Success----------
+2023-07-27 11:20:21: Execution time: 5 seconds
+2023-07-27 11:20:21: Deleted File../master/shell_out_folder/server01.txt
+2023-07-27 11:20:21: Deleted File../master/shell_out_folder/server02.txt
+2023-07-27 11:20:21: Running Ansible Shell playbook
+2023-07-27 11:20:24: Ansible Shell Command Successfully Executed

@@ -146,10 +146,18 @@ def Streamlit():
         with tab2:
             shell = st.text_area(
                 "Enter the command you want to Execute",
-                height=400,
+                height=100,
             )
-            ansible_shell("date")
-            st.write(shell)
+            if shell != "":
+                ansible_shell(shell)
+                contents, filename = read_files_in_folder("../master/shell_out_folder")
+                for i in range(0, len(filename)):
+                    st.divider()
+                    st.write(
+                    f"<p class='custom-paragraph'>{filename[i][:-4]}</p>",
+                    unsafe_allow_html=True,)                   
+                    st.text(contents[i])
+
             # call command here
 
     except Exception as e:

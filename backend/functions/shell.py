@@ -7,6 +7,7 @@ from backend.functions.file_checking import valid_path
 from backend.functions.log import log_write
 from backend.functions.ansible import run_ansible_command
 
+
 def ansible_shell(command):
     try:
         read_files = glob.glob("../master/shell_out_folder/s*")
@@ -14,12 +15,15 @@ def ansible_shell(command):
         for f in read_files:
             os.remove(f)
             log_write("Deleted File" + str(f))
-        
+
         log_write("Running Ansible Shell playbook")
-        #Keeping command as an extra variable for ansible
-        ansible_command = 'ansible-playbook ' + valid_path(
-            '../backend/ansible/playbooks/shell.yaml'
-        ) + ' --extra-vars "shell_command=' + command + '"'
+        # print(command)
+        # Keeping command as an extra variable for ansible
+        playbook_path = valid_path("../backend/ansible/playbooks/shell.yaml")
+
+    # Create the Ansible command using an f-string
+        ansible_command = f"ansible-playbook {playbook_path} --extra-vars \"shell_command='{command}'\""
+        # print(ansible_command)
         run_ansible_command(ansible_command)
         log_write("Ansible Shell Command Successfully Executed")
 
