@@ -37,7 +37,7 @@ def refreshing():
 def Streamlit():
     # Call the parse_servers function with the config file path
     try:
-        delete_ansible()
+        delete_ansible()  # delete files in the server_out_folder
         st.title("Server Performance Monitoring v1.1.0")
 
         # Add a text input box to search for a specific server
@@ -45,17 +45,17 @@ def Streamlit():
         ini_file = master_ini_file()  # check for ini files in the master dir.
         servers, refresh_time = parse_servers(ini_file)  # parse the ini file.
 
+        # Getting Execution Time
         start_time = time.time()
-
         ansible_backend(servers)
-
         end_time = time.time()
         execution_time = end_time - start_time
-
         log_write("Execution time: " + str(int(execution_time)) + " seconds")
 
+        # Create Missing Files
         create_dead_files(ini_file)
 
+        # Load CSS
         def local_css(file_name):
             with open(file_name) as f:
                 st.markdown(f"<style>{f.read()}</style>", unsafe_allow_html=True)
@@ -94,6 +94,7 @@ def Streamlit():
         )
 
         # Display server status
+
         data_servers = generate_array()
         for server in filtered_servers:
             index = servers.index(server)
@@ -117,19 +118,21 @@ def Streamlit():
                     f'<p class="expander-card">Memory Usage: {data_servers[index]["memory"]}</p>',
                     unsafe_allow_html=True,
                 )
+
         timestamp = datetime.datetime.now().strftime("%H:%M:%S")
         st.toast("Success: Latest Info Displaying " + "Time: " + timestamp)
         st.toast("Backend Execution Time : " + str(int(execution_time)) + " seconds")
         ansible_backup()
+
         st.sidebar.title("Custom Outputs")
         folderpath = "../master/server_out_folder"
         (contents, txtname) = read_files_in_folder(folderpath)
-        tab1, tab2 = st.sidebar.tabs(["Custom Outputs", "Terminal"])
+        tab1, tab2, tab3 = st.sidebar.tabs(["Custom Outputs", "Terminal", "Overview"])
         with tab1:
             for i in range(0, len(contents)):
-                if st.button("View Contents of : " + txtname[i][:-4]):
+                if st.button("View Contents of : " + servers[i]["host_name"]):
                     if contents[i] == "":
-                        st.text(txtname[i][:-4] + " Not Reachable check logs")
+                        st.code(txtname[i][:-4] + " Not Reachable check logs")
                         st.toast(txtname[i][:-4] + " Not Reachable check logs")
                         st.download_button(
                             label="Download " + txtname[i],
@@ -137,7 +140,7 @@ def Streamlit():
                             file_name=txtname[i],
                         )
                     else:
-                        st.text(contents[i])
+                        st.code(contents[i])
                         st.toast(contents[i])
                         st.download_button(
                             label="Download " + txtname[i],
@@ -162,7 +165,11 @@ def Streamlit():
                             f"<p class='custom-paragraph'>{filename[i][:-4]}</p>",
                             unsafe_allow_html=True,
                         )
-                        st.text(contents[i])
+                        st.code(contents[i], language="vim", line_numbers=True)
+
+        with tab3:
+            for server in servers:
+                st.code(server["host_name"] + "--" + server["status"])
 
             # call command here
 

@@ -38,4 +38,4 @@ def ansible_shell(command):
                     indx += 1
             error_message += "\n"
         log_write(error_message.strip())
-        st.toast(error_message.strip())
+        st.error(error_message.strip())
