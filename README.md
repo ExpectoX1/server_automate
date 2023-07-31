@@ -44,5 +44,5 @@ Ansible is an open-source automation tool used for managing IT infrastructure an
 We have also used many parsers like , `.txt` , `.ini` and `.config` parsers. All of them were made form scratch.
 
 #### App Demo:
+![image](https://github.com/ExpectoX1/server_automate/assets/79239242/3fdcc1c4-7a88-4b76-9197-b4322ab388ed)
 
-![image](https://github.com/ExpectoX1/server_automate/assets/79239242/479d13c9-4090-4748-822d-f11368dd5696)
