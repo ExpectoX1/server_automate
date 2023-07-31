@@ -1830,3 +1830,729 @@ df -H /home_loc: Filesystem                         Size  Used Avail Use% Mounte
 uptime -p_loc: up 2 hours, 48 minutes 
 os_version_loc: Ubuntu
 
+
+13:34:16
+server10:
+
+server01:
+df -H /home_loc: Filesystem                         Size  Used Avail Use% Mounted on
+/dev/mapper/ubuntu--vg-ubuntu--lv   11G  4.1G  6.0G  41% / 
+uptime -p_loc: up 2 hours, 53 minutes 
+os_version_loc: Ubuntu
+
+server02:
+df -H /home_loc: Filesystem                         Size  Used Avail Use% Mounted on
+/dev/mapper/ubuntu--vg-ubuntu--lv   11G  4.1G  6.0G  41% / 
+uptime -p_loc: up 2 hours, 53 minutes 
+os_version_loc: Ubuntu
+
+server11:
+df -H /home_loc: Filesystem                         Size  Used Avail Use% Mounted on
+/dev/mapper/ubuntu--vg-ubuntu--lv   11G  4.1G  6.0G  41% / 
+uptime -p_loc: up 2 hours, 53 minutes 
+os_version_loc: Ubuntu
+
+
+13:36:17
+server10:
+
+server01:
+df -H /home_loc: Filesystem                         Size  Used Avail Use% Mounted on
+/dev/mapper/ubuntu--vg-ubuntu--lv   11G  4.1G  6.0G  41% / 
+uptime -p_loc: up 2 hours, 55 minutes 
+os_version_loc: Ubuntu
+
+server02:
+df -H /home_loc: Filesystem                         Size  Used Avail Use% Mounted on
+/dev/mapper/ubuntu--vg-ubuntu--lv   11G  4.1G  6.0G  41% / 
+uptime -p_loc: up 2 hours, 55 minutes 
+os_version_loc: Ubuntu
+
+server11:
+df -H /home_loc: Filesystem                         Size  Used Avail Use% Mounted on
+/dev/mapper/ubuntu--vg-ubuntu--lv   11G  4.1G  6.0G  41% / 
+uptime -p_loc: up 2 hours, 55 minutes 
+os_version_loc: Ubuntu
+
+
+13:37:00
+server10:
+
+server01:
+df -H /home_loc: Filesystem                         Size  Used Avail Use% Mounted on
+/dev/mapper/ubuntu--vg-ubuntu--lv   11G  4.1G  6.0G  41% / 
+uptime -p_loc: up 2 hours, 55 minutes 
+os_version_loc: Ubuntu
+
+server02:
+df -H /home_loc: Filesystem                         Size  Used Avail Use% Mounted on
+/dev/mapper/ubuntu--vg-ubuntu--lv   11G  4.1G  6.0G  41% / 
+uptime -p_loc: up 2 hours, 55 minutes 
+os_version_loc: Ubuntu
+
+server11:
+df -H /home_loc: Filesystem                         Size  Used Avail Use% Mounted on
+/dev/mapper/ubuntu--vg-ubuntu--lv   11G  4.1G  6.0G  41% / 
+uptime -p_loc: up 2 hours, 55 minutes 
+os_version_loc: Ubuntu
+
+
+13:37:43
+server10:
+
+server01:
+df -H /home_loc: Filesystem                         Size  Used Avail Use% Mounted on
+/dev/mapper/ubuntu--vg-ubuntu--lv   11G  4.1G  6.0G  41% / 
+uptime -p_loc: up 2 hours, 56 minutes 
+os_version_loc: Ubuntu
+
+server02:
+df -H /home_loc: Filesystem                         Size  Used Avail Use% Mounted on
+/dev/mapper/ubuntu--vg-ubuntu--lv   11G  4.1G  6.0G  41% / 
+uptime -p_loc: up 2 hours, 56 minutes 
+os_version_loc: Ubuntu
+
+server11:
+df -H /home_loc: Filesystem                         Size  Used Avail Use% Mounted on
+/dev/mapper/ubuntu--vg-ubuntu--lv   11G  4.1G  6.0G  41% / 
+uptime -p_loc: up 2 hours, 56 minutes 
+os_version_loc: Ubuntu
+
+
+13:38:27
+server10:
+
+server01:
+df -H /home_loc: Filesystem                         Size  Used Avail Use% Mounted on
+/dev/mapper/ubuntu--vg-ubuntu--lv   11G  4.1G  6.0G  41% / 
+uptime -p_loc: up 2 hours, 57 minutes 
+os_version_loc: Ubuntu
+
+server02:
+df -H /home_loc: Filesystem                         Size  Used Avail Use% Mounted on
+/dev/mapper/ubuntu--vg-ubuntu--lv   11G  4.1G  6.0G  41% / 
+uptime -p_loc: up 2 hours, 57 minutes 
+os_version_loc: Ubuntu
+
+server11:
+df -H /home_loc: Filesystem                         Size  Used Avail Use% Mounted on
+/dev/mapper/ubuntu--vg-ubuntu--lv   11G  4.1G  6.0G  41% / 
+uptime -p_loc: up 2 hours, 57 minutes 
+os_version_loc: Ubuntu
+
+
+13:39:09
+server10:
+
+server01:
+df -H /home_loc: Filesystem                         Size  Used Avail Use% Mounted on
+/dev/mapper/ubuntu--vg-ubuntu--lv   11G  4.1G  6.0G  41% / 
+uptime -p_loc: up 2 hours, 57 minutes 
+os_version_loc: Ubuntu
+
+server02:
+df -H /home_loc: Filesystem                         Size  Used Avail Use% Mounted on
+/dev/mapper/ubuntu--vg-ubuntu--lv   11G  4.1G  6.0G  41% / 
+uptime -p_loc: up 2 hours, 57 minutes 
+os_version_loc: Ubuntu
+
+server11:
+df -H /home_loc: Filesystem                         Size  Used Avail Use% Mounted on
+/dev/mapper/ubuntu--vg-ubuntu--lv   11G  4.1G  6.0G  41% / 
+uptime -p_loc: up 2 hours, 57 minutes 
+os_version_loc: Ubuntu
+
+
+13:39:52
+server10:
+
+server01:
+df -H /home_loc: Filesystem                         Size  Used Avail Use% Mounted on
+/dev/mapper/ubuntu--vg-ubuntu--lv   11G  4.1G  6.0G  41% / 
+uptime -p_loc: up 2 hours, 58 minutes 
+os_version_loc: Ubuntu
+
+server02:
+df -H /home_loc: Filesystem                         Size  Used Avail Use% Mounted on
+/dev/mapper/ubuntu--vg-ubuntu--lv   11G  4.1G  6.0G  41% / 
+uptime -p_loc: up 2 hours, 58 minutes 
+os_version_loc: Ubuntu
+
+server11:
+df -H /home_loc: Filesystem                         Size  Used Avail Use% Mounted on
+/dev/mapper/ubuntu--vg-ubuntu--lv   11G  4.1G  6.0G  41% / 
+uptime -p_loc: up 2 hours, 58 minutes 
+os_version_loc: Ubuntu
+
+
+13:45:00
+server10:
+
+server01:
+df -H /home_loc: Filesystem                         Size  Used Avail Use% Mounted on
+/dev/mapper/ubuntu--vg-ubuntu--lv   11G  4.1G  6.0G  41% / 
+uptime -p_loc: up 1 minute 
+os_version_loc: Ubuntu
+
+server02:
+df -H /home_loc: Filesystem                         Size  Used Avail Use% Mounted on
+/dev/mapper/ubuntu--vg-ubuntu--lv   11G  4.1G  6.0G  41% / 
+uptime -p_loc: up 1 minute 
+os_version_loc: Ubuntu
+
+server11:
+df -H /home_loc: Filesystem                         Size  Used Avail Use% Mounted on
+/dev/mapper/ubuntu--vg-ubuntu--lv   11G  4.1G  6.0G  41% / 
+uptime -p_loc: up 1 minute 
+os_version_loc: Ubuntu
+
+
+13:48:12
+server10:
+
+server01:
+df -H /home_loc: Filesystem                         Size  Used Avail Use% Mounted on
+/dev/mapper/ubuntu--vg-ubuntu--lv   11G  4.1G  6.0G  41% / 
+uptime -p_loc: up 4 minutes 
+os_version_loc: Ubuntu
+
+server02:
+df -H /home_loc: Filesystem                         Size  Used Avail Use% Mounted on
+/dev/mapper/ubuntu--vg-ubuntu--lv   11G  4.1G  6.0G  41% / 
+uptime -p_loc: up 4 minutes 
+os_version_loc: Ubuntu
+
+server11:
+df -H /home_loc: Filesystem                         Size  Used Avail Use% Mounted on
+/dev/mapper/ubuntu--vg-ubuntu--lv   11G  4.1G  6.0G  41% / 
+uptime -p_loc: up 4 minutes 
+os_version_loc: Ubuntu
+
+
+13:48:55
+server10:
+
+server01:
+df -H /home_loc: Filesystem                         Size  Used Avail Use% Mounted on
+/dev/mapper/ubuntu--vg-ubuntu--lv   11G  4.1G  6.0G  41% / 
+uptime -p_loc: up 4 minutes 
+os_version_loc: Ubuntu
+
+server02:
+df -H /home_loc: Filesystem                         Size  Used Avail Use% Mounted on
+/dev/mapper/ubuntu--vg-ubuntu--lv   11G  4.1G  6.0G  41% / 
+uptime -p_loc: up 4 minutes 
+os_version_loc: Ubuntu
+
+server11:
+df -H /home_loc: Filesystem                         Size  Used Avail Use% Mounted on
+/dev/mapper/ubuntu--vg-ubuntu--lv   11G  4.1G  6.0G  41% / 
+uptime -p_loc: up 4 minutes 
+os_version_loc: Ubuntu
+
+
+13:49:41
+server10:
+
+server01:
+df -H /home_loc: Filesystem                         Size  Used Avail Use% Mounted on
+/dev/mapper/ubuntu--vg-ubuntu--lv   11G  4.1G  6.0G  41% / 
+uptime -p_loc: up 5 minutes 
+os_version_loc: Ubuntu
+
+server02:
+df -H /home_loc: Filesystem                         Size  Used Avail Use% Mounted on
+/dev/mapper/ubuntu--vg-ubuntu--lv   11G  4.1G  6.0G  41% / 
+uptime -p_loc: up 5 minutes 
+os_version_loc: Ubuntu
+
+server11:
+df -H /home_loc: Filesystem                         Size  Used Avail Use% Mounted on
+/dev/mapper/ubuntu--vg-ubuntu--lv   11G  4.1G  6.0G  41% / 
+uptime -p_loc: up 5 minutes 
+os_version_loc: Ubuntu
+
+
+13:50:48
+server10:
+
+server01:
+df -H /home_loc: Filesystem                         Size  Used Avail Use% Mounted on
+/dev/mapper/ubuntu--vg-ubuntu--lv   11G  4.1G  6.0G  41% / 
+uptime -p_loc: up 6 minutes 
+os_version_loc: Ubuntu
+
+server02:
+df -H /home_loc: Filesystem                         Size  Used Avail Use% Mounted on
+/dev/mapper/ubuntu--vg-ubuntu--lv   11G  4.1G  6.0G  41% / 
+uptime -p_loc: up 6 minutes 
+os_version_loc: Ubuntu
+
+server11:
+df -H /home_loc: Filesystem                         Size  Used Avail Use% Mounted on
+/dev/mapper/ubuntu--vg-ubuntu--lv   11G  4.1G  6.0G  41% / 
+uptime -p_loc: up 6 minutes 
+os_version_loc: Ubuntu
+
+
+13:51:53
+server10:
+
+server01:
+df -H /home_loc: Filesystem                         Size  Used Avail Use% Mounted on
+/dev/mapper/ubuntu--vg-ubuntu--lv   11G  4.1G  6.0G  41% / 
+uptime -p_loc: up 7 minutes 
+os_version_loc: Ubuntu
+
+server02:
+df -H /home_loc: Filesystem                         Size  Used Avail Use% Mounted on
+/dev/mapper/ubuntu--vg-ubuntu--lv   11G  4.1G  6.0G  41% / 
+uptime -p_loc: up 7 minutes 
+os_version_loc: Ubuntu
+
+server11:
+df -H /home_loc: Filesystem                         Size  Used Avail Use% Mounted on
+/dev/mapper/ubuntu--vg-ubuntu--lv   11G  4.1G  6.0G  41% / 
+uptime -p_loc: up 7 minutes 
+os_version_loc: Ubuntu
+
+
+13:52:45
+server10:
+
+server01:
+df -H /home_loc: Filesystem                         Size  Used Avail Use% Mounted on
+/dev/mapper/ubuntu--vg-ubuntu--lv   11G  4.1G  6.0G  41% / 
+uptime -p_loc: up 8 minutes 
+os_version_loc: Ubuntu
+
+server02:
+df -H /home_loc: Filesystem                         Size  Used Avail Use% Mounted on
+/dev/mapper/ubuntu--vg-ubuntu--lv   11G  4.1G  6.0G  41% / 
+uptime -p_loc: up 8 minutes 
+os_version_loc: Ubuntu
+
+server11:
+df -H /home_loc: Filesystem                         Size  Used Avail Use% Mounted on
+/dev/mapper/ubuntu--vg-ubuntu--lv   11G  4.1G  6.0G  41% / 
+uptime -p_loc: up 8 minutes 
+os_version_loc: Ubuntu
+
+
+13:57:25
+server10:
+
+server01:
+df -H /home_loc: Filesystem                         Size  Used Avail Use% Mounted on
+/dev/mapper/ubuntu--vg-ubuntu--lv   11G  4.1G  6.0G  41% / 
+uptime -p_loc: up 12 minutes 
+os_version_loc: Ubuntu
+
+server02:
+df -H /home_loc: Filesystem                         Size  Used Avail Use% Mounted on
+/dev/mapper/ubuntu--vg-ubuntu--lv   11G  4.1G  6.0G  41% / 
+uptime -p_loc: up 12 minutes 
+os_version_loc: Ubuntu
+
+server11:
+df -H /home_loc: Filesystem                         Size  Used Avail Use% Mounted on
+/dev/mapper/ubuntu--vg-ubuntu--lv   11G  4.1G  6.0G  41% / 
+uptime -p_loc: up 12 minutes 
+os_version_loc: Ubuntu
+
+
+13:58:37
+server10:
+
+server01:
+df -H /home_loc: Filesystem                         Size  Used Avail Use% Mounted on
+/dev/mapper/ubuntu--vg-ubuntu--lv   11G  4.1G  6.0G  41% / 
+uptime -p_loc: up 13 minutes 
+os_version_loc: Ubuntu
+
+server02:
+df -H /home_loc: Filesystem                         Size  Used Avail Use% Mounted on
+/dev/mapper/ubuntu--vg-ubuntu--lv   11G  4.1G  6.0G  41% / 
+uptime -p_loc: up 13 minutes 
+os_version_loc: Ubuntu
+
+server11:
+df -H /home_loc: Filesystem                         Size  Used Avail Use% Mounted on
+/dev/mapper/ubuntu--vg-ubuntu--lv   11G  4.1G  6.0G  41% / 
+uptime -p_loc: up 13 minutes 
+os_version_loc: Ubuntu
+
+
+14:02:32
+server10:
+
+server01:
+df -H /home_loc: Filesystem                         Size  Used Avail Use% Mounted on
+/dev/mapper/ubuntu--vg-ubuntu--lv   11G  4.1G  6.0G  41% / 
+uptime -p_loc: up 17 minutes 
+os_version_loc: Ubuntu
+
+server02:
+df -H /home_loc: Filesystem                         Size  Used Avail Use% Mounted on
+/dev/mapper/ubuntu--vg-ubuntu--lv   11G  4.1G  6.0G  41% / 
+uptime -p_loc: up 17 minutes 
+os_version_loc: Ubuntu
+
+server11:
+df -H /home_loc: Filesystem                         Size  Used Avail Use% Mounted on
+/dev/mapper/ubuntu--vg-ubuntu--lv   11G  4.1G  6.0G  41% / 
+uptime -p_loc: up 17 minutes 
+os_version_loc: Ubuntu
+
+
+14:03:31
+server10:
+
+server01:
+df -H /home_loc: Filesystem                         Size  Used Avail Use% Mounted on
+/dev/mapper/ubuntu--vg-ubuntu--lv   11G  4.1G  6.0G  41% / 
+uptime -p_loc: up 18 minutes 
+os_version_loc: Ubuntu
+
+server02:
+df -H /home_loc: Filesystem                         Size  Used Avail Use% Mounted on
+/dev/mapper/ubuntu--vg-ubuntu--lv   11G  4.1G  6.0G  41% / 
+uptime -p_loc: up 18 minutes 
+os_version_loc: Ubuntu
+
+server11:
+df -H /home_loc: Filesystem                         Size  Used Avail Use% Mounted on
+/dev/mapper/ubuntu--vg-ubuntu--lv   11G  4.1G  6.0G  41% / 
+uptime -p_loc: up 18 minutes 
+os_version_loc: Ubuntu
+
+
+14:05:11
+server10:
+
+server01:
+df -H /home_loc: Filesystem                         Size  Used Avail Use% Mounted on
+/dev/mapper/ubuntu--vg-ubuntu--lv   11G  4.1G  6.0G  41% / 
+uptime -p_loc: up 19 minutes 
+os_version_loc: Ubuntu
+
+server02:
+df -H /home_loc: Filesystem                         Size  Used Avail Use% Mounted on
+/dev/mapper/ubuntu--vg-ubuntu--lv   11G  4.1G  6.0G  41% / 
+uptime -p_loc: up 19 minutes 
+os_version_loc: Ubuntu
+
+server11:
+df -H /home_loc: Filesystem                         Size  Used Avail Use% Mounted on
+/dev/mapper/ubuntu--vg-ubuntu--lv   11G  4.1G  6.0G  41% / 
+uptime -p_loc: up 19 minutes 
+os_version_loc: Ubuntu
+
+
+14:07:05
+server10:
+
+server01:
+df -H /home_loc: Filesystem                         Size  Used Avail Use% Mounted on
+/dev/mapper/ubuntu--vg-ubuntu--lv   11G  4.1G  6.0G  41% / 
+uptime -p_loc: up 21 minutes 
+os_version_loc: Ubuntu
+
+server02:
+df -H /home_loc: Filesystem                         Size  Used Avail Use% Mounted on
+/dev/mapper/ubuntu--vg-ubuntu--lv   11G  4.1G  6.0G  41% / 
+uptime -p_loc: up 21 minutes 
+os_version_loc: Ubuntu
+
+server11:
+df -H /home_loc: Filesystem                         Size  Used Avail Use% Mounted on
+/dev/mapper/ubuntu--vg-ubuntu--lv   11G  4.1G  6.0G  41% / 
+uptime -p_loc: up 21 minutes 
+os_version_loc: Ubuntu
+
+
+14:08:09
+server10:
+
+server01:
+df -H /home_loc: Filesystem                         Size  Used Avail Use% Mounted on
+/dev/mapper/ubuntu--vg-ubuntu--lv   11G  4.1G  6.0G  41% / 
+uptime -p_loc: up 22 minutes 
+os_version_loc: Ubuntu
+
+server02:
+df -H /home_loc: Filesystem                         Size  Used Avail Use% Mounted on
+/dev/mapper/ubuntu--vg-ubuntu--lv   11G  4.1G  6.0G  41% / 
+uptime -p_loc: up 22 minutes 
+os_version_loc: Ubuntu
+
+server11:
+df -H /home_loc: Filesystem                         Size  Used Avail Use% Mounted on
+/dev/mapper/ubuntu--vg-ubuntu--lv   11G  4.1G  6.0G  41% / 
+uptime -p_loc: up 22 minutes 
+os_version_loc: Ubuntu
+
+
+14:08:53
+server10:
+
+server01:
+df -H /home_loc: Filesystem                         Size  Used Avail Use% Mounted on
+/dev/mapper/ubuntu--vg-ubuntu--lv   11G  4.1G  6.0G  41% / 
+uptime -p_loc: up 23 minutes 
+os_version_loc: Ubuntu
+
+server02:
+df -H /home_loc: Filesystem                         Size  Used Avail Use% Mounted on
+/dev/mapper/ubuntu--vg-ubuntu--lv   11G  4.1G  6.0G  41% / 
+uptime -p_loc: up 23 minutes 
+os_version_loc: Ubuntu
+
+server11:
+df -H /home_loc: Filesystem                         Size  Used Avail Use% Mounted on
+/dev/mapper/ubuntu--vg-ubuntu--lv   11G  4.1G  6.0G  41% / 
+uptime -p_loc: up 23 minutes 
+os_version_loc: Ubuntu
+
+
+14:12:41
+server10:
+
+server01:
+df -H /home_loc: Filesystem                         Size  Used Avail Use% Mounted on
+/dev/mapper/ubuntu--vg-ubuntu--lv   11G  4.1G  6.0G  41% / 
+uptime -p_loc: up 26 minutes 
+os_version_loc: Ubuntu
+
+server02:
+df -H /home_loc: Filesystem                         Size  Used Avail Use% Mounted on
+/dev/mapper/ubuntu--vg-ubuntu--lv   11G  4.1G  6.0G  41% / 
+uptime -p_loc: up 26 minutes 
+os_version_loc: Ubuntu
+
+server11:
+df -H /home_loc: Filesystem                         Size  Used Avail Use% Mounted on
+/dev/mapper/ubuntu--vg-ubuntu--lv   11G  4.1G  6.0G  41% / 
+uptime -p_loc: up 26 minutes 
+os_version_loc: Ubuntu
+
+
+14:22:33
+server10:
+
+server01:
+df -H /home_loc: Filesystem                         Size  Used Avail Use% Mounted on
+/dev/mapper/ubuntu--vg-ubuntu--lv   11G  4.1G  6.0G  41% / 
+uptime -p_loc: up 36 minutes 
+os_version_loc: Ubuntu
+
+server02:
+df -H /home_loc: Filesystem                         Size  Used Avail Use% Mounted on
+/dev/mapper/ubuntu--vg-ubuntu--lv   11G  4.1G  6.0G  41% / 
+uptime -p_loc: up 36 minutes 
+os_version_loc: Ubuntu
+
+server11:
+df -H /home_loc: Filesystem                         Size  Used Avail Use% Mounted on
+/dev/mapper/ubuntu--vg-ubuntu--lv   11G  4.1G  6.0G  41% / 
+uptime -p_loc: up 36 minutes 
+os_version_loc: Ubuntu
+
+
+14:35:47
+server10:
+
+server01:
+df -H /home_loc: Filesystem                         Size  Used Avail Use% Mounted on
+/dev/mapper/ubuntu--vg-ubuntu--lv   11G  4.1G  5.9G  41% / 
+uptime -p_loc: up 48 minutes 
+os_version_loc: Ubuntu
+
+server02:
+df -H /home_loc: Filesystem                         Size  Used Avail Use% Mounted on
+/dev/mapper/ubuntu--vg-ubuntu--lv   11G  4.1G  5.9G  41% / 
+uptime -p_loc: up 48 minutes 
+os_version_loc: Ubuntu
+
+server11:
+df -H /home_loc: Filesystem                         Size  Used Avail Use% Mounted on
+/dev/mapper/ubuntu--vg-ubuntu--lv   11G  4.1G  5.9G  41% / 
+uptime -p_loc: up 48 minutes 
+os_version_loc: Ubuntu
+
+
+21:48:53
+server10:
+
+server01:
+df -H /home_loc: Filesystem                         Size  Used Avail Use% Mounted on
+/dev/mapper/ubuntu--vg-ubuntu--lv   11G  4.1G  5.9G  41% / 
+uptime -p_loc: up 57 minutes 
+os_version_loc: Ubuntu
+
+server02:
+df -H /home_loc: Filesystem                         Size  Used Avail Use% Mounted on
+/dev/mapper/ubuntu--vg-ubuntu--lv   11G  4.1G  5.9G  41% / 
+uptime -p_loc: up 57 minutes 
+os_version_loc: Ubuntu
+
+server11:
+df -H /home_loc: Filesystem                         Size  Used Avail Use% Mounted on
+/dev/mapper/ubuntu--vg-ubuntu--lv   11G  4.1G  5.9G  41% / 
+uptime -p_loc: up 57 minutes 
+os_version_loc: Ubuntu
+
+
+21:54:12
+server10:
+
+server01:
+df -H /home_loc: Filesystem                         Size  Used Avail Use% Mounted on
+/dev/mapper/ubuntu--vg-ubuntu--lv   11G  4.1G  5.9G  41% / 
+uptime -p_loc: up 1 hour, 3 minutes 
+os_version_loc: Ubuntu
+
+server02:
+df -H /home_loc: Filesystem                         Size  Used Avail Use% Mounted on
+/dev/mapper/ubuntu--vg-ubuntu--lv   11G  4.1G  5.9G  41% / 
+uptime -p_loc: up 1 hour, 3 minutes 
+os_version_loc: Ubuntu
+
+server11:
+df -H /home_loc: Filesystem                         Size  Used Avail Use% Mounted on
+/dev/mapper/ubuntu--vg-ubuntu--lv   11G  4.1G  5.9G  41% / 
+uptime -p_loc: up 1 hour, 3 minutes 
+os_version_loc: Ubuntu
+
+
+22:11:02
+server10:
+
+server01:
+df -H /home_loc: Filesystem                         Size  Used Avail Use% Mounted on
+/dev/mapper/ubuntu--vg-ubuntu--lv   11G  4.1G  5.9G  41% / 
+uptime -p_loc: up 1 hour, 20 minutes 
+os_version_loc: Ubuntu
+
+server02:
+df -H /home_loc: Filesystem                         Size  Used Avail Use% Mounted on
+/dev/mapper/ubuntu--vg-ubuntu--lv   11G  4.1G  5.9G  41% / 
+uptime -p_loc: up 1 hour, 20 minutes 
+os_version_loc: Ubuntu
+
+server11:
+df -H /home_loc: Filesystem                         Size  Used Avail Use% Mounted on
+/dev/mapper/ubuntu--vg-ubuntu--lv   11G  4.1G  5.9G  41% / 
+uptime -p_loc: up 1 hour, 20 minutes 
+os_version_loc: Ubuntu
+
+
+22:28:01
+server10:
+
+server01:
+df -H /home_loc: Filesystem                         Size  Used Avail Use% Mounted on
+/dev/mapper/ubuntu--vg-ubuntu--lv   11G  4.1G  5.9G  41% / 
+uptime -p_loc: up 1 hour, 37 minutes 
+os_version_loc: Ubuntu
+
+server02:
+df -H /home_loc: Filesystem                         Size  Used Avail Use% Mounted on
+/dev/mapper/ubuntu--vg-ubuntu--lv   11G  4.1G  5.9G  41% / 
+uptime -p_loc: up 1 hour, 37 minutes 
+os_version_loc: Ubuntu
+
+server11:
+df -H /home_loc: Filesystem                         Size  Used Avail Use% Mounted on
+/dev/mapper/ubuntu--vg-ubuntu--lv   11G  4.1G  5.9G  41% / 
+uptime -p_loc: up 1 hour, 37 minutes 
+os_version_loc: Ubuntu
+
+
+22:44:50
+server10:
+
+server01:
+df -H /home_loc: Filesystem                         Size  Used Avail Use% Mounted on
+/dev/mapper/ubuntu--vg-ubuntu--lv   11G  4.1G  5.9G  41% / 
+uptime -p_loc: up 1 hour, 53 minutes 
+os_version_loc: Ubuntu
+
+server02:
+df -H /home_loc: Filesystem                         Size  Used Avail Use% Mounted on
+/dev/mapper/ubuntu--vg-ubuntu--lv   11G  4.1G  5.9G  41% / 
+uptime -p_loc: up 1 hour, 53 minutes 
+os_version_loc: Ubuntu
+
+server11:
+df -H /home_loc: Filesystem                         Size  Used Avail Use% Mounted on
+/dev/mapper/ubuntu--vg-ubuntu--lv   11G  4.1G  5.9G  41% / 
+uptime -p_loc: up 1 hour, 53 minutes 
+os_version_loc: Ubuntu
+
+
+23:01:42
+server10:
+
+server01:
+df -H /home_loc: Filesystem                         Size  Used Avail Use% Mounted on
+/dev/mapper/ubuntu--vg-ubuntu--lv   11G  4.1G  5.9G  41% / 
+uptime -p_loc: up 2 hours, 10 minutes 
+os_version_loc: Ubuntu
+
+server02:
+df -H /home_loc: Filesystem                         Size  Used Avail Use% Mounted on
+/dev/mapper/ubuntu--vg-ubuntu--lv   11G  4.1G  5.9G  41% / 
+uptime -p_loc: up 2 hours, 10 minutes 
+os_version_loc: Ubuntu
+
+server11:
+df -H /home_loc: Filesystem                         Size  Used Avail Use% Mounted on
+/dev/mapper/ubuntu--vg-ubuntu--lv   11G  4.1G  5.9G  41% / 
+uptime -p_loc: up 2 hours, 10 minutes 
+os_version_loc: Ubuntu
+
+
+23:18:35
+server10:
+
+server01:
+df -H /home_loc: Filesystem                         Size  Used Avail Use% Mounted on
+/dev/mapper/ubuntu--vg-ubuntu--lv   11G  4.1G  5.9G  41% / 
+uptime -p_loc: up 2 hours, 27 minutes 
+os_version_loc: Ubuntu
+
+server02:
+df -H /home_loc: Filesystem                         Size  Used Avail Use% Mounted on
+/dev/mapper/ubuntu--vg-ubuntu--lv   11G  4.1G  5.9G  41% / 
+uptime -p_loc: up 2 hours, 27 minutes 
+os_version_loc: Ubuntu
+
+server11:
+df -H /home_loc: Filesystem                         Size  Used Avail Use% Mounted on
+/dev/mapper/ubuntu--vg-ubuntu--lv   11G  4.1G  5.9G  41% / 
+uptime -p_loc: up 2 hours, 27 minutes 
+os_version_loc: Ubuntu
+
+
+23:35:24
+server10:
+
+server01:
+df -H /home_loc: Filesystem                         Size  Used Avail Use% Mounted on
+/dev/mapper/ubuntu--vg-ubuntu--lv   11G  4.1G  5.9G  41% / 
+uptime -p_loc: up 2 hours, 44 minutes 
+os_version_loc: Ubuntu
+
+server02:
+df -H /home_loc: Filesystem                         Size  Used Avail Use% Mounted on
+/dev/mapper/ubuntu--vg-ubuntu--lv   11G  4.1G  5.9G  41% / 
+uptime -p_loc: up 2 hours, 44 minutes 
+os_version_loc: Ubuntu
+
+server11:
+df -H /home_loc: Filesystem                         Size  Used Avail Use% Mounted on
+/dev/mapper/ubuntu--vg-ubuntu--lv   11G  4.1G  5.9G  41% / 
+uptime -p_loc: up 2 hours, 44 minutes 
+os_version_loc: Ubuntu
+

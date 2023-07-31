@@ -35,89 +35,99 @@ def refreshing():
 
 
 def Streamlit():
+    st.title("Server Performance Monitoring v1.1.0")
     # Call the parse_servers function with the config file path
     try:
+        tabA , tabB = st.tabs(["App" , "How to Run"])
+        
         delete_ansible()  # delete files in the server_out_folder
-        st.title("Server Performance Monitoring v1.1.0")
+        
+        with tabA:
+            # Add a text input box to search for a specific server
+            search_server_name = st.text_input("Search Server by Hostname:")
+            ini_file = master_ini_file()  # check for ini files in the master dir.
+            servers, refresh_time = parse_servers(ini_file)  # parse the ini file.
 
-        # Add a text input box to search for a specific server
-        search_server_name = st.text_input("Search Server by Hostname:")
-        ini_file = master_ini_file()  # check for ini files in the master dir.
-        servers, refresh_time = parse_servers(ini_file)  # parse the ini file.
+            # Getting Execution Time
+            start_time = time.time()
+            ansible_backend(servers)
+            end_time = time.time()
+            execution_time = end_time - start_time
+            log_write("Execution time: " + str(int(execution_time)) + " seconds")
 
-        # Getting Execution Time
-        start_time = time.time()
-        ansible_backend(servers)
-        end_time = time.time()
-        execution_time = end_time - start_time
-        log_write("Execution time: " + str(int(execution_time)) + " seconds")
+            # Create Missing Files
+            create_dead_files(ini_file)
 
-        # Create Missing Files
-        create_dead_files(ini_file)
+            # Load CSS
+            def local_css(file_name):
+                with open(file_name) as f:
+                    st.markdown(f"<style>{f.read()}</style>", unsafe_allow_html=True)
 
-        # Load CSS
-        def local_css(file_name):
-            with open(file_name) as f:
-                st.markdown(f"<style>{f.read()}</style>", unsafe_allow_html=True)
+            local_css("./main.css")  # importing CSS
 
-        local_css("./main.css")  # importing CSS
+            # Filter servers based on the search_server_name if provided
+            filtered_servers = servers
+            if search_server_name:
+                filtered_servers = [
+                    server
+                    for server in servers
+                    if server["host_name"].lower() == search_server_name.lower()
+                ]
+            if filtered_servers != servers:
+                log_write("Searched For a Server")
+                log_write(filtered_servers)
+            if not filtered_servers:  # Check if there are no matching servers
+                st.write("No servers Found.")
+                log_write("No servers Found")
+                return  # Exit the function to avoid the refresh logic
 
-        # Filter servers based on the search_server_name if provided
-        filtered_servers = servers
-        if search_server_name:
-            filtered_servers = [
-                server
-                for server in servers
-                if server["host_name"].lower() == search_server_name.lower()
-            ]
-        if filtered_servers != servers:
-            log_write("Searched For a Server")
-            log_write(filtered_servers)
-        if not filtered_servers:  # Check if there are no matching servers
-            st.write("No servers Found.")
-            log_write("No servers Found")
-            return  # Exit the function to avoid the refresh logic
-
-        # Display server status heading
-        st.write(
-            f"""
-            <div class="server-card1 font-bold">
-                <p class='font-bold'>Host Name</p>
-                <p class='font-bold'>Location</p>
-                <p class='font-bold'>OS Version</p>
-                <p class='font-bold'>Ping Status</p>
-                <p class='font-bold'>Uptime</p>
-                <div class="status-indicator ready"></div>
-            </div>
-            """,
-            unsafe_allow_html=True,
-        )
-
-        # Display server status
-
-        data_servers = generate_array()
-        for server in filtered_servers:
-            index = servers.index(server)
-            status_color = "ready" if server["status"] == "Ready" else "not-ready"
-            ready_not_ready = "green" if server["status"] == "Ready" else "red"
+            # Display server status heading
             st.write(
                 f"""
-                <div class="server-card">
-                    <p>{server['host_name']}</p>
-                    <p>{server['server_loc']}</p>
-                    <p>{data_servers[index]['os']}</p>
-                    <p style="color:{ready_not_ready}">{server['status']}</p>
-                    <p>{data_servers[index]["uptime"]}</p>
-                    <button id="button" class="status-indicator {status_color}" key=f"button_{server['host_name']}"></button>
+                <div class="server-card1 font-bold">
+                    <p class='font-bold'>Host Name</p>
+                    <p class='font-bold'>Location</p>
+                    <p class='font-bold'>OS Version</p>
+                    <p class='font-bold'>Ping Status</p>
+                    <p class='font-bold'>Uptime</p>
+                    <div class="status-indicator ready"></div>
                 </div>
                 """,
                 unsafe_allow_html=True,
             )
-            with st.expander(f"'"):
-                st.markdown(
-                    f'<p class="expander-card">Memory Usage: {data_servers[index]["memory"]}</p>',
+
+            # Display server status
+
+            data_servers = generate_array()
+            for server in filtered_servers:
+                index = servers.index(server)
+                status_color = "ready" if server["status"] == "Ready" else "not-ready"
+                ready_not_ready = "green" if server["status"] == "Ready" else "red"
+                st.write(
+                    f"""
+                    <div class="server-card">
+                        <p>{server['host_name']}</p>
+                        <p>{server['server_loc']}</p>
+                        <p>{data_servers[index]['os']}</p>
+                        <p style="color:{ready_not_ready}">{server['status']}</p>
+                        <p>{data_servers[index]["uptime"]}</p>
+                        <button id="button" class="status-indicator {status_color}" key=f"button_{server['host_name']}"></button>
+                    </div>
+                    """,
                     unsafe_allow_html=True,
                 )
+                with st.expander(f"'"):
+                    st.markdown(
+                        f'<p class="expander-card">Memory Usage: {data_servers[index]["memory"]}</p>',
+                        unsafe_allow_html=True,
+                    )
+        with tabB:
+            def read_readme_file(file_path):
+                with open(file_path, "r") as file:
+                    content = file.read()
+                return content  
+            readme = read_readme_file("../README.md")
+            st.code(readme , language="text")
 
         timestamp = datetime.datetime.now().strftime("%H:%M:%S")
         st.toast("Success: Latest Info Displaying " + "Time: " + timestamp)
@@ -130,26 +140,26 @@ def Streamlit():
         tab1, tab2, tab3 = st.sidebar.tabs(["Custom Outputs", "Terminal", "Overview"])
         with tab1:
             for i in range(0, len(contents)):
-                if st.button("View Contents of : " + servers[i]["host_name"]):
-                    if contents[i] == "":
-                        st.code(txtname[i][:-4] + " Not Reachable check logs")
-                        st.toast(txtname[i][:-4] + " Not Reachable check logs")
-                        st.download_button(
-                            label="Download " + txtname[i],
-                            data=txtname[i][:-4] + " Not Reachable",
-                            file_name=txtname[i],
-                        )
-                    else:
-                        st.code(contents[i])
-                        st.toast(contents[i])
-                        st.download_button(
-                            label="Download " + txtname[i],
-                            data=contents[i],
-                            file_name=txtname[i],
-                        )
+                # if st.button("View Contents of : " + servers[i]["host_name"]):
+                if contents[i] == "":
+                    st.code(servers[i]["host_name"] + " Not Reachable check logs")
+                    st.toast(servers[i]["host_name"] + " Not Reachable check logs")
+                    st.download_button(
+                        label="Download " + txtname[i],
+                        data=servers[i]["host_name"] + " Not Reachable",
+                        file_name=txtname[i],
+                    )
+                else:
+                    st.code(contents[i])
+                    st.download_button(
+                        label="Download " + txtname[i],
+                        data=contents[i],
+                        file_name=txtname[i],
+                    )
+                st.divider()
         with tab2:
             shell = st.text_area(
-                "Enter the command you want to Execute",
+                "Enter the command you want to Execute (Press Ctrl+Enter)",
                 height=100,
             )
             if shell != "":
@@ -161,15 +171,19 @@ def Streamlit():
                     )
                     for i in range(0, len(filename)):
                         st.divider()
+                        temp = servers[i]["host_name"]
                         st.write(
-                            f"<p class='custom-paragraph'>{filename[i][:-4]}</p>",
+                            f"<p class='custom-paragraph'>{temp}</p>",
                             unsafe_allow_html=True,
                         )
                         st.code(contents[i], language="vim", line_numbers=True)
 
         with tab3:
             for server in servers:
-                st.code(server["host_name"] + "--" + server["status"])
+                if server["status"] == "Ready":
+                    st.code(server["host_name"] + " -- " + server["status"] + " 🟢")
+                else:
+                    st.code(server["host_name"] + " -- " + server["status"] + " 🔴")
 
             # call command here
 
